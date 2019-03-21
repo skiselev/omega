@@ -2,12 +2,15 @@
 Keyboard for the Omega Home Computer
 
 ## Introduction
-Add introduction here
+![Assembled Keyboard](Keyboard/images/Omega_Keyboard-Complete.jpg)
 
 ## Hardware Documentation
 
 ### Schematic and PCB Layout
-Add schematic and PCB layout files
+
+[Schematic - Version 1.0](Keyboard/KiCad/Omega-Keyboard-Schematic-1.0.pdf)
+
+[PCB Layout - Version 1.0](Keyboard/KiCad/Omega-Keyboard-Board-1.0.pdf)
 
 ### Connectors
 
