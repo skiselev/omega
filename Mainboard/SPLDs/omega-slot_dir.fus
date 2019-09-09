@@ -1,0 +1,82 @@
+
+
+Pin 19 = WAIT         XOR = 0   AC1 = 1
+  0  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
+  1  ---- ---- ---- ---- ---x ---- ---x ---- ---- ---- ----
+  2  ---- ---- ---- ---- ---x ---- ---- ---- ---- ---- ----
+  3  ---- ---- ---x ---- ---- ---- ---- xxxx xxxx xxxx xxxx
+  4  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+  5  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+  6  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+  7  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+
+Pin 18 = M1WAIT       XOR = 0   AC1 = 1
+  8  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+  9  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 10  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 11  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 12  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 13  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 14  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 15  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+
+Pin 17 = VDPWAIT      XOR = 0   AC1 = 1
+ 16  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 17  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 18  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 19  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 20  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 21  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 22  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 23  xxxx xxxx xxxx ---- ---- ---- ---- ---- ---- ---- ----
+
+Pin 16 = KBDWAIT      XOR = 0   AC1 = 1
+ 24  ---- ---- ---- ---- ---- ---- ---x ---- ---- ---- ----
+ 25  ---- ---- ---x ---- ---- xxxx xxxx xxxx xxxx xxxx xxxx
+ 26  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 27  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 28  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 29  xxxx ---- ---- ---- ---- ---- ---- ---- ---- xx-- -x--
+ 30  ---- ---- ---- ---- ---- -x-- xx-- ---- -x-- ---- ----
+ 31  ---- ---- -x-- xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+
+Pin 15 = CS12         XOR = 0   AC1 = 1
+ 32  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 33  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 34  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx ----
+ 35  ---- ---- ---- ---- ---- ---- ---- x--x -x-- ---- ----
+ 36  ---- ---- ---- -x-- x--x ---- -x-- ---- ---- ---- ----
+ 37  -x-- xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 38  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 39  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+
+Pin 14 = CS2          XOR = 0   AC1 = 1
+ 40  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx ---- ---- ----
+ 41  ---- ---- ---- ---- ---- ---- ---- ---- -x-- ---- ----
+ 42  ---- ---- ---- ---- ---- ---- -x-- ---- ---- ---- ----
+ 43  ---- ---- ---- ---- -x-- -x-- ---- ---- -x-- ---- ----
+ 44  ---- ---- ---- -x-- ---- ---- -x-- ---- ---- ---- ----
+ 45  -x-- xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 46  xxxx xxxx xxxx xxxx xxxx xxxx ---- ---- ---- ---- ----
+ 47  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
+
+Pin 13 = CS1          XOR = 0   AC1 = 1
+ 48  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
+ 49  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
+ 50  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
+ 51  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
+ 52  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
+ 53  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
+ 54  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
+ 55  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
+
+Pin 12 = SLTDIR       XOR = 0   AC1 = 1
+ 56  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
+ 57  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
+ 58  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
+ 59  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
+ 60  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
+ 61  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
+ 62  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
+ 63  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
+

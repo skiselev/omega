@@ -1,0 +1,25 @@
+
+
+                                GAL16V8
+
+                          -------\___/-------
+                      A15 |  1           20 | VCC
+                          |                 |
+                      A14 |  2           19 | SLTSL1
+                          |                 |
+                     MREQ |  3           18 | SLTSL2
+                          |                 |
+                     RFSH |  4           17 | SLTSL3
+                          |                 |
+                     FFFF |  5           16 | MEMRD
+                          |                 |
+                   SBSLTA |  6           15 | RAMSL
+                          |                 |
+                   SBSLTB |  7           14 | ROMCS
+                          |                 |
+                     SLTA |  8           13 | ROMA16
+                          |                 |
+                     SLTB |  9           12 | ROMA17
+                          |                 |
+                      GND | 10           11 | RD
+                          -------------------

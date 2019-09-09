@@ -1,0 +1,25 @@
+
+
+                                GAL16V8
+
+                          -------\___/-------
+                      A15 |  1           20 | VCC
+                          |                 |
+                      A14 |  2           19 | WAIT
+                          |                 |
+                   SLTSL1 |  3           18 | M1WAIT
+                          |                 |
+                   SLTSL2 |  4           17 | VDPWAIT
+                          |                 |
+                  BUSDIR1 |  5           16 | KBDWAIT
+                          |                 |
+                  BUSDIR2 |  6           15 | CS12
+                          |                 |
+                      BM1 |  7           14 | CS2
+                          |                 |
+                    BIORQ |  8           13 | CS1
+                          |                 |
+                      BRD |  9           12 | SLTDIR
+                          |                 |
+                      GND | 10           11 | SLTWAIT
+                          -------------------

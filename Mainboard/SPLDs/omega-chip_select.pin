@@ -1,0 +1,25 @@
+
+
+ Pin # | Name     | Pin Type
+-----------------------------
+   1   | WR       | Input
+   2   | IORQ     | Input
+   3   | A7       | Input
+   4   | A6       | Input
+   5   | A5       | Input
+   6   | A4       | Input
+   7   | A3       | Input
+   8   | A2       | Input
+   9   | A0       | Input
+  10   | GND      | GND
+  11   | M1       | Input
+  12   | PRTDATWR | Output
+  13   | PRTCMDCS | Output
+  14   | PPICS    | Output
+  15   | PAGECS   | Output
+  16   | RTCCS    | Output
+  17   | RTCADWR  | Output
+  18   | VDPCS    | Output
+  19   | PSGCS    | Output
+  20   | VCC      | VCC
+

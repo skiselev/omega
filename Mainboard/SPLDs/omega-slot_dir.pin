@@ -1,0 +1,25 @@
+
+
+ Pin # | Name     | Pin Type
+-----------------------------
+   1   | A15      | Input
+   2   | A14      | Input
+   3   | SLTSL1   | Input
+   4   | SLTSL2   | Input
+   5   | BUSDIR1  | Input
+   6   | BUSDIR2  | Input
+   7   | BM1      | Input
+   8   | BIORQ    | Input
+   9   | BRD      | Input
+  10   | GND      | GND
+  11   | SLTWAIT  | Input
+  12   | SLTDIR   | Output
+  13   | CS1      | Output
+  14   | CS2      | Output
+  15   | CS12     | Output
+  16   | KBDWAIT  | Input
+  17   | VDPWAIT  | Input
+  18   | M1WAIT   | Input
+  19   | WAIT     | Output
+  20   | VCC      | VCC
+

@@ -1,0 +1,58 @@
+GAL16V8		;  Works with GAL16V8B and ATF16V8B
+OMG_SLS1	;  Omega - Slot Select Logic - Version 1
+
+A15	A14	MREQ	RFSH	FFFF	SBSLTA	SBSLTB	SLTA	SLTB	GND
+RD	ROMA17 	ROMA16	ROMCS	RAMSL	MEMRD	SLTSL3	SLTSL2	SLTSL1	VCC
+
+/SLTSL1	=  SLTA * /SLTB * /MREQ * RFSH
+/SLTSL2	= /SLTA *  SLTB * /MREQ * RFSH
+/SLTSL3 =  SLTA *  SLTB * /MREQ * RFSH
+; /SLTSL0 = /SLTA * /SLTB * /MREQ * RFSH
+; /SUBSL0 = /SLTSL3 * FFFF * /SBSLTA * /SBSLTB
+; /SUBSL1 = /SLTSL3 * FFFF *  SBSLTA * /SBSLTB
+; /SUBSL2 = /SLTSL3 * FFFF * /SBSLTA *  SBSLTB
+; /SUBSL2 = /SLTSL3 * FFFF *  SBSLTA *  SBSLTB
+/ROMCS	= /SLTA * /SLTB * /MREQ * RFSH * /A15
+	+ /SLTA * /SLTB * /MREQ * RFSH *  A15 *  /A14
+	+  SLTA *  SLTB * /MREQ * RFSH * FFFF * /SBSLTA * /SBSLTB * /A15 * /A14
+	+  SLTA *  SLTB * /MREQ * RFSH * FFFF * SBSLTB
+/RAMSL	= SLTA *  SLTB * /MREQ * RFSH * FFFF * /SBSLTA *  SBSLTB
+
+/MEMRD	= /RD * /RAMSL
+	+ /RD * /ROMCS
+
+ROMA16 = SLTA *  SLTB * /MREQ * RFSH * FFFF * /SBSLTA * /SBSLTB * /A15 * /A14
+ROMA17 = SLTA *  SLTB * /MREQ * RFSH * FFFF * SBSLTB
+
+DESCRIPTION
+
+This is the slot select logic for Omega main board.
+
+The implemented slot mapping is compatible with MSX2 C-BIOS configuration:
+
+Slot 0 - 0x0000 - 0x7FFF - Main ROM (mapped to Flash ROM 0x00000 - 0x07FFF)
+         0x8000 - 0xBFFF - Logo ROM (mapped to Flash ROM 0x08000 - 0x0BFFF)
+Slot 1 - External slot
+Slot 2 - External slot
+Slot 3-0 - 0x0000 - 0x3FFF - Sub ROM (mapped to Flash ROM 0x10000 - 0x13FFF)
+Slot 3-1 - 0x0000 - 0xFFFF - User ROM #1 (mapped to Flash ROM 0x20000 - 0x2FFFF)
+Slot 3-2 - 0x0000 - 0xFFFF - Main RAM (memory mapper)
+Slot 3-2 - 0x0000 - 0xFFFF - User ROM #2 (mapped to Flash ROM 0x30000 - 0x3FFFF)
+
+The following functions are implemented:
+
+1. Slot select
+Inputs: SLTA, SLTB, /MREQ, /RFSH
+Outputs: /SLTSL1, /SLTSL2, /SLTSL3
+
+2. Flash ROM chip select and address decode
+Inputs: SLTA, SLTB, /MREQ, /RFSH, /FFFF, SBSLTA, SBLSTB, A14, A15
+Outputs: /ROM_CS, ROM_A16, ROM_A17, ROM_A18
+
+3. SRAM chip select
+Inputs: SLTA, SLTB, /MREQ, /RFSH, /FFFF, SBSLTA, SBLSTB
+Outputs: /RAM_SL
+
+4. Memory buffer direction
+Inputs: SLTA, SLTB, /MREQ, /RFSH, /FFFF, SBSLTA, SBLSTB, A14, A15, /RD
+Outputs: /MEM_RD

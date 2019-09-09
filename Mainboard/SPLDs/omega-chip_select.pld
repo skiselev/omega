@@ -1,0 +1,66 @@
+GAL16V8		;  Works with GAL16V8B and ATF16V8B
+OMG_CS1		;  Omega - Chip Select Logic - Version 1
+
+WR	IORQ	A7	A6	A5	A4	A3	A2	A0	GND
+M1	PRTDATWR PRTCMDCS PPICS	PAGECS	RTCCS	RTCADWR	VDPCS	PSGCS	VCC
+
+; 0x90 - 100100x0
+/PRTCMDCS = /IORQ * M1 *  A7 * /A6 * /A5 *  A4 * /A3 * /A2 * /A0
+
+; 0x91 - 100100x1
+/PRTDATWR = /IORQ * M1 *  A7 * /A6 * /A5 *  A4 * /A3 * /A2 *  A0 * /WR
+
+; 0xA8-0xAB - 101010xx
+/PPICS    = /IORQ * M1 *  A7 * /A6 *  A5 * /A4 *  A3 * /A2
+
+; 0xFC-0xFF - 111111xx
+/PAGECS   = /IORQ * M1 *  A7 *  A6 *  A5 *  A4 *  A3 *  A2
+
+; 0xB4 - 101101x0
+/RTCADWR  = /IORQ * M1 *  A7 * /A6 *  A5 *  A4 * /A3 *  A2 * /A0 * /WR
+
+; 0xB5 - 101101x1
+/RTCCS    = /IORQ * M1 *  A7 * /A6 *  A5 *  A4 * /A3 *  A2 *  A0
+
+; 0x98-0x9B - 100110xx
+/VDPCS    = /IORQ * M1 *  A7 * /A6 * /A5 *  A4 *  A3 * /A2
+
+; 0xA0-0xA3 - 101000xx
+/PSGCS    = /IORQ * M1 *  A7 * /A6 *  A5 * /A4 * /A3 * /A2
+
+DESCRIPTION
+
+This is the I/O address decode and chip select logic for Omega main board.
+
+Inputs:
+- /IORQ, /M1 - qualifying I/O access bus cycles
+- /WR - write bus cycles
+- A0, A2, A3, A4, A5, A6, A6 - address lines
+
+The following functions are implemented:
+
+1. Printer I/O address decode
+Outputs: /PRTCMDCS, /PRTDATWR
+/PRTCMDCS is active (LOW) for I/O accesses to address 0x90 (alias 0x92)
+/PRTDATWR is active (LOW) for I/O writes to address 0x91 (alias 0x93)
+
+2. 8255 Programmable Parallel Interface (PPI) chip select
+Output: /PPICS
+/PPICS is active (LOW) for I/O accesses to addresses 0xA8-0xAB
+
+3. Memory pager chip select
+Output: /PAGECS
+/PAGECS is active (LOW) for I/O accesses to addresses 0xFC-0xFF
+
+4. Real Time Clock (RTC) I/O address decode
+Outputs: /RTCADWR, /RTCCS
+/RTCADWR is active (LOW) for I/O writes to address 0xB4 (alias 0xB6)
+/RTCCS is active (LOW) for I/O accesses to address 0xB5 (alias 0xB7)
+
+5. Video Display Processor (VDP) chip select
+Output: /VDPCS
+/VDPCS is active (LOW) for I/O accesses to addresses 0x98-0x9B
+
+6. Programmable Sound Generator (PSG) chip select
+Output: /PSGCS
+/PSGCS is active (LOW) for I/O accesses to addresses 0xA0-0xA3

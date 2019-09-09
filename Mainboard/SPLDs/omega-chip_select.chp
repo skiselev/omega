@@ -1,0 +1,25 @@
+
+
+                                GAL16V8
+
+                          -------\___/-------
+                       WR |  1           20 | VCC
+                          |                 |
+                     IORQ |  2           19 | PSGCS
+                          |                 |
+                       A7 |  3           18 | VDPCS
+                          |                 |
+                       A6 |  4           17 | RTCADWR
+                          |                 |
+                       A5 |  5           16 | RTCCS
+                          |                 |
+                       A4 |  6           15 | PAGECS
+                          |                 |
+                       A3 |  7           14 | PPICS
+                          |                 |
+                       A2 |  8           13 | PRTCMDCS
+                          |                 |
+                       A0 |  9           12 | PRTDATWR
+                          |                 |
+                      GND | 10           11 | M1
+                          -------------------

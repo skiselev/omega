@@ -1,0 +1,47 @@
+GAL16V8		;  Works with GAL16V8B and ATF16V8B
+OMG_SLD1	;  Omega - Slot Buffer Direction Logic - Version 1
+
+A15     A14	SLTSL1	SLTSL2	BUSDIR1	BUSDIR2	BM1	BIORQ	BRD	GND
+SLTWAIT	SLTDIR	CS1	CS2	CS12	KBDWAIT	VDPWAIT	M1WAIT	WAIT	VCC
+
+/SLTDIR = /BUSDIR1
+	+ /BUSDIR2
+	+ /BIORQ * /BM1
+        + /SLTSL1 * /BRD
+	+ /SLTSL2 * /BRD
+
+/CS1	=  A14 * /A15 * /BRD * /SLTSL1
+	+  A14 * /A15 * /BRD * /SLTSL2
+
+/CS2	= /A14 *  A14 * /BRD * /SLTSL1
+	+ /A14 *  A14 * /BRD * /SLTSL2
+
+/CS12	= /CS1 + /CS2
+
+/WAIT	= /SLTWAIT
+	+ /M1WAIT
+	+ /VDPWAIT
+	+ /KBDWAIT
+
+DESCRIPTION
+
+This is the slot data bus direction logic for Omega main board.
+
+The following functions are implemented:
+
+1. Slot buffer direction
+Inputs: /BUSDIR1, /BUSDIR2, /BIORQ, /BM1, /BRD, /SLTSL1, /SLTSL2
+Outputs: /SLTDIR
+/SLTDIR dir is active (LOW) when data being read from the slots to the CPU
+
+2. Slot ROM select
+Inputs: A14, A15, /RD
+Outputs: /CS1, /CS2, /CS12
+/CS1 is activated for reads from addresses 0x4000 - 0x7FFF
+/CS2 is activated for reads from addresses 0x8000 - 0xBFFF
+/CS12 is activated for reads from addresses 0x4000 - 0xBFFF
+
+3. Wait logic
+Inputs: /SLTWAIT, /M1WAIT, /VDPWAIT, /KBDWAIT
+Outputs: /WAIT
+/WAIT output is active (LOW) when one of the inputs is active (LOW)

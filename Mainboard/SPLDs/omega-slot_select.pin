@@ -1,0 +1,25 @@
+
+
+ Pin # | Name     | Pin Type
+-----------------------------
+   1   | A15      | Input
+   2   | A14      | Input
+   3   | MREQ     | Input
+   4   | RFSH     | Input
+   5   | FFFF     | Input
+   6   | SBSLTA   | Input
+   7   | SBSLTB   | Input
+   8   | SLTA     | Input
+   9   | SLTB     | Input
+  10   | GND      | GND
+  11   | RD       | Input
+  12   | ROMA17   | Output
+  13   | ROMA16   | Output
+  14   | ROMCS    | Output
+  15   | RAMSL    | Output
+  16   | MEMRD    | Output
+  17   | SLTSL3   | Output
+  18   | SLTSL2   | Output
+  19   | SLTSL1   | Output
+  20   | VCC      | VCC
+
