@@ -11,4 +11,5 @@ The goal of this project is to create an open-source MSX2 compatible computer.
 ## Hardware Documentation
 
 [Keyboard](Keyboard.md)
+
 [Main Board](Mainboard.md)
