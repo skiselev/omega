@@ -28,8 +28,6 @@ $EndComp
 Text Label 4500 2400 0    60   ~ 0
 ~RESET
 NoConn ~ 4900 2700
-Text Notes 11650 6600 0    60   ~ 0
-0x90: Printer: Write: Strobe(D0) / Read: Busy(D1)\n0x91: Printer: Write: Data\n0x98: VDP: Read/Write: VRAM Data\n0x99: VDP Write: Register Select / VRAM Address\n0x99: VDP Read: Status Register\n0x9A: VDP:  Palette access\n0x9B: VDP: Indirect register access\n0xA0: PSG: Write: Register Select\n0xA1: PSG: Write: Register Value\n0xA2: PSG: Read: Register Value\n0xA8: i8255: Port A\n0xA9: i8255: Port B\n0xAA: i8255: Port C\n0xAB: i8255: Command Register\n0xB4: RTC: Write: Register select\n0xB5: RTC: Read/Write: RTC data\n0xFC: Memory Paging: Read/Write: Page 0\n0xFD: Memory Paging: Read/Write: Page 1\n0xFE: Memory Paging: Read/Write: Page 2\n0xFF: Memory Paging: Read/Write: Page 3
 $Comp
 L my_components:74LS74 U34
 U 1 1 5BEC65BD

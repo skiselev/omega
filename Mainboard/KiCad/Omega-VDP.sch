@@ -1854,7 +1854,7 @@ Wire Wire Line
 	5000 7300 5150 7300
 Connection ~ 5000 7250
 Text Notes 600  7700 0    60   ~ 0
-Optional: PAL support
+Optional: PAL Clock Generator
 $Comp
 L Transistor_BJT:PN2222A Q2
 U 1 1 5C146859
@@ -1980,9 +1980,9 @@ CHROMA
 Text Label 10200 4100 1    60   ~ 0
 SYNC
 Wire Notes Line
-	4550 6550 4550 7750
+	4550 6450 4550 7750
 Wire Notes Line
-	550  7750 550  6550
+	550  7750 550  6450
 $Comp
 L my_components:74LS04 U43
 U 2 1 5C19C0EC
@@ -2052,7 +2052,7 @@ $EndComp
 Wire Notes Line
 	4550 7750 550  7750
 Wire Notes Line
-	550  6550 4550 6550
+	550  6450 4550 6450
 Wire Wire Line
 	2900 7100 2800 7100
 Wire Wire Line

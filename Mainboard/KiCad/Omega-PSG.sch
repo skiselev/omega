@@ -365,7 +365,7 @@ F 3 "" H 3800 5000 50  0001 C CNN
 	1    3800 5000
 	1    0    0    -1  
 $EndComp
-Text Notes 3700 5600 0    60   ~ 0
+Text Notes 7000 6850 0    60   ~ 0
 JP2: Japanese keyboard layout:\nOpen  (1) = JIS\nClosed (0) = ANSI/AIUEO/50on
 $Comp
 L power:VCC #PWR048
