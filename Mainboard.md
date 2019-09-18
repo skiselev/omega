@@ -63,3 +63,14 @@ PCB                |           | Omega Mainboard PCB - Version 1.0  | 1        |
   * 0xFD: Read/Write: Page 1
   * 0xFE: Read/Write: Page 2
   * 0xFF: Read/Write: Page 3
+
+## Changes
+* Version 1.0
+  * Initial version
+
+## Known Issues
+* Version 1.0
+  * Top silkscreen: References R8 and R36 are swapped. The values are indicated correctly on the silkscreen.
+  * Top silkscreen: The values of C48 and C82 are swapped. C48 should be 0.1 uF, and C82 should be 1.5nF.
+  * Top silkscreen: Pal Clock Generator dotted line area should also include U43 and C43.
+  
