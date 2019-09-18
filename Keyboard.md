@@ -50,3 +50,11 @@ Capacitor          | C1, C2    | 0.1 uF, MLCC, 5 mm lead spacing   | 2       | M
 Capacitor          | C3        | 10 uF, MLCC, 5 mm lead spacing    | 1       | Mouser [810-FG28X5R1E106MR00](https://www.mouser.com/ProductDetail/810-FG28X5R1E106MR00)
 Resistor Array     | RR1       | 4.7 k, bussed, 10 pin SIP         | 1        | Mouser [266-4.7K-RC](https://www.mouser.com/ProductDetail/266-4.7K-RC)
 Resistor           | R1 - R3    | 470 ohm, through hole            | 3        | Mouser [291-470-RC](https://www.mouser.com/ProductDetail/291-470-RC)
+
+## Changes
+* Version 1.0
+  * Initial version
+
+## Known Issues
+* Version 1.0
+  * Pull-up resistors are missing on COLUMN0_BUF, COLUMN2_BUF, and COLUMN4_BUF signals. The workaround is to solder 4.7k resistors between VCC and either on U2 74LS07 pins 2, 4, 6 or to J1 connector pins 3, 5, 7.
