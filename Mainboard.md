@@ -59,49 +59,50 @@ Integrated Circuit | U42       | 74LS07, 14 pin DIP                          | 1
 Integrated Circuit | U43       | 74HCT04, 14 pin DIP                         | 1        | Mouser [595-SN74HCT04N](https://www.mouser.com/ProductDetail/595-SN74HCT04N). Note U43 is optional - PAL support.
 Integrated Circuit | U44       | 74AHCT02, 14 pin DIP                        | 1        | Mouser [595-SN74AHCT02N](https://www.mouser.com/ProductDetail/595-SN74AHCT02N)
 Integrated Circuit | U45       | 74HCT00, 14 pin DIP                         | 1        | Mouser [595-SN74HCT00N](https://www.mouser.com/ProductDetail/595-SN74HCT00N)
-Integrated Circuit | U46       | Microprocessor Supervisory Circuit - MAX693 | 1        | Mouser [584-ADM693ANZ](https://www.mouser.com/ProductDetail/584-ADM693ANZ); Possible alternatives: MAX693, LTC693, ADM691, MAX691, LTC691, ADM695, MAX695, LTC965, LTC1235
+Integrated Circuit | U46       | Microprocessor Supervisory Circuit - MAX693 | 1        | Mouser [584-ADM693AANZ](https://www.mouser.com/ProductDetail/584-ADM693AANZ); Possible alternatives: MAX693, LTC693, ADM691, MAX691, LTC691, ADM695, MAX695, LTC965, LTC1235
 Integrated Circuit | U47       | Sony CXA1645P RGB Encoder, 24 pin DIP-400   | 1        | eBay
 Integrated Circuit | U48       | OPA340P Operational Amplifier, 8 pin DIP    | 1        | Mouser [595-OPA340PA](https://www.mouser.com/ProductDetail/595-OPA340PA)
 Integrated Circuit | U49       | LM311N, Voltage Comparator, 8 pin DIP       | 1        | Mouser [926-LM311N-NOPB](https://www.mouser.com/ProductDetail/926-LM311N-NOPB). Note U49 is optional - cassette recorder support.
 Capacitor          | C1 - C58  | 0.1 uF, MLCC, 5 mm Pitch                    | 58       | Mouser [594-K104K15X7RF53H5](https://www.mouser.com/ProductDetail/594-K104K15X7RF53H5)
-Capacitor          | C59 - C64 | 220 uF, Electrolytic                        | 6        | Mouser. Note C62 - C64 optional - RGB output support
+Capacitor          | C59 - C64 | 220 uF, Electrolytic                        | 6        | Mouser [647-UBW1E221MPD](https://www.mouser.com/ProductDetail/647-UBW1E221MPD). Note C62 - C64 optional - RGB output support
 Capacitor          | C65 - C71 | 47 uF, 25V, Aluminum Organic Polymer        | 7        | Mouser [80-A750EK476M1EAAE40](https://www.mouser.com/ProductDetail/80-A750EK476M1EAAE40)
-Capacitor          | C72 - C78 | 10 uF, Electrolytic                         | 7        | Mouser. Note C72 optional - cassette recorder support.
-Capacitor          | C79       | 1 uF, Electrolytic                          | 1        | Mouser. Note C79 optional - cassette recorder support.
-Capacitor          | C80, C81  | 22 nF, MLCC, 5 mm Pitch                     | 2        | Mouser. Note C80, C81 optional - cassette recorder support.
-Capacitor          | C82       | 1.5 nF, MLCC, 5 mm Pitch                    | 1        | Mouser
-Capacitor          | C83       | 1 nF, MLCC, 5 mm Pitch                      | 1        | Mouser
-Capacitor          | C84 - C86 | 330 pF, MLCC, 5 mm Pitch                    | 3        | Mouser
-Capacitor          | C87       | 68 pF, MLCC, 5 mm Pitch                     | 1        | Mouser
-Capacitor          | C88       | 47 pF, MLCC, 5 mm Pitch                     | 1        | Mouser
-Capacitor          | C89, C90  | 33 pF, MLCC, 5 mm Pitch                     | 2        | Mouser
-Capacitor          | C91, C92  | 30 pF, Trim Capactiors, 5 mm Pitch          | 2        | Mouser
-Capacitor          | C93 - C95 | 22 pF, MLCC, 5 mm Pitch                     | 3        | Mouser
-Capacitor          | C96       | 4.7 pF, MLCC, 5 mm Pitch                    | 1        | Mouser
-Resistor Array     | RR1 - RR4 | 10 kohm, bussed, 9 pin SIP                  | 4        | Mouser
-Resistor Array     | RR5, RR6  | 4.7 kohm, bussed, 9 pin SIP                 | 2        | Mouser
-Resistor Array     | RR7       | 4.7 kohm, bussed, 6 pin SIP                 | 1        | Mouser
-Resistor Array     | RR8       | 470 ohm, bussed, 6 pin SIP                  | 1        | Mouser
-Resistor           | R1        | 1 Mohm, axial                               | 1        | Mouser. Note R1 is optional - PAL support.
-Resistor           | R2, R3    | 470 kohm, axial                             | 2        | Mouser
-Resistor           | R4        | 220 kohm, axial                             | 1        | Mouser
-Resistor           | R5, R6    | 100 kohm, axial                             | 2        | Mouser
-Resistor           | R7, R8    | 47 kohm, axial                              | 2        | Mouser
-Resistor           | R9, R10   | 20 kohm, 1% tolerance, axial                | 2        | Mouser
-Resistor           | R11 - R13 | 10 kohm, axial                              | 3        | Mouser. Note R11, R12 optional - cassette recorder support.
-Resistor           | R14       | 5.6 kohm, axial                             | 1        | Mouser
-Resistor           | R15 - R19 | 4.7 kohm, axial                             | 5        | Mouser. Note R17 - R19 optional - cassette recorder support.
-Resistor           | R20, R21  | 2.7 kohm, axial                             | 2        | Mouser. Note R20, R21 optional - cassette recorder support.
-Resistor           | R22 - R24 | 2.2 kohm, axial                             | 3        | Mouser
-Resistor           | R25 - R28 | 1 kohm, axial                               | 4        | Mouser. Note R27, R28 optional - cassette recorder support.
-Resistor           | R29       | 470 ohm, axial                              | 1        | Mouser 
-Resistor           | R30, R31  | 270 ohm, axial                              | 2        | Mouser. Note R30, R31 optional - RGB output 
-Resistor           | R32 - R37 | 100 ohm, axial                              | 6        | Mouser. Note R37 optional - cassette recorder support.
-Resistor           | R38 - R43 | 75 ohm, axial                               | 6        | Mouser. Note R41 - R43 optional - RGB output support.
-Relay              | RY1       | 5V SPST relay                               | 1        | Mouser
+Capacitor          | C72 - C78 | 10 uF, Electrolytic                         | 7        | Mouser [647-UPW1E100MDD1TD](https://www.mouser.com/ProductDetail/647-UPW1E100MDD1TD). Note C72 optional - cassette recorder support.
+Capacitor          | C79       | 1 uF, Electrolytic                          | 1        | Mouser [710-860020672005](https://www.mouser.com/ProductDetail/710-860020672005). Note C79 optional - cassette recorder support.
+Capacitor          | C80, C81  | 22 nF, MLCC, 5 mm Pitch                     | 2        | Mouser [810-FG28X7R1H223KNT0](https://www.mouser.com/ProductDetail/810-FG28X7R1H223KNT0). Note C80, C81 optional - cassette recorder support.
+Capacitor          | C82       | 1.5 nF, MLCC, 5 mm Pitch                    | 1        | Mouser [810-FG28C0G1H152JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G1H152JNT0)
+Capacitor          | C83       | 1 nF, MLCC, 5 mm Pitch                      | 1        | Mouser [810-FG28C0G1H102JNT6](https://www.mouser.com/ProductDetail/810-FG28C0G1H102JNT6)
+Capacitor          | C84 - C86 | 330 pF, MLCC, 5 mm Pitch                    | 3        | Mouser [810-FG28C0G1H331JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G1H331JNT0)
+Capacitor          | C87       | 68 pF, MLCC, 5 mm Pitch                     | 1        | Mouser [810-FG28C0G1H680JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G1H680JNT0)
+Capacitor          | C88       | 47 pF, MLCC, 5 mm Pitch                     | 1        | Mouser [810-FG28C0G1H470JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G1H470JNT0)
+Capacitor          | C89, C90  | 33 pF, MLCC, 5 mm Pitch                     | 2        | Mouser [810-FG28C0G1H330JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G1H330JNT0)
+Capacitor          | C91, C92  | 30 pF, Trim Capactiors, 5 mm Pitch          | 2        | Mouser [659-GKG30015](https://www.mouser.com/ProductDetail/659-GKG30015)
+Capacitor          | C93 - C95 | 22 pF, MLCC, 5 mm Pitch                     | 3        | Mouser [810-FG28C0G1H220JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G1H220JNT0)
+Capacitor          | C96       | 4.7 pF, MLCC, 5 mm Pitch                    | 1        | Mouser [810-FG28C0G1H4R7CNT0](https://www.mouser.com/ProductDetail/810-FG28C0G1H4R7CNT0)
+Resistor Array     | RR1 - RR4 | 10 kohm, bussed, 10 pin SIP                 | 4        | Mouser [266-10K-RC](https://www.mouser.com/ProductDetail/266-10K-RC)
+Resistor Array     | RR5, RR6  | 4.7 kohm, bussed, 10 pin SIP                | 2        | Mouser [266-4.7K-RC](https://www.mouser.com/ProductDetail/266-4.7K-RC)
+Resistor Array     | RR7       | 4.7 kohm, bussed, 6 pin SIP                 | 1        | Mouser [264-4.7K-RC](https://www.mouser.com/ProductDetail/264-4.7K-RC)
+Resistor Array     | RR8       | 470 ohm, bussed, 6 pin SIP                  | 1        | Mouser [264-470-RC](https://www.mouser.com/ProductDetail/264-470-RC)
+Resistor           | R1        | 1 Mohm, axial                               | 1        | Mouser [291-1M-RC](https://www.mouser.com/ProductDetail/291-1M-RC). Note R1 is optional - PAL support.
+Resistor           | R2, R3    | 470 kohm, axial                             | 2        | Mouser [291-470K-RC](https://www.mouser.com/ProductDetail/291-470K-RC)
+Resistor           | R4        | 220 kohm, axial                             | 1        | Mouser [291-220K-RC](https://www.mouser.com/ProductDetail/291-220K-RC)
+Resistor           | R5, R6    | 100 kohm, axial                             | 2        | Mouser [291-100K-RC](https://www.mouser.com/ProductDetail/291-100K-RC)
+Resistor           | R7, R8    | 47 kohm, axial                              | 2        | Mouser [291-47K-RC](https://www.mouser.com/ProductDetail/291-47K-RC)
+Resistor           | R9, R10   | 20 kohm, 1% tolerance, axial                | 2        | Mouser [603-MFR-25FRF5220K](https://www.mouser.com/ProductDetail/603-MFR-25FRF5220K)
+Resistor           | R11 - R13 | 10 kohm, axial                              | 3        | Mouser [291-10K-RC](https://www.mouser.com/ProductDetail/291-10K-RC). Note R11, R12 optional - cassette recorder support.
+Resistor           | R14       | 5.6 kohm, axial                             | 1        | Mouser [291-5.6K-RC](https://www.mouser.com/ProductDetail/291-5.6K-RC)
+Resistor           | R15 - R19 | 4.7 kohm, axial                             | 5        | Mouser [291-4.7K-RC](https://www.mouser.com/ProductDetail/291-4.7K-RC). Note R17 - R19 optional - cassette recorder support.
+Resistor           | R20, R21  | 2.7 kohm, axial                             | 2        | Mouser [291-2.7K-RC](https://www.mouser.com/ProductDetail/291-2.7K-RC). Note R20, R21 optional - cassette recorder support.
+Resistor           | R22 - R24 | 2.2 kohm, axial                             | 3        | Mouser [291-2.2K-RC](https://www.mouser.com/ProductDetail/291-2.2K-RC)
+Resistor           | R25 - R28 | 1 kohm, axial                               | 4        | Mouser [291-1K-RC](https://www.mouser.com/ProductDetail/291-1K-RC). Note R27, R28 optional - cassette recorder support.
+Resistor           | R29       | 470 ohm, axial                              | 1        | Mouser [291-470-RC](https://www.mouser.com/ProductDetail/291-470-RC) 
+Resistor           | R30, R31  | 270 ohm, axial                              | 2        | Mouser [291-270-RC](https://www.mouser.com/ProductDetail/291-270-RC). Note R30, R31 optional - RGB output 
+Resistor           | R32 - R37 | 100 ohm, axial                              | 6        | Mouser [291-100-RC](https://www.mouser.com/ProductDetail/291-100-RC). Note R37 optional - cassette recorder support.
+Resistor           | R38 - R43 | 75 ohm, axial                               | 6        | Mouser [291-75-RC](https://www.mouser.com/ProductDetail/291-75-RC). Note R41 - R43 optional - RGB output support.
+Relay              | RY1       | 5V SPDT relay                               | 1        | Mouser [653-G5V-1-T90-DC5](https://www.mouser.com/ProductDetail/653-G5V-1-T90-DC5)
 Inductor           | L1        | 68 uH, axial                                | 1        | Mouser [542-78F680-RC](https://www.mouser.com/ProductDetail/542-78F680-RC)
-Diode              | D1        | 1N4148                                      | 1        | Mouser. Note D1 optional - cassette recorder support.
-Transistor         | Q1, Q2    | PN2907A                                     | 2        | Mouser. Note Q1 optional - cassette recorder support, 
+Diode              | D1        | 1N4148                                      | 1        | Mouser [512-1N4148](https://www.mouser.com/ProductDetail/512-1N4148). Note D1 optional - cassette recorder support.
+Transistor         | Q1        | PN2907A                                     | 1        | Mouser [512-PN2907ATF](https://www.mouser.com/ProductDetail/512-PN2907ATF). Note Q1 optional - cassette recorder support.
+Transistor         | Q2        | PN2222A                                     | 1        | Mouser [512-PN2222ATF](https://www.mouser.com/ProductDetail/512-PN2222ATF). Note Q1 optional - cassette recorder support, 
 Crystal            | Y1        | 21.477270 MHz                               | 1        | Mouser [695-HC49US-214-U](https://www.mouser.com/ProductDetail/695-HC49US-214-U)
 Crystal            | Y2        | 32768 Hz                                    | 1        | Mouser
 Crystal            | Y3        | 4.433618 MHz                                | 1        | Mouser. Note Y3 optional - PAL support.
