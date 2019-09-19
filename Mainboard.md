@@ -88,38 +88,40 @@ Resistor           | R4        | 220 kohm, axial                             | 1
 Resistor           | R5, R6    | 100 kohm, axial                             | 2        | Mouser [291-100K-RC](https://www.mouser.com/ProductDetail/291-100K-RC)
 Resistor           | R7, R8    | 47 kohm, axial                              | 2        | Mouser [291-47K-RC](https://www.mouser.com/ProductDetail/291-47K-RC)
 Resistor           | R9, R10   | 20 kohm, 1% tolerance, axial                | 2        | Mouser [603-MFR-25FRF5220K](https://www.mouser.com/ProductDetail/603-MFR-25FRF5220K)
-Resistor           | R11 - R13 | 10 kohm, axial                              | 3        | Mouser [291-10K-RC](https://www.mouser.com/ProductDetail/291-10K-RC). Note R11, R12 optional - cassette recorder support.
+Resistor           | R11 - R13 | 10 kohm, axial                              | 3        | Mouser [291-10K-RC](https://www.mouser.com/ProductDetail/291-10K-RC). Note R11, R12 are optional - cassette recorder support.
 Resistor           | R14       | 5.6 kohm, axial                             | 1        | Mouser [291-5.6K-RC](https://www.mouser.com/ProductDetail/291-5.6K-RC)
-Resistor           | R15 - R19 | 4.7 kohm, axial                             | 5        | Mouser [291-4.7K-RC](https://www.mouser.com/ProductDetail/291-4.7K-RC). Note R17 - R19 optional - cassette recorder support.
-Resistor           | R20, R21  | 2.7 kohm, axial                             | 2        | Mouser [291-2.7K-RC](https://www.mouser.com/ProductDetail/291-2.7K-RC). Note R20, R21 optional - cassette recorder support.
+Resistor           | R15 - R19 | 4.7 kohm, axial                             | 5        | Mouser [291-4.7K-RC](https://www.mouser.com/ProductDetail/291-4.7K-RC). Note R17 - R19 are optional - cassette recorder support.
+Resistor           | R20, R21  | 2.7 kohm, axial                             | 2        | Mouser [291-2.7K-RC](https://www.mouser.com/ProductDetail/291-2.7K-RC). Note R20, R21 are optional - cassette recorder support.
 Resistor           | R22 - R24 | 2.2 kohm, axial                             | 3        | Mouser [291-2.2K-RC](https://www.mouser.com/ProductDetail/291-2.2K-RC)
-Resistor           | R25 - R28 | 1 kohm, axial                               | 4        | Mouser [291-1K-RC](https://www.mouser.com/ProductDetail/291-1K-RC). Note R27, R28 optional - cassette recorder support.
+Resistor           | R25 - R28 | 1 kohm, axial                               | 4        | Mouser [291-1K-RC](https://www.mouser.com/ProductDetail/291-1K-RC). Note R27, R28 are optional - cassette recorder support.
 Resistor           | R29       | 470 ohm, axial                              | 1        | Mouser [291-470-RC](https://www.mouser.com/ProductDetail/291-470-RC) 
-Resistor           | R30, R31  | 270 ohm, axial                              | 2        | Mouser [291-270-RC](https://www.mouser.com/ProductDetail/291-270-RC). Note R30, R31 optional - RGB output 
-Resistor           | R32 - R37 | 100 ohm, axial                              | 6        | Mouser [291-100-RC](https://www.mouser.com/ProductDetail/291-100-RC). Note R37 optional - cassette recorder support.
-Resistor           | R38 - R43 | 75 ohm, axial                               | 6        | Mouser [291-75-RC](https://www.mouser.com/ProductDetail/291-75-RC). Note R41 - R43 optional - RGB output support.
+Resistor           | R30, R31  | 270 ohm, axial                              | 2        | Mouser [291-270-RC](https://www.mouser.com/ProductDetail/291-270-RC). Note R30, R31 are optional - RGB output 
+Resistor           | R32 - R37 | 100 ohm, axial                              | 6        | Mouser [291-100-RC](https://www.mouser.com/ProductDetail/291-100-RC). Note R37 is optional - cassette recorder support.
+Resistor           | R38 - R43 | 75 ohm, axial                               | 6        | Mouser [291-75-RC](https://www.mouser.com/ProductDetail/291-75-RC). Note R41 - R43 are optional - RGB output support.
 Relay              | RY1       | 5V SPDT relay                               | 1        | Mouser [653-G5V-1-T90-DC5](https://www.mouser.com/ProductDetail/653-G5V-1-T90-DC5)
 Inductor           | L1        | 68 uH, axial                                | 1        | Mouser [542-78F680-RC](https://www.mouser.com/ProductDetail/542-78F680-RC)
-Diode              | D1        | 1N4148                                      | 1        | Mouser [512-1N4148](https://www.mouser.com/ProductDetail/512-1N4148). Note D1 optional - cassette recorder support.
-Transistor         | Q1        | PN2907A                                     | 1        | Mouser [512-PN2907ATF](https://www.mouser.com/ProductDetail/512-PN2907ATF). Note Q1 optional - cassette recorder support.
-Transistor         | Q2        | PN2222A                                     | 1        | Mouser [512-PN2222ATF](https://www.mouser.com/ProductDetail/512-PN2222ATF). Note Q1 optional - cassette recorder support, 
+Diode              | D1        | 1N4148                                      | 1        | Mouser [512-1N4148](https://www.mouser.com/ProductDetail/512-1N4148). Note D1 is optional - cassette recorder support.
+Transistor         | Q1        | PN2907A                                     | 1        | Mouser [512-PN2907ATF](https://www.mouser.com/ProductDetail/512-PN2907ATF). Note Q1 is optional - cassette recorder support.
+Transistor         | Q2        | PN2222A                                     | 1        | Mouser [512-PN2222ATF](https://www.mouser.com/ProductDetail/512-PN2222ATF)
 Crystal            | Y1        | 21.477270 MHz                               | 1        | Mouser [695-HC49US-214-U](https://www.mouser.com/ProductDetail/695-HC49US-214-U)
-Crystal            | Y2        | 32768 Hz                                    | 1        | Mouser
-Crystal            | Y3        | 4.433618 MHz                                | 1        | Mouser. Note Y3 optional - PAL support.
+Crystal            | Y2        | 32768 Hz                                    | 1        | Mouser [815-AB38T-32.768KHZ](https://www.mouser.com/ProductDetail/815-AB38T-32.768KHZ)
+Crystal            | Y3        | 4.433618 MHz                                | 1        | Mouser [520-HCU443-20X](https://www.mouser.com/ProductDetail/520-HCU443-20X). Note Y3 is optional - PAL support.
 Connector          | J1        | DC Power Jack, 2mm                          | 1        | Mouser [806-KLDX-0202-A](https://www.mouser.com/ProductDetail/806-KLDX-0202-A)
-Connector          | J2, J3    | RCA connector                               | 2        | Mouser
+Connector          | J2        | RCA Phono connector, Yellow                 | 1        | Mouser [490-RCJ-014](https://www.mouser.com/ProductDetail/490-RCJ-014)
+Connector          | J2        | RCA Phono connector, Red                    | 1        | Mouser [490-RCJ-012](https://www.mouser.com/ProductDetail/490-RCJ-012)
 Connector          | J4        | Mini DIN 4-pos, Right Angle, PCB mount      | 1        | Mouser [490-MD-40SM](https://www.mouser.com/ProductDetail/490-MD-40SM)
-Connector          | J5, J6    | Mini DIN 8-pos, Right Angle, PCB mount      | 2        | Mouser [490-MD-80SM](https://www.mouser.com/ProductDetail/490-MD-80SM). Note J5 optional - RGB support; J6 optional - cassette recorder support.
-Connector          | J7, J8    | Sub-D DE9M, Right Angle, PCB mount          | 2        | Mouser [806-K22X-E9P-N-99](https://www.mouser.com/ProductDetail/806-K22X-E9P-N-99)
-Connector          | J9        | Sub-D DB25F, Right Angle, PCB mount         | 1        | Mouser. Note J9 optional - printer port support.
-Connector          | J10       | 8 pin header locking?                       | 1        | Mouser
-Connector          | J11       | 2x8 pin header, shrouded                    | 1        | Mouser
-Connector          | J12       | 2x20 pin header                             | 1        | Mouser
+Connector          | J5, J6    | Mini DIN 8-pos, Right Angle, PCB mount      | 2        | Mouser [490-MD-80SM](https://www.mouser.com/ProductDetail/490-MD-80SM). Note J5 is optional - RGB support; J6 is optional - cassette recorder support.
+Connector          | J7, J8    | Sub-D DE9M, Right Angle, PCB mount          | 2        | Mouser [523-L717SDE09P1ACH3R](https://www.mouser.com/ProductDetail/523-L717SDE09P1ACH3R)
+Connector          | J9        | Sub-D DB25F, Right Angle, PCB mount         | 1        | Mouser [523-L77SDB25SA4CH4F](https://www.mouser.com/ProductDetail/523-L77SDB25SA4CH4F). Note J9 is optional - printer port support.
+Connector          | J10       | 8 pin friction lock connector               | 1        | Mouser [571-6404568](https://www.mouser.com/ProductDetail/571-6404568)
+Connector          | J11       | 2x8 pin header, shrouded                    | 1        | Mouser [710-61201621721](https://www.mouser.com/ProductDetail/710-61201621721)
+Connector          | J12       | 2x20 pin socket                             | 1        | Mouser [517-929852-01-20-RB](https://www.mouser.com/ProductDetail/517-929852-01-20-RB)
 Connector          | SLOT1, SLOT2 | 50 pin card edge connector               | 2        | Mouser [571-5530843-5](https://www.mouser.com/ProductDetail/571-5530843-5)
-Jumper             | JP1, JP2  | 2 pin header                                | 2        | Mouser
+Jumper             | JP1, JP2  | 2 pin header                                | 2        | Mouser [649-78229-102HLF](https://www.mouser.com/ProductDetail/649-78229-102HLF)
 Jumper             | JP3 - JP5 | Wire link                                   | 3        | Wire link
+Battery Holder     | BT1       | CR2032 Battery holder                       | 1        | Mouser [122-2420-GR](https://www.mouser.com/ProductDetail/122-2420-GR)
 IC Socket          | U1, U2, U4 | 40 pin DIP                                 | 3        | Mouser [517-4840-6000-CP](https://www.mouser.com/ProductDetail/517-4840-6000-CP)
-IC Socket          | U3        | 64 pin DIP                                  | 1        | Mouser
+IC Socket          | U3        | 64 pin DIP                                  | 1        | eBay
 IC Socket          | U6, U7    | 32 pin DIP                                  | 2        | Mouser [517-4832-6000-CP](https://www.mouser.com/ProductDetail/517-4832-6000-CP)
 IC Socket          | U47       | 24 pin DIP, 400 mil spacing                 | 1        | Mouser [437-1168742441013101](https://www.mouser.com/ProductDetail/437-1168742441013101)
 IC Socket          | U12 - U14, U19 - U26 | 20 pin DIP                       | 11       | Mouser [517-4820-3000-CP](https://www.mouser.com/ProductDetail/517-4820-3000-CP)
