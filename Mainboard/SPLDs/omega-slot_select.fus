@@ -31,7 +31,7 @@ Pin 17 = SLTSL3       XOR = 0   AC1 = 1
  23  xxxx xxxx xxxx ---- ---- ---- ---- ---- ---- ---- ----
 
 Pin 16 = MEMRD        XOR = 0   AC1 = 1
- 24  ---- -x-- x--- x--- -x-- x--- x--- x--- xxxx xxxx xxxx
+ 24  ---- -x-- x--- x--- x--- -x-- x--- x--- xxxx xxxx xxxx
  25  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  26  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  27  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
@@ -45,8 +45,8 @@ Pin 15 = RAMSL        XOR = 0   AC1 = 1
  33  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  34  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx ----
  35  ---- ---- ---- ---- ---- ---- ---- -x-x -x-- x--- x---
- 36  -x-- -x-- x--- x--- xxxx xxxx xxxx xxxx xxxx xxxx xxxx
- 37  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 36  -x-- -x-- x--- x--- ---- -x-- x--- x--- x--- x--- x---
+ 37  x--- xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  38  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  39  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 
