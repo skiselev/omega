@@ -162,25 +162,20 @@ IC Socket          | U48, U49  | 8 pin DIP                                   | 2
 
 ### Slot Map
 * Slot 0
-  * 0x0000 - 0xBFFF (48 KiB) - Flash ROM 0x00000 - 0x0BFFF
-    * 0x0000 - 0x7FFF - C-BIOS Main ROM
-    * 0x8000 - 0xBFFF - C-BIOS Logo ROM
-  * 0xC000 - 0xFFFF (16 KiB) - Unused
-* Slot 1
-  * Cartridge Slot 1
-* Slot 2
-  * Cartridge Slot 2
-* Slot 3
-  * Expanded slot
-  * Subslot 0
-    * 0x0000 - 0x3FFF (16 KiB) - Flash ROM 0x10000 - 0x13FFF
-    * C-BIOS Sub-ROM
-  * Subslot 1
-    * 0x0000 - 0xFFFF (64 KiB) - RAM / memory mapper
-  * Subslot 2
-    * 0x0000 - 0xFFFF (64 KiB) - Flash ROM 0x20000 - 0x2FFFF
-  * Subslot 3
-    * 0x0000 - 0xFFFF (64 KiB) - Flash ROM 0x30000 - 0x3FFFF
+  * 0x0000 - 0x7FFF (32 KiB): Main ROM, mapped to Flash ROM 0x00000 - 0x07FFF
+  * 0x8000 - 0xBFFF (16 KiB): Logo ROM, mapped to Flash ROM 0x08000 - 0x0BFFF
+  * 0xC000 - 0xFFFF (16 KiB): Unused
+* Slot 1: Cartridge Slot 1
+* Slot 2: Cartridge Slot 2
+* Slot 3: Expanded slot
+* Slot 3, Subslot 0
+  * 0x0000 - 0x3FFF (16 KiB): Sub ROM, mapped to Flash ROM 0x10000 - 0x13FFF
+* Slot 3, Subslot 1
+  * 0x0000 - 0xFFFF (64 KiB): User ROM #1, mapped to Flash ROM 0x20000 - 0x2FFFF
+* Slot 3, Subslot 2
+  * 0x0000 - 0xFFFF (64 KiB): Main RAM (memory mapper)
+* Slot 3, Subslot 3
+  * 0x0000 - 0xFFFF (64 KiB): User ROM #2, mapped to Flash ROM 0x30000 - 0x3FFFF
 
 ## Changes
 * Version 1.0
