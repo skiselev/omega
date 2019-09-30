@@ -186,4 +186,8 @@ IC Socket          | U48, U49  | 8 pin DIP                                   | 2
   * Top silkscreen: References R8 and R36 are swapped. The values are indicated correctly on the silkscreen.
   * Top silkscreen: The values of C48 and C82 are swapped. C48 should be 0.1 uF, and C82 should be 1.5nF.
   * Top silkscreen: Pal Clock Generator dotted line area should also include U43 and C43.
+  * Top silkscreen: "M" logo and the project URL are missing.
+  * Schematic: The pinout for 74AHCT32 IC (U37 - U39) is incorrect.
+  * Schematic: The /RD and /WR signals in subslot register select (U38C, U32D) are swapped.
+  * PCB: Keyboard connector (J11) interferes with printer port latch (U24). Use a straight pin header instead of a right angle one.
   
