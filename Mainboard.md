@@ -190,4 +190,5 @@ IC Socket          | U48, U49  | 8 pin DIP                                   | 2
   * Schematic: The pinout for 74AHCT32 IC (U37 - U39) is incorrect.
   * Schematic: The /RD and /WR signals in subslot register select (U38C, U32D) are swapped.
   * PCB: Keyboard connector (J11) interferes with printer port latch (U24). Use a straight pin header instead of a right angle one.
+  * Schematic: A pull-up is needed on V9938 VDP /INT output (pin 25), as it is an open drain output.
   
