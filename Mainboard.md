@@ -195,3 +195,4 @@ IC Socket          | U48, U49  | 8 pin DIP                                   | 2
   * Schematic: CXA1645 needs TTL level SYNCIN, while V9938 provides 2.4 V - 4.8 V signal at CSYNC. A level shifter is needed.
   * Schematic: PSG clock divider 74HCT74 U35A /Q output (pin 6) should be connected to D input (pin 2), and CLK signal should be connected to CLK input (pin 3)
   * Schematic: Audio low pass filter op amp plus input (pin 3) should be connected to VCC/2
+  * Schematic: /VDP_WAIT has two pull-up connections to RR2 and to RR5. It should be connected only to RR2
