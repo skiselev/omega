@@ -31,26 +31,26 @@ Pin 17 = VDPWAIT      XOR = 0   AC1 = 1
  23  xxxx xxxx xxxx ---- ---- ---- ---- ---- ---- ---- ----
 
 Pin 16 = KBDWAIT      XOR = 0   AC1 = 1
- 24  ---- ---- ---- ---- ---- ---- ---x ---- ---- ---- ----
- 25  ---- ---- ---x ---- ---- xxxx xxxx xxxx xxxx xxxx xxxx
+ 24  xx-- -x-- ---- ---- ---- ---- ---- -x-- xx-- ---- -x--
+ 25  ---- ---- ---- ---- -x-- xxxx xxxx xxxx xxxx xxxx xxxx
  26  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  27  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  28  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
- 29  xxxx ---- ---- ---- ---- ---- ---- ---- ---- xx-- -x--
- 30  ---- ---- ---- ---- ---- -x-- xx-- ---- -x-- ---- ----
+ 29  xxxx ---- ---- ---- ---- ---- ---- ---- ---- x--x -x--
+ 30  ---- ---- ---- ---- ---- -x-- x--x ---- -x-- ---- ----
  31  ---- ---- -x-- xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 
-Pin 15 = CS12         XOR = 0   AC1 = 1
+Pin 15 = CS2          XOR = 0   AC1 = 1
  32  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  33  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  34  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx ----
- 35  ---- ---- ---- ---- ---- ---- ---- x--x -x-- ---- ----
- 36  ---- ---- ---- -x-- x--x ---- -x-- ---- ---- ---- ----
- 37  -x-- xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 35  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
+ 36  ---- ---x ---- ---- ---- ---- ---- ---- ---x ---- ----
+ 37  ---- xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  38  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  39  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 
-Pin 14 = CS2          XOR = 0   AC1 = 1
+Pin 14 = CS1          XOR = 0   AC1 = 1
  40  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx ---- ---- ----
  41  ---- ---- ---- ---- ---- ---- ---- ---- -x-- ---- ----
  42  ---- ---- ---- ---- ---- ---- -x-- ---- ---- ---- ----
@@ -60,7 +60,7 @@ Pin 14 = CS2          XOR = 0   AC1 = 1
  46  xxxx xxxx xxxx xxxx xxxx xxxx ---- ---- ---- ---- ----
  47  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
 
-Pin 13 = CS1          XOR = 0   AC1 = 1
+Pin 13 = CS12         XOR = 0   AC1 = 1
  48  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
  49  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
  50  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----

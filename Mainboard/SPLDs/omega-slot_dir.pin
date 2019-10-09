@@ -14,9 +14,9 @@
   10   | GND      | GND
   11   | SLTWAIT  | Input
   12   | SLTDIR   | Output
-  13   | CS1      | Output
-  14   | CS2      | Output
-  15   | CS12     | Output
+  13   | CS12     | Output
+  14   | CS1      | Output
+  15   | CS2      | Output
   16   | KBDWAIT  | Input
   17   | VDPWAIT  | Input
   18   | M1WAIT   | Input

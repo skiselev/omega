@@ -13,11 +13,11 @@
                           |                 |
                   BUSDIR1 |  5           16 | KBDWAIT
                           |                 |
-                  BUSDIR2 |  6           15 | CS12
+                  BUSDIR2 |  6           15 | CS2
                           |                 |
-                      BM1 |  7           14 | CS2
+                      BM1 |  7           14 | CS1
                           |                 |
-                    BIORQ |  8           13 | CS1
+                    BIORQ |  8           13 | CS12
                           |                 |
                       BRD |  9           12 | SLTDIR
                           |                 |
