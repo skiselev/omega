@@ -25,22 +25,14 @@ F 3 "" H 1600 3100 60  0000 C CNN
 	1    1600 3050
 	1    0    0    -1  
 $EndComp
-Text Label 2500 2600 2    60   ~ 0
+Text Label 4600 2800 2    60   ~ 0
 RAM_A14
-Text Label 2500 2500 2    60   ~ 0
+Text Label 4600 2700 2    60   ~ 0
 RAM_A15
-Text Label 2500 2700 2    60   ~ 0
+Text Label 4600 2600 2    60   ~ 0
 RAM_A16
-Text Label 2500 2800 2    60   ~ 0
+Text Label 4600 2500 2    60   ~ 0
 RAM_A17
-Text Label 700  2600 0    60   ~ 0
-D0
-Text Label 700  2500 0    60   ~ 0
-D1
-Text Label 700  2700 0    60   ~ 0
-D2
-Text Label 700  2800 0    60   ~ 0
-D3
 Text Label 700  3000 0    60   ~ 0
 A0
 Text Label 700  3100 0    60   ~ 0
@@ -73,21 +65,13 @@ F 3 "" H 1600 1400 60  0000 C CNN
 	1    1600 1350
 	1    0    0    -1  
 $EndComp
-Text Label 2500 900  2    60   ~ 0
+Text Label 2800 1100 0    60   ~ 0
 D0
-Text Label 2500 800  2    60   ~ 0
+Text Label 2800 1000 0    60   ~ 0
 D1
-Text Label 2500 1000 2    60   ~ 0
+Text Label 2800 900  0    60   ~ 0
 D2
-Text Label 2500 1100 2    60   ~ 0
-D3
-Text Label 700  900  0    60   ~ 0
-D0
-Text Label 700  800  0    60   ~ 0
-D1
-Text Label 700  1000 0    60   ~ 0
-D2
-Text Label 700  1100 0    60   ~ 0
+Text Label 2800 800  0    60   ~ 0
 D3
 Text Label 700  1300 0    60   ~ 0
 A0
@@ -268,37 +252,29 @@ Text Label 2800 1800 0    60   ~ 0
 A1
 Text Label 2800 1900 0    60   ~ 0
 ~PAGE_RD
-Text Label 2800 900  0    60   ~ 0
+Text Label 700  1100 0    60   ~ 0
 D4
-Text Label 2800 800  0    60   ~ 0
+Text Label 700  1000 0    60   ~ 0
 D5
-Text Label 2800 1000 0    60   ~ 0
+Text Label 700  800  0    60   ~ 0
 D6
-Text Label 2800 1100 0    60   ~ 0
+Text Label 700  900  0    60   ~ 0
 D7
-Text Label 4600 900  2    60   ~ 0
+Text Label 2500 1100 2    60   ~ 0
 D4
-Text Label 4600 800  2    60   ~ 0
+Text Label 2500 1000 2    60   ~ 0
 D5
-Text Label 4600 1000 2    60   ~ 0
+Text Label 2500 800  2    60   ~ 0
 D6
-Text Label 4600 1100 2    60   ~ 0
+Text Label 2500 900  2    60   ~ 0
 D7
-Text Label 2800 2600 0    60   ~ 0
-D4
-Text Label 2800 2500 0    60   ~ 0
-D5
-Text Label 2800 2700 0    60   ~ 0
-D6
-Text Label 2800 2800 0    60   ~ 0
-D7
-Text Label 4600 2600 2    60   ~ 0
+Text Label 2500 2800 2    60   ~ 0
 RAM_A18
-Text Label 4600 2500 2    60   ~ 0
+Text Label 2500 2700 2    60   ~ 0
 RAM_A19
-Text Label 4600 2700 2    60   ~ 0
+Text Label 2500 2500 2    60   ~ 0
 RAM_A20
-Text Label 4600 2800 2    60   ~ 0
+Text Label 2500 2600 2    60   ~ 0
 RAM_A21
 Text Label 700  5050 0    60   ~ 0
 RAM_A19
@@ -327,21 +303,21 @@ F 3 "" H 1600 6850 60  0000 C CNN
 $EndComp
 Text Label 700  7250 0    60   ~ 0
 ~MEM_RD
-Text Label 700  6350 0    60   ~ 0
-D0
-Text Label 700  6450 0    60   ~ 0
-D1
-Text Label 700  6550 0    60   ~ 0
-D2
-Text Label 700  6650 0    60   ~ 0
-D3
-Text Label 700  6750 0    60   ~ 0
-D4
-Text Label 700  6850 0    60   ~ 0
-D5
-Text Label 700  6950 0    60   ~ 0
-D6
 Text Label 700  7050 0    60   ~ 0
+D0
+Text Label 700  6950 0    60   ~ 0
+D1
+Text Label 700  6850 0    60   ~ 0
+D2
+Text Label 700  6750 0    60   ~ 0
+D3
+Text Label 700  6650 0    60   ~ 0
+D4
+Text Label 700  6550 0    60   ~ 0
+D5
+Text Label 700  6450 0    60   ~ 0
+D6
+Text Label 700  6350 0    60   ~ 0
 D7
 $Comp
 L power:GND #PWR072
@@ -355,14 +331,6 @@ F 3 "" H 1000 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1100 2600 700  2600
-Wire Wire Line
-	1100 2500 700  2500
-Wire Wire Line
-	1100 2700 700  2700
-Wire Wire Line
-	1100 2800 700  2800
-Wire Wire Line
 	1100 3000 700  3000
 Wire Wire Line
 	1100 3100 700  3100
@@ -375,23 +343,23 @@ Wire Wire Line
 Wire Wire Line
 	1100 3600 1000 3600
 Wire Wire Line
-	2100 2600 2500 2600
+	4200 2800 4600 2800
 Wire Wire Line
-	2100 2500 2500 2500
+	4200 2700 4600 2700
 Wire Wire Line
-	2100 2700 2500 2700
+	4200 2600 4600 2600
 Wire Wire Line
-	2100 2800 2500 2800
+	4200 2500 4600 2500
 Wire Wire Line
 	1000 3600 1000 3700
 Wire Wire Line
-	1100 900  700  900 
+	3200 1100 2800 1100
 Wire Wire Line
-	1100 800  700  800 
+	3200 1000 2800 1000
 Wire Wire Line
-	1100 1000 700  1000
+	3200 900  2800 900 
 Wire Wire Line
-	1100 1100 700  1100
+	3200 800  2800 800 
 Wire Wire Line
 	1100 1300 700  1300
 Wire Wire Line
@@ -404,14 +372,6 @@ Wire Wire Line
 	1100 1800 700  1800
 Wire Wire Line
 	1100 1900 700  1900
-Wire Wire Line
-	2100 900  2500 900 
-Wire Wire Line
-	2100 800  2500 800 
-Wire Wire Line
-	2100 1000 2500 1000
-Wire Wire Line
-	2100 1100 2500 1100
 Wire Wire Line
 	7100 2800 6700 2800
 Wire Wire Line
@@ -499,14 +459,6 @@ Wire Wire Line
 Wire Wire Line
 	7100 5400 6700 5400
 Wire Wire Line
-	3200 2600 2800 2600
-Wire Wire Line
-	3200 2500 2800 2500
-Wire Wire Line
-	3200 2700 2800 2700
-Wire Wire Line
-	3200 2800 2800 2800
-Wire Wire Line
 	3200 3000 2800 3000
 Wire Wire Line
 	3200 3100 2800 3100
@@ -519,23 +471,23 @@ Wire Wire Line
 Wire Wire Line
 	3200 3600 3100 3600
 Wire Wire Line
-	4200 2600 4600 2600
+	2100 2800 2500 2800
 Wire Wire Line
-	4200 2500 4600 2500
+	2100 2700 2500 2700
 Wire Wire Line
-	4200 2700 4600 2700
+	2100 2500 2500 2500
 Wire Wire Line
-	4200 2800 4600 2800
+	2100 2600 2500 2600
 Wire Wire Line
 	3100 3600 3100 3700
 Wire Wire Line
-	3200 900  2800 900 
+	1100 1100 700  1100
 Wire Wire Line
-	3200 800  2800 800 
+	1100 1000 700  1000
 Wire Wire Line
-	3200 1000 2800 1000
+	1100 800  700  800 
 Wire Wire Line
-	3200 1100 2800 1100
+	1100 900  700  900 
 Wire Wire Line
 	3200 1300 2800 1300
 Wire Wire Line
@@ -549,13 +501,13 @@ Wire Wire Line
 Wire Wire Line
 	3200 1900 2800 1900
 Wire Wire Line
-	4200 900  4600 900 
+	2100 1100 2500 1100
 Wire Wire Line
-	4200 800  4600 800 
+	2100 1000 2500 1000
 Wire Wire Line
-	4200 1100 4600 1100
+	2100 900  2500 900 
 Wire Wire Line
-	4200 1000 4600 1000
+	2100 800  2500 800 
 Wire Wire Line
 	2100 5050 2500 5050
 Wire Wire Line
@@ -571,37 +523,37 @@ Wire Wire Line
 Wire Wire Line
 	700  5650 1000 5650
 Wire Wire Line
-	1100 6350 700  6350
-Wire Wire Line
-	1100 6450 700  6450
-Wire Wire Line
-	1100 6550 700  6550
-Wire Wire Line
-	1100 6650 700  6650
-Wire Wire Line
-	1100 6750 700  6750
-Wire Wire Line
-	1100 6850 700  6850
+	1100 7050 700  7050
 Wire Wire Line
 	1100 6950 700  6950
 Wire Wire Line
-	1100 7050 700  7050
+	1100 6850 700  6850
 Wire Wire Line
-	2100 6350 2500 6350
+	1100 6750 700  6750
 Wire Wire Line
-	2100 6450 2500 6450
+	1100 6650 700  6650
 Wire Wire Line
-	2100 6550 2500 6550
+	1100 6550 700  6550
 Wire Wire Line
-	2100 6650 2500 6650
+	1100 6450 700  6450
 Wire Wire Line
-	2100 6750 2500 6750
+	1100 6350 700  6350
 Wire Wire Line
-	2100 6850 2500 6850
+	2100 7050 2500 7050
 Wire Wire Line
 	2100 6950 2500 6950
 Wire Wire Line
-	2100 7050 2500 7050
+	2100 6850 2500 6850
+Wire Wire Line
+	2100 6750 2500 6750
+Wire Wire Line
+	2100 6650 2500 6650
+Wire Wire Line
+	2100 6550 2500 6550
+Wire Wire Line
+	2100 6450 2500 6450
+Wire Wire Line
+	2100 6350 2500 6350
 Wire Wire Line
 	1100 7350 1000 7350
 Wire Wire Line
@@ -894,21 +846,21 @@ Text Label 700  4600 0    60   ~ 0
 ~WR
 Wire Wire Line
 	2200 4150 1750 4150
-Text Label 2500 6350 2    60   ~ 0
-MD0
-Text Label 2500 6450 2    60   ~ 0
-MD1
-Text Label 2500 6550 2    60   ~ 0
-MD2
-Text Label 2500 6650 2    60   ~ 0
-MD3
-Text Label 2500 6750 2    60   ~ 0
-MD4
-Text Label 2500 6850 2    60   ~ 0
-MD5
-Text Label 2500 6950 2    60   ~ 0
-MD6
 Text Label 2500 7050 2    60   ~ 0
+MD0
+Text Label 2500 6950 2    60   ~ 0
+MD1
+Text Label 2500 6850 2    60   ~ 0
+MD2
+Text Label 2500 6750 2    60   ~ 0
+MD3
+Text Label 2500 6650 2    60   ~ 0
+MD4
+Text Label 2500 6550 2    60   ~ 0
+MD5
+Text Label 2500 6450 2    60   ~ 0
+MD6
+Text Label 2500 6350 2    60   ~ 0
 MD7
 Wire Wire Line
 	8300 3700 8700 3700
@@ -1087,12 +1039,6 @@ Wire Wire Line
 Wire Wire Line
 	5900 2800 5900 2900
 Wire Wire Line
-	5300 1000 4900 1000
-Wire Wire Line
-	5300 1100 4900 1100
-Wire Wire Line
-	5300 1200 4900 1200
-Wire Wire Line
 	5300 1300 4900 1300
 Wire Wire Line
 	5300 1400 4900 1400
@@ -1123,13 +1069,11 @@ Wire Wire Line
 Wire Wire Line
 	5300 2700 4900 2700
 Wire Wire Line
-	6200 2700 5800 2700
+	5300 1000 4900 1000
 Wire Wire Line
-	6200 1000 5800 1000
+	5300 1100 4900 1100
 Wire Wire Line
-	6200 1100 5800 1100
-Wire Wire Line
-	6200 1200 5800 1200
+	5300 1200 4900 1200
 Wire Wire Line
 	6200 1300 5800 1300
 Wire Wire Line
@@ -1158,77 +1102,85 @@ Wire Wire Line
 	6200 2500 5800 2500
 Wire Wire Line
 	6200 2600 5800 2600
-Text Label 4900 1000 0    60   ~ 0
-RAM_A18
-Text Label 4900 1100 0    60   ~ 0
-RAM_A16
-Text Label 4900 1200 0    60   ~ 0
-RAM_A14
+Wire Wire Line
+	6200 2700 5800 2700
+Wire Wire Line
+	6200 1000 5800 1000
+Wire Wire Line
+	6200 1100 5800 1100
+Wire Wire Line
+	6200 1200 5800 1200
 Text Label 4900 1300 0    60   ~ 0
-A12
+RAM_A18
 Text Label 4900 1400 0    60   ~ 0
-A7
+RAM_A16
 Text Label 4900 1500 0    60   ~ 0
-A6
+RAM_A14
 Text Label 4900 1600 0    60   ~ 0
-A5
+A12
 Text Label 4900 1700 0    60   ~ 0
-A4
+A7
 Text Label 4900 1800 0    60   ~ 0
-A3
+A6
 Text Label 4900 1900 0    60   ~ 0
-A2
+A5
 Text Label 4900 2000 0    60   ~ 0
-A1
+A4
 Text Label 4900 2100 0    60   ~ 0
-A0
+A3
 Text Label 4900 2200 0    60   ~ 0
-MD0
+A2
 Text Label 4900 2300 0    60   ~ 0
-MD1
+A1
 Text Label 4900 2400 0    60   ~ 0
-MD2
-Text Label 6200 2300 2    60   ~ 0
-MD3
-Text Label 6200 2200 2    60   ~ 0
-MD4
-Text Label 6200 2100 2    60   ~ 0
-MD5
-Text Label 6200 2000 2    60   ~ 0
-MD6
-Text Label 6200 1900 2    60   ~ 0
-MD7
-Text Label 6200 1800 2    60   ~ 0
-A10
-Text Label 6200 1700 2    60   ~ 0
-~RD
-Text Label 6200 1600 2    60   ~ 0
-A11
-Text Label 6200 1500 2    60   ~ 0
-A9
-Text Label 6200 1400 2    60   ~ 0
-A8
-Text Label 6200 1300 2    60   ~ 0
-A13
-Text Label 6200 1200 2    60   ~ 0
-~WR
-Text Label 6200 1100 2    60   ~ 0
-RAM_A17
-Text Label 6200 1000 2    60   ~ 0
-RAM_A15
-Text Label 6200 2400 2    60   ~ 0
-~RAM1_CS
+A0
 Text Label 4900 2500 0    60   ~ 0
-~RAM2_CS
-Text Label 6200 2500 2    60   ~ 0
-~RAM3_CS
+MD0
 Text Label 4900 2600 0    60   ~ 0
-~RAM4_CS
-Text Label 6200 2600 2    60   ~ 0
-~RAM5_CS
+MD1
 Text Label 4900 2700 0    60   ~ 0
-~RAM6_CS
+MD2
 Text Label 6200 2700 2    60   ~ 0
+MD3
+Text Label 6200 2600 2    60   ~ 0
+MD4
+Text Label 6200 2500 2    60   ~ 0
+MD5
+Text Label 6200 2400 2    60   ~ 0
+MD6
+Text Label 6200 2300 2    60   ~ 0
+MD7
+Text Label 6200 2200 2    60   ~ 0
+A10
+Text Label 6200 2100 2    60   ~ 0
+~RD
+Text Label 6200 2000 2    60   ~ 0
+A11
+Text Label 6200 1900 2    60   ~ 0
+A9
+Text Label 6200 1800 2    60   ~ 0
+A8
+Text Label 6200 1700 2    60   ~ 0
+A13
+Text Label 6200 1600 2    60   ~ 0
+~WR
+Text Label 6200 1500 2    60   ~ 0
+RAM_A17
+Text Label 6200 1400 2    60   ~ 0
+RAM_A15
+Text Label 6200 1000 2    60   ~ 0
+~RAM1_CS
+Text Label 4900 1000 0    60   ~ 0
+~RAM2_CS
+Text Label 6200 1100 2    60   ~ 0
+~RAM3_CS
+Text Label 4900 1100 0    60   ~ 0
+~RAM4_CS
+Text Label 6200 1200 2    60   ~ 0
+~RAM5_CS
+Text Label 4900 1200 0    60   ~ 0
+~RAM6_CS
+Text Label 6200 1300 2    60   ~ 0
 ~RAM7_CS
 $Comp
 L Connector_Generic:Conn_02x20_Odd_Even J12
@@ -1258,4 +1210,52 @@ F 3 "" H 1400 4150 60  0000 C CNN
 	1    1400 4150
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4200 800  4600 800 
+Wire Wire Line
+	4200 900  4600 900 
+Wire Wire Line
+	4200 1000 4600 1000
+Wire Wire Line
+	4200 1100 4600 1100
+Text Label 4600 800  2    60   ~ 0
+D3
+Text Label 4600 900  2    60   ~ 0
+D2
+Text Label 4600 1000 2    60   ~ 0
+D1
+Text Label 4600 1100 2    60   ~ 0
+D0
+Text Label 2800 2800 0    60   ~ 0
+D0
+Text Label 2800 2700 0    60   ~ 0
+D1
+Text Label 2800 2600 0    60   ~ 0
+D2
+Text Label 2800 2500 0    60   ~ 0
+D3
+Wire Wire Line
+	3200 2800 2800 2800
+Wire Wire Line
+	3200 2700 2800 2700
+Wire Wire Line
+	3200 2600 2800 2600
+Wire Wire Line
+	3200 2500 2800 2500
+Text Label 700  2800 0    60   ~ 0
+D4
+Text Label 700  2700 0    60   ~ 0
+D5
+Text Label 700  2500 0    60   ~ 0
+D6
+Text Label 700  2600 0    60   ~ 0
+D7
+Wire Wire Line
+	1100 2800 700  2800
+Wire Wire Line
+	1100 2700 700  2700
+Wire Wire Line
+	1100 2500 700  2500
+Wire Wire Line
+	1100 2600 700  2600
 $EndSCHEMATC

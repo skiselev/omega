@@ -110,15 +110,13 @@ F 3 "" H 8400 2300 50  0001 C CNN
 	1    8400 2300
 	1    0    0    -1  
 $EndComp
-Text Label 8000 2700 0    60   ~ 0
-~VDP_WAIT
-Text Label 8000 3200 0    60   ~ 0
+Text Label 8000 3300 0    60   ~ 0
 ~SLT_WAIT
 Text Label 4500 1500 0    60   ~ 0
 ~RFSH
-Text Label 8000 2600 0    60   ~ 0
+Text Label 8000 2800 0    60   ~ 0
 ~NMI
-Text Label 8000 2500 0    60   ~ 0
+Text Label 8000 2700 0    60   ~ 0
 ~BUSREQ
 Text Label 4500 2100 0    60   ~ 0
 ~INT
@@ -233,7 +231,7 @@ F 3 "" H 9300 4900 60  0000 C CNN
 	1    9300 5200
 	1    0    0    -1  
 $EndComp
-Text Label 8000 2800 0    60   ~ 0
+Text Label 8000 2500 0    60   ~ 0
 ~KBD_WAIT
 Text Label 10200 1800 0    60   ~ 0
 ~MREQ
@@ -289,7 +287,7 @@ Text Label 700  2200 0    60   ~ 0
 ~VDP_INT
 Text Label 700  2300 0    60   ~ 0
 ~SLT_INT
-Text Label 8000 3100 0    60   ~ 0
+Text Label 8000 3200 0    60   ~ 0
 ~SLT_INT
 Text Label 9100 3100 0    60   ~ 0
 ~SLT_INT
@@ -361,30 +359,30 @@ D3
 $Comp
 L my_components:74LS175 U27
 U 1 1 5BF7A32E
-P 7200 5700
-F 0 "U27" H 6900 6350 60  0000 L CNN
-F 1 "74HCT175" H 6900 5050 60  0000 L CNN
-F 2 "My_Components:IC_DIP16_300" H 7200 5700 50  0001 C CNN
-F 3 "" H 7200 5700 50  0001 C CNN
-	1    7200 5700
+P 7200 5800
+F 0 "U27" H 6900 6450 60  0000 L CNN
+F 1 "74HCT175" H 6900 5150 60  0000 L CNN
+F 2 "My_Components:IC_DIP16_300" H 7200 5800 50  0001 C CNN
+F 3 "" H 7200 5800 50  0001 C CNN
+	1    7200 5800
 	1    0    0    -1  
 $EndComp
-Text Label 6300 5200 0    60   ~ 0
+Text Label 6300 5500 0    60   ~ 0
 D0
-Text Label 6300 5400 0    60   ~ 0
+Text Label 6300 5300 0    60   ~ 0
 D1
-Text Label 6300 5600 0    60   ~ 0
+Text Label 6300 5700 0    60   ~ 0
 D2
-Text Label 6300 5800 0    60   ~ 0
+Text Label 6300 5900 0    60   ~ 0
 D3
-NoConn ~ 7700 5900
-NoConn ~ 7700 5700
-NoConn ~ 7700 5500
-NoConn ~ 7700 5300
+NoConn ~ 7700 6000
+NoConn ~ 7700 5800
+NoConn ~ 7700 5600
+NoConn ~ 7700 5400
 NoConn ~ 4900 1700
-Text Label 6300 6200 0    60   ~ 0
+Text Label 6300 6300 0    60   ~ 0
 ~RESET
-Text Label 6300 6100 0    60   ~ 0
+Text Label 6300 6200 0    60   ~ 0
 ~RTC_AD_WR
 Text Label 8300 6000 0    60   ~ 0
 ~RTC_CS_B
@@ -650,33 +648,33 @@ F 3 "" H 1800 6200 60  0000 C CNN
 	1    1800 6200
 	1    0    0    -1  
 $EndComp
-Text Label 700  6400 0    60   ~ 0
-D0
-Text Label 700  5700 0    60   ~ 0
-D1
 Text Label 700  6300 0    60   ~ 0
-D2
-Text Label 700  5800 0    60   ~ 0
-D3
+D0
 Text Label 700  6200 0    60   ~ 0
-D4
+D1
+Text Label 700  5800 0    60   ~ 0
+D2
 Text Label 700  5900 0    60   ~ 0
-D5
+D3
 Text Label 700  6100 0    60   ~ 0
-D6
+D4
 Text Label 700  6000 0    60   ~ 0
+D5
+Text Label 700  6400 0    60   ~ 0
+D6
+Text Label 700  5700 0    60   ~ 0
 D7
 Text Label 700  6700 0    60   ~ 0
 ~RESET
 $Comp
 L my_components:74LS74 U35
-U 2 1 5BFFF140
+U 1 1 5BFFF140
 P 1800 4900
 F 0 "U35" H 1500 5250 60  0000 L CNN
 F 1 "74HCT74" H 1500 4550 60  0000 L CNN
 F 2 "My_Components:IC_DIP14_300" H 1800 4900 60  0001 C CNN
 F 3 "" H 1800 4900 60  0000 C CNN
-	2    1800 4900
+	1    1800 4900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -702,12 +700,12 @@ Text Label 700  5000 0    60   ~ 0
 $Comp
 L power:GND #PWR0112
 U 1 1 5C000963
-P 3100 7400
-F 0 "#PWR0112" H 3100 7150 50  0001 C CNN
-F 1 "GND" H 3100 7250 50  0000 C CNN
-F 2 "" H 3100 7400 50  0001 C CNN
-F 3 "" H 3100 7400 50  0001 C CNN
-	1    3100 7400
+P 3900 6600
+F 0 "#PWR0112" H 3900 6350 50  0001 C CNN
+F 1 "GND" H 3900 6450 50  0000 C CNN
+F 2 "" H 3900 6600 50  0001 C CNN
+F 3 "" H 3900 6600 50  0001 C CNN
+	1    3900 6600
 	1    0    0    -1  
 $EndComp
 Text Label 1900 7400 0    60   ~ 0
@@ -727,8 +725,6 @@ Text Label 700  7000 0    60   ~ 0
 ~PRT_BSY_RD
 Text Label 700  7400 0    60   ~ 0
 D1
-Text Label 8000 2900 0    60   ~ 0
-PRT_BUSY
 $Comp
 L my_components:74LS32 U37
 U 3 2 5C0035A9
@@ -850,8 +846,6 @@ Wire Wire Line
 	8000 2800 8500 2800
 Wire Wire Line
 	8000 2900 8500 2900
-Wire Wire Line
-	8000 3000 8500 3000
 Wire Wire Line
 	8000 3200 8500 3200
 Wire Wire Line
@@ -997,39 +991,35 @@ Wire Wire Line
 Wire Wire Line
 	9900 5100 10300 5100
 Wire Wire Line
-	8700 5200 7700 5200
+	7900 5200 7900 5500
 Wire Wire Line
-	8700 5300 7900 5300
-Wire Wire Line
-	7900 5300 7900 5400
-Wire Wire Line
-	7900 5400 7700 5400
+	7900 5500 7700 5500
 Wire Wire Line
 	8000 5400 8700 5400
 Wire Wire Line
 	8700 5500 8100 5500
 Wire Wire Line
-	8100 5500 8100 5800
+	8100 5500 8100 5900
 Wire Wire Line
-	8100 5800 7700 5800
+	8100 5900 7700 5900
 Wire Wire Line
-	8000 5400 8000 5600
+	8000 5400 8000 5700
 Wire Wire Line
-	8000 5600 7700 5600
+	8000 5700 7700 5700
 Wire Wire Line
-	8000 3100 8500 3100
+	8000 3000 8500 3000
 Wire Wire Line
-	6700 5200 6300 5200
+	6700 5300 6300 5300
 Wire Wire Line
-	6700 5400 6300 5400
+	6700 5500 6300 5500
 Wire Wire Line
-	6700 5800 6300 5800
+	6700 5900 6300 5900
 Wire Wire Line
-	6700 5600 6300 5600
+	6700 5700 6300 5700
 Wire Wire Line
-	6300 6200 6700 6200
+	6300 6300 6700 6300
 Wire Wire Line
-	6700 6100 6300 6100
+	6700 6200 6300 6200
 Wire Wire Line
 	8700 6000 8300 6000
 Wire Wire Line
@@ -1167,9 +1157,9 @@ Wire Wire Line
 Wire Wire Line
 	1100 5100 1100 4600
 Wire Wire Line
-	2700 4700 2700 4900
+	3000 4700 3000 5800
 Wire Wire Line
-	2700 4900 3300 4900
+	3000 5800 3300 5800
 Wire Wire Line
 	1300 4700 700  4700
 Wire Wire Line
@@ -1177,15 +1167,9 @@ Wire Wire Line
 Wire Wire Line
 	1300 5000 700  5000
 Wire Wire Line
-	3300 6900 2400 6900
-Wire Wire Line
-	2300 4700 2700 4700
+	2300 4700 3000 4700
 Wire Wire Line
 	1300 7400 700  7400
-Wire Wire Line
-	1900 7400 2400 7400
-Wire Wire Line
-	2400 7400 2400 6900
 Wire Wire Line
 	1600 7150 1600 7000
 Wire Wire Line
@@ -1256,10 +1240,10 @@ Wire Wire Line
 	3900 2000 3900 2900
 Connection ~ 3900 2900
 $Comp
-L Device:R R25
+L Device:R R31
 U 1 1 5C039811
 P 900 1750
-F 0 "R25" V 980 1750 50  0000 C CNN
+F 0 "R31" V 980 1750 50  0000 C CNN
 F 1 "1k" V 900 1750 50  0000 C CNN
 F 2 "My_Components:Res_762" V 830 1750 50  0001 C CNN
 F 3 "" H 900 1750 50  0001 C CNN
@@ -1301,9 +1285,9 @@ Wire Wire Line
 Wire Wire Line
 	10600 4500 10600 4300
 Connection ~ 10600 4300
-Text Label 8000 3300 0    60   ~ 0
-~BUSDIR2
 Text Label 8000 3000 0    60   ~ 0
+~BUSDIR2
+Text Label 8000 2900 0    60   ~ 0
 ~BUSDIR1
 Text Label 10200 2900 0    60   ~ 0
 ~BUSDIR1
@@ -1317,63 +1301,20 @@ Text HLabel 10600 2900 2    60   Input ~ 0
 ~BUSDIR1
 Text HLabel 10600 3000 2    60   Input ~ 0
 ~BUSDIR2
-$Comp
-L Connector:DB25_Female J9
-U 1 1 5BF66E89
-P 3600 6100
-F 0 "J9" H 3600 7500 60  0000 C CNN
-F 1 "PRINTER" H 3600 4700 60  0000 C CNN
-F 2 "My_Components:Conn_Dsub_DB25F" H 3600 6100 50  0001 C CNN
-F 3 "" H 3600 6100 50  0001 C CNN
-	1    3600 6100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	3300 5100 3000 5100
+	3300 5900 3000 5900
 Wire Wire Line
-	3000 5300 3300 5300
-Wire Wire Line
-	3300 5500 3000 5500
-Wire Wire Line
-	3000 5700 3300 5700
-Wire Wire Line
-	3000 5900 3300 5900
+	3000 6000 3300 6000
 Wire Wire Line
 	3300 6100 3000 6100
 Wire Wire Line
-	3000 6500 3300 6500
+	3000 6200 3300 6200
 Wire Wire Line
-	3300 5800 3100 5800
+	3000 6300 3300 6300
 Wire Wire Line
-	3100 5800 3100 6000
+	3300 6400 3000 6400
 Wire Wire Line
-	3300 6000 3100 6000
-Connection ~ 3100 6000
-Wire Wire Line
-	3300 6200 3100 6200
-Connection ~ 3100 6200
-Wire Wire Line
-	3300 6400 3100 6400
-Connection ~ 3100 6400
-Wire Wire Line
-	3300 6600 3100 6600
-Connection ~ 3100 6600
-Wire Wire Line
-	3300 6800 3100 6800
-Connection ~ 3100 6800
-Wire Wire Line
-	3300 7000 3100 7000
-Connection ~ 3100 7000
-NoConn ~ 3300 7300
-NoConn ~ 3300 7100
-NoConn ~ 3300 6700
-NoConn ~ 3300 5600
-NoConn ~ 3300 5400
-NoConn ~ 3300 5200
-NoConn ~ 3300 5000
-Wire Wire Line
-	3300 7200 3100 7200
-Connection ~ 3100 7200
+	3800 5900 4100 5900
 Text Label 9100 2600 0    60   ~ 0
 ~VDP_WAIT
 Text HLabel 9500 2600 2    60   Output ~ 0
@@ -1574,55 +1515,72 @@ Wire Wire Line
 Wire Wire Line
 	10600 4300 11000 4300
 Wire Wire Line
-	3100 6000 3100 6200
-Wire Wire Line
-	3100 6200 3100 6400
-Wire Wire Line
-	3100 6400 3100 6600
-Wire Wire Line
-	3100 6600 3100 6800
-Wire Wire Line
-	3100 6800 3100 7000
-Wire Wire Line
-	3100 7000 3100 7200
-Wire Wire Line
-	3100 7200 3100 7400
+	3900 6400 3900 6600
 Wire Wire Line
 	2700 2250 2700 2300
-Text Label 2300 6400 0    60   ~ 0
+Text Label 2700 6300 2    60   ~ 0
 PD0
-Text Label 2300 5700 0    60   ~ 0
+Text Label 2700 6200 2    60   ~ 0
 PD1
-Text Label 2300 6300 0    60   ~ 0
+Text Label 2700 5800 2    60   ~ 0
 PD2
-Text Label 2300 5800 0    60   ~ 0
+Text Label 2700 5900 2    60   ~ 0
 PD3
-Text Label 2300 6200 0    60   ~ 0
+Text Label 2700 6100 2    60   ~ 0
 PD4
-Text Label 2300 5900 0    60   ~ 0
+Text Label 2700 6000 2    60   ~ 0
 PD5
-Text Label 2300 6100 0    60   ~ 0
+Text Label 2700 6400 2    60   ~ 0
 PD6
-Text Label 2300 6000 0    60   ~ 0
+Text Label 2700 5700 2    60   ~ 0
 PD7
-Text Label 3300 5100 2    60   ~ 0
+Text Label 3000 5900 0    60   ~ 0
 PD0
-Text Label 3300 5300 2    60   ~ 0
+Text Label 3000 6000 0    60   ~ 0
 PD1
-Text Label 3300 5500 2    60   ~ 0
+Text Label 3000 6100 0    60   ~ 0
 PD2
-Text Label 3300 5700 2    60   ~ 0
+Text Label 3000 6200 0    60   ~ 0
 PD3
-Text Label 3300 5900 2    60   ~ 0
+Text Label 3000 6300 0    60   ~ 0
 PD4
-Text Label 3300 6100 2    60   ~ 0
+Text Label 3000 6400 0    60   ~ 0
 PD5
-Text Label 3300 6300 2    60   ~ 0
+Text Label 4100 5800 2    60   ~ 0
 PD6
-Text Label 3300 6500 2    60   ~ 0
+Text Label 4100 5900 2    60   ~ 0
 PD7
 Wire Wire Line
 	2300 6300 2700 6300
 Wire Wire Line
-	3300 6300 3000 6300
+	4100 5800 3800 5800
+Wire Wire Line
+	7900 5200 8700 5200
+Wire Wire Line
+	7700 5300 8700 5300
+Text Label 8000 2600 0    60   ~ 0
+PRT_BUSY
+NoConn ~ 8500 3100
+$Comp
+L Connector_Generic:Conn_02x07_Top_Bottom J9
+U 1 1 5F762796
+P 3500 6100
+F 0 "J9" H 3550 6617 50  0000 C CNN
+F 1 "PRINTER" H 3550 6526 50  0000 C CNN
+F 2 "My_Components:Conn_Micro_Ribbon_14F" H 3500 6100 50  0001 C CNN
+F 3 "~" H 3500 6100 50  0001 C CNN
+	1    3500 6100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3800 6000
+NoConn ~ 3800 6200
+NoConn ~ 3800 6300
+Wire Wire Line
+	3800 6400 3900 6400
+Wire Wire Line
+	3800 6100 4100 6100
+Wire Wire Line
+	4100 6100 4100 7400
+Wire Wire Line
+	1900 7400 4100 7400
 $EndSCHEMATC

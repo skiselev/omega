@@ -52,15 +52,15 @@ Text Label 700  3600 0    60   ~ 0
 A6
 Text Label 700  3500 0    60   ~ 0
 A7
-Text Label 700  4600 0    60   ~ 0
-A8
-Text Label 700  4700 0    60   ~ 0
-A9
-Text Label 700  4800 0    60   ~ 0
-A11
-Text Label 700  5100 0    60   ~ 0
-A12
 Text Label 700  5000 0    60   ~ 0
+A8
+Text Label 700  4800 0    60   ~ 0
+A9
+Text Label 700  4900 0    60   ~ 0
+A11
+Text Label 700  4600 0    60   ~ 0
+A12
+Text Label 700  5100 0    60   ~ 0
 A13
 Text Label 700  4500 0    60   ~ 0
 A14
@@ -787,8 +787,6 @@ Wire Wire Line
 Wire Wire Line
 	1000 7400 1000 6200
 Wire Wire Line
-	3300 5650 3300 7500
-Wire Wire Line
 	6600 700  6200 700 
 Wire Wire Line
 	5500 2500 5100 2500
@@ -986,8 +984,6 @@ Wire Wire Line
 	5200 6000 4800 6000
 Connection ~ 2900 3900
 Wire Wire Line
-	2200 6000 2200 6200
-Wire Wire Line
 	1750 6000 2200 6000
 Wire Wire Line
 	8900 4200 2900 4200
@@ -1061,7 +1057,7 @@ Wire Wire Line
 	2900 3900 3300 3900
 Wire Wire Line
 	1000 5700 1000 5950
-Text Label 700  4900 0    60   ~ 0
+Text Label 700  4700 0    60   ~ 0
 A10
 Wire Wire Line
 	6050 2900 7300 2900
@@ -1158,4 +1154,88 @@ F 3 "" H 1400 5650 60  0000 C CNN
 	4    1400 5650
 	1    0    0    1   
 $EndComp
+Wire Wire Line
+	2200 6000 2200 6200
+Wire Wire Line
+	3300 5650 3300 7500
+$Comp
+L Device:R R22
+U 1 1 5F651789
+P 9650 5600
+F 0 "R22" V 9550 5500 50  0000 C CNN
+F 1 "4.7k" V 9550 5700 50  0000 C CNN
+F 2 "My_Components:Res_762" V 9580 5600 50  0001 C CNN
+F 3 "~" H 9650 5600 50  0001 C CNN
+	1    9650 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R23
+U 1 1 5F651EB8
+P 9650 5800
+F 0 "R23" V 9550 5700 50  0000 C CNN
+F 1 "4.7k" V 9550 5900 50  0000 C CNN
+F 2 "My_Components:Res_762" V 9580 5800 50  0001 C CNN
+F 3 "~" H 9650 5800 50  0001 C CNN
+	1    9650 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R24
+U 1 1 5F652358
+P 9650 6000
+F 0 "R24" V 9550 5900 50  0000 C CNN
+F 1 "4.7k" V 9550 6100 50  0000 C CNN
+F 2 "My_Components:Res_762" V 9580 6000 50  0001 C CNN
+F 3 "~" H 9650 6000 50  0001 C CNN
+	1    9650 6000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9500 5600 9000 5600
+Wire Wire Line
+	9500 5800 9000 5800
+Wire Wire Line
+	9500 6000 9000 6000
+Wire Wire Line
+	9800 5600 10000 5600
+Wire Wire Line
+	10000 5600 10000 5500
+Wire Wire Line
+	9800 5800 10000 5800
+Wire Wire Line
+	10000 5800 10000 5600
+Connection ~ 10000 5600
+Wire Wire Line
+	9800 6000 10000 6000
+Wire Wire Line
+	10000 6000 10000 5800
+Connection ~ 10000 5800
+$Comp
+L power:VCC #PWR02
+U 1 1 5F6C2774
+P 10000 5500
+F 0 "#PWR02" H 10000 5350 50  0001 C CNN
+F 1 "VCC" H 10017 5673 50  0000 C CNN
+F 2 "" H 10000 5500 50  0001 C CNN
+F 3 "" H 10000 5500 50  0001 C CNN
+	1    10000 5500
+	1    0    0    -1  
+$EndComp
+Text Label 9000 5600 0    60   ~ 0
+COLUMN0
+Text Label 9000 5800 0    60   ~ 0
+COLUMN2
+Text Label 9000 6000 0    60   ~ 0
+COLUMN4
+Text Notes 8600 5150 0    60   ~ 0
+Keyboard Pull-ups Errata Workaround
+Wire Notes Line
+	8500 5000 10500 5000
+Wire Notes Line
+	10500 5000 10500 6200
+Wire Notes Line
+	10500 6200 8500 6200
+Wire Notes Line
+	8500 6200 8500 5000
 $EndSCHEMATC
