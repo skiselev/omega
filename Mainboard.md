@@ -193,7 +193,8 @@ IC Socket          | U48, U49  | 8 pin DIP                                   | 2
   * Schematic: A pull-up is needed on V9938 VDP /INT output (pin 25), as it is an open drain output.
   * PCB: MSX Cartrige Slots need to be rotated 180 degrees. Pin 1 of cartrige slot should be in top left position.
   * Schematic: CXA1645 needs TTL level SYNCIN, while V9938 provides 2.4 V - 4.8 V signal at CSYNC. A level shifter is needed.
-  * Schematic: PSG clock divider 74HCT74 U35A /Q output (pin 6) should be connected to D input (pin 2), and CLK signal should be connected to CLK input (pin 3)
-  * Schematic: Audio low pass filter op amp plus input (pin 3) should be connected to VCC/2
-  * Schematic: /VDP_WAIT has two pull-up connections to RR2 and to RR5. It should be connected only to RR2
-  * Schematic: SW1 should be connected to the ground, SW2 should be left not connected
+  * Schematic: PSG clock divider 74HCT74 U35A /Q output (pin 6) should be connected to D input (pin 2), and CLK signal should be connected to CLK input (pin 3).
+  * Schematic: Audio low pass filter op amp plus input (pin 3) should be connected to VCC/2.
+  * Schematic: /VDP_WAIT has two pull-up connections to RR2 and to RR5. It should be connected only to RR2.
+  * Schematic: SW1 should be connected to the ground, SW2 should be left not connected.
+  * Schematic: Joystick "Left" and "Right" are reversed.
