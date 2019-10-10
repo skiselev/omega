@@ -1,8 +1,26 @@
 # Omega Main Board
-Main Board for the Omega Home Computer
+Main Board for Omega Home Computer
 
 ## Introduction
-Fixme - add the introduction and a picture
+The main board implements standard MSX2* functionality, as described in the [Specifications](#specifications) section below. The main board is designed to be stacked under the keyboard PCB, thus creating a "keyboard computer" form factor typical for 1980's home computers.
+![Omega Mainboard connected to Keyboard](Mainboard/images/Omega-Keyboard_and_Mainboard-1.0.jpg)
+
+## Specifications
+* Processor: Zilog Z80 CPU (CMOS version - Z84C00) running at 3.58 MHz
+* Memory:
+  * RAM: 512 KiB SRAM, expandable to 4 MiB using an optional daugherboard. MSX* compatible memory pager
+  * ROM: 256 KiB or 512 KiB Flash ROM
+* Video: Yamaha V9939 or Yamaha V9959 VDP
+  * 128 KiB Video RAM
+  * Composite, S-Video, and RGB video outputs
+* Audio: Yamaha YM2149 or General Instrument AY-3-8910 PSG
+* Two MSX* compatible cartridge slots
+* Keyboard, joysticks, printer and cassette recorder interfaces
+* RTC: Ricoh RP5C01
+* Microprocessor Supervisor:
+  * Reset generation
+  * RTC battery backup
+* BIOS: [C-BIOS](http://cbios.sourceforge.net/). Compatible with BIOSes from the original MSX2* computers with a similar slot organization, for example [Sanyo* PHC-23J](https://www.msx.org/wiki/Sanyo_PHC-23J)
 
 ## Hardware Documentation
 
@@ -59,7 +77,7 @@ Integrated Circuit | U42       | 74LS07, 14 pin DIP                          | 1
 Integrated Circuit | U43       | 74HCT04, 14 pin DIP                         | 1        | Mouser [595-SN74HCT04N](https://www.mouser.com/ProductDetail/595-SN74HCT04N)
 Integrated Circuit | U44       | 74AHCT02, 14 pin DIP                        | 1        | Mouser [595-SN74AHCT02N](https://www.mouser.com/ProductDetail/595-SN74AHCT02N)
 Integrated Circuit | U45       | 74HCT00, 14 pin DIP                         | 1        | Mouser [595-SN74HCT00N](https://www.mouser.com/ProductDetail/595-SN74HCT00N)
-Integrated Circuit | U46       | Microprocessor Supervisory Circuit - MAX693 | 1        | Mouser [584-ADM693AANZ](https://www.mouser.com/ProductDetail/584-ADM693AANZ); Possible alternatives: MAX693, LTC693, ADM691, MAX691, LTC691, ADM695, MAX695, LTC965, LTC1235
+Integrated Circuit | U46       | Microprocessor Supervisory Circuit - ADM691A | 1        | Mouser [584-ADM691AANZ](https://www.mouser.com/ProductDetail/584-ADM691AANZ); Possible alternatives: MAX691, LTC691, ADM691
 Integrated Circuit | U47       | Sony CXA1645P RGB Encoder, 24 pin DIP-400   | 1        | eBay
 Integrated Circuit | U48       | OPA340P Operational Amplifier, 8 pin DIP    | 1        | Mouser [595-OPA340PA](https://www.mouser.com/ProductDetail/595-OPA340PA)
 Integrated Circuit | U49       | LM311N, Voltage Comparator, 8 pin DIP       | 1        | Mouser [926-LM311N-NOPB](https://www.mouser.com/ProductDetail/926-LM311N-NOPB). Note U49 is optional - cassette recorder support.
