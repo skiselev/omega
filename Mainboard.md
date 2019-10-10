@@ -8,8 +8,8 @@ The main board implements standard MSX2* functionality, as described in the [Spe
 ## Specifications
 * Processor: Zilog Z80 CPU (CMOS version - Z84C00) running at 3.58 MHz
 * Memory:
-  * RAM: 512 KiB SRAM, expandable to 4 MiB using an optional daugherboard. MSX* compatible memory pager
-  * ROM: 256 KiB or 512 KiB Flash ROM
+  * RAM: 512 KiB SRAM, expandable to 4 MiB using an optional daugherboard. MSX* compatible memory pager. The RAM is mapped to slot 3-2
+  * ROM: 256 KiB or 512 KiB Flash ROM. The ROM is mapped to the slot 0 and sub slots 3-0, 3-1, and 3-3
 * Video: Yamaha V9939 or Yamaha V9959 VDP
   * 128 KiB Video RAM
   * Composite, S-Video, and RGB video outputs
@@ -20,7 +20,7 @@ The main board implements standard MSX2* functionality, as described in the [Spe
 * Microprocessor Supervisor:
   * Reset generation
   * RTC battery backup
-* BIOS: [C-BIOS](http://cbios.sourceforge.net/). Compatible with BIOSes from the original MSX2* computers with a similar slot organization, for example [Sanyo* PHC-23J](https://www.msx.org/wiki/Sanyo_PHC-23J)
+* BIOS: [C-BIOS](http://cbios.sourceforge.net/). Compatible with BIOSes from the original MSX2* computers with a similar slot organization and hardware specifications, for example [Sanyo* PHC-23J](https://www.msx.org/wiki/Sanyo_PHC-23J)
 
 ## Hardware Documentation
 
@@ -165,9 +165,9 @@ IC Socket          | U48, U49  | 8 pin DIP                                   | 2
   * 0xA1: Write: Register Value
   * 0xA2: Read: Register Value
 * 0xA8 - 0xAB - 8255 Programmable Parallel Interface (PPI)
-  * 0xA8: i8255: Port A
-  * 0xA9: i8255: Port B
-  * 0xAA: i8255: Port C
+  * 0xA8: i8255: Port A - Primary slot select register
+  * 0xA9: i8255: Port B - Keyboard matrix row input register
+  * 0xAA: i8255: Port C - Keyboard matrix column output and cassette interface output register
   * 0xAB: i8255: Command Register
 * 0xB4 - 0xB5 (aliases 0xB6 - 0xB7) - RP5C01 Real Time Clock (RTC)
   * 0xB4: RTC: Write: Register select
@@ -177,6 +177,7 @@ IC Socket          | U48, U49  | 8 pin DIP                                   | 2
   * 0xFD: Read/Write: Page 1
   * 0xFE: Read/Write: Page 2
   * 0xFF: Read/Write: Page 3
+* 0xFFFF (Memory I/O, slot 3) - Sub slot select register
 
 ### Slot Map
 * Slot 0
@@ -186,13 +187,13 @@ IC Socket          | U48, U49  | 8 pin DIP                                   | 2
 * Slot 1: Cartridge Slot 1
 * Slot 2: Cartridge Slot 2
 * Slot 3: Expanded slot
-* Slot 3, Subslot 0
+* Slot 3, Sub slot 0
   * 0x0000 - 0x3FFF (16 KiB): Sub ROM, mapped to Flash ROM 0x10000 - 0x13FFF
-* Slot 3, Subslot 1
+* Slot 3, Sub slot 1
   * 0x0000 - 0xFFFF (64 KiB): User ROM #1, mapped to Flash ROM 0x20000 - 0x2FFFF
-* Slot 3, Subslot 2
+* Slot 3, Sub slot 2
   * 0x0000 - 0xFFFF (64 KiB): Main RAM (memory mapper)
-* Slot 3, Subslot 3
+* Slot 3, Sub slot 3
   * 0x0000 - 0xFFFF (64 KiB): User ROM #2, mapped to Flash ROM 0x30000 - 0x3FFFF
 
 ## Changes
@@ -216,3 +217,4 @@ IC Socket          | U48, U49  | 8 pin DIP                                   | 2
   * Schematic: /VDP_WAIT has two pull-up connections to RR2 and to RR5. It should be connected only to RR2.
   * Schematic: SW1 should be connected to the ground, SW2 should be left not connected.
   * Schematic: Joystick "Left" and "Right" are reversed.
+  * Schematic: V9939 requires 5% tolerance power supply. Replace ADM693 with ADM691
