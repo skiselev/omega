@@ -79,7 +79,7 @@ Integrated Circuit | U44       | 74AHCT02, 14 pin DIP                        | 1
 Integrated Circuit | U45       | 74HCT00, 14 pin DIP                         | 1        | Mouser [595-SN74HCT00N](https://www.mouser.com/ProductDetail/595-SN74HCT00N)
 Integrated Circuit | U46       | Microprocessor Supervisory Circuit - ADM691A | 1        | Mouser [584-ADM691AANZ](https://www.mouser.com/ProductDetail/584-ADM691AANZ); Possible alternatives: MAX691, LTC691, ADM691
 Integrated Circuit | U47       | Sony CXA1645P RGB Encoder, 24 pin DIP-400   | 1        | eBay
-Integrated Circuit | U48       | OPA340P Operational Amplifier, 8 pin DIP    | 1        | Mouser [595-OPA340PA](https://www.mouser.com/ProductDetail/595-OPA340PA)
+Integrated Circuit | U48       | MCP601-I/P Operational Amplifier, 8 pin DIP | 1        | Mouser [579-MCP601IP](https://www.mouser.com/ProductDetail/579-MCP601IP)
 Integrated Circuit | U49       | LM311N, Voltage Comparator, 8 pin DIP       | 1        | Mouser [926-LM311N-NOPB](https://www.mouser.com/ProductDetail/926-LM311N-NOPB). Note U49 is optional - cassette recorder support.
 Capacitor          | C1 - C59  | 0.1 uF, MLCC, 5 mm Pitch                    | 59       | Mouser [594-K104K15X7RF53H5](https://www.mouser.com/ProductDetail/594-K104K15X7RF53H5)
 Capacitor          | C60 - C65 | 220 uF, Electrolytic                        | 6        | Mouser [647-UBW1E221MPD](https://www.mouser.com/ProductDetail/647-UBW1E221MPD). Note C62 - C64 optional - RGB output support
