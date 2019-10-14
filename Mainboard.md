@@ -92,8 +92,9 @@ Capacitor          | C84 - C86 | 330 pF, MLCC, 5 mm Pitch                    | 3
 Capacitor          | C87       | 68 pF, MLCC, 5 mm Pitch                     | 1        | Mouser [810-FG28C0G1H680JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G1H680JNT0)
 Capacitor          | C88       | 47 pF, MLCC, 5 mm Pitch                     | 1        | Mouser [810-FG28C0G1H470JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G1H470JNT0)
 Capacitor          | C89, C90  | 33 pF, MLCC, 5 mm Pitch                     | 2        | Mouser [810-FG28C0G1H330JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G1H330JNT0)
-Capacitor          | C91, C92  | 30 pF, Trim Capactiors, 5 mm Pitch          | 2        | Mouser [659-GKG30015](https://www.mouser.com/ProductDetail/659-GKG30015). Note: Can be replaced with Mouser [810-FG28C0G2A270JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G2A270JNT0).
-Capacitor          | C93 - C95 | 22 pF, MLCC, 5 mm Pitch                     | 3        | Mouser [810-FG28C0G1H220JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G1H220JNT0)
+Capacitor          | C91, C92  | 30 pF, Trim Capactiors, 5 mm Pitch          | 2        | Mouser [659-GKG30015](https://www.mouser.com/ProductDetail/659-GKG30015). Note: Can be replaced with Mouser [810-FG28C0G2A270JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G2A270JNT0) if color subcarrier frequency tunning is not required.
+Capacitor          | C93       | 27 pF, MLCC, 5 mm Pitch                     | 1        | Mouser [810-FG28C0G2A270JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G2A270JNT0)
+Capacitor          | C94, C95  | 22 pF, MLCC, 5 mm Pitch                     | 2        | Mouser [810-FG28C0G1H220JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G1H220JNT0)
 Capacitor          | C96       | 4.7 pF, MLCC, 5 mm Pitch                    | 1        | Mouser [810-FG28C0G1H4R7CNT0](https://www.mouser.com/ProductDetail/810-FG28C0G1H4R7CNT0)
 Resistor Array     | RR1 - RR4 | 10 kohm, bussed, 10 pin SIP                 | 4        | Mouser [266-10K-RC](https://www.mouser.com/ProductDetail/266-10K-RC)
 Resistor Array     | RR5, RR6  | 4.7 kohm, bussed, 10 pin SIP                | 2        | Mouser [266-4.7K-RC](https://www.mouser.com/ProductDetail/266-4.7K-RC)
