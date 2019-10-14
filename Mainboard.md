@@ -196,6 +196,8 @@ IC Socket          | U48, U49  | 8 pin DIP                                   | 2
   * 0x0000 - 0xFFFF (64 KiB): User ROM #2, mapped to Flash ROM 0x30000 - 0x3FFFF
 
 ## Changes
+* Version 1.1
+  * Fix the known issues of version 1.0
 * Version 1.0
   * Initial version
 
