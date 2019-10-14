@@ -446,7 +446,7 @@ F 3 "" H 3300 3250 50  0001 C CNN
 	1    3300 3250
 	1    0    0    -1  
 $EndComp
-Text Label 4300 2200 2    60   ~ 0
+Text Label 4400 2200 2    60   ~ 0
 KANA_LED
 Text Label 9100 2900 0    60   ~ 0
 KANA_LED
@@ -963,7 +963,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 2100 3900 3100
 Wire Wire Line
-	3200 2200 4300 2200
+	3200 2200 4400 2200
 Wire Wire Line
 	6600 3500 6600 700 
 Wire Wire Line

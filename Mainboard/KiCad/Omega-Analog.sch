@@ -214,7 +214,7 @@ CAS_IN
 Text HLabel 10600 1500 2    60   Output ~ 0
 CAS_IN
 $Comp
-L Comparator:LM311 U49
+L my_components:LM311 U49
 U 1 1 5BFD2D8A
 P 7100 4400
 F 0 "U49" H 7250 4650 50  0000 L CNN
@@ -694,7 +694,7 @@ L Device:D D1
 U 1 1 5BFEDC86
 P 2400 3250
 F 0 "D1" H 2400 3350 50  0000 C CNN
-F 1 "1N4004" H 2400 3150 50  0000 C CNN
+F 1 "1N4148" H 2400 3150 50  0000 C CNN
 F 2 "My_Components:Diode_762" H 2400 3250 50  0001 C CNN
 F 3 "" H 2400 3250 50  0001 C CNN
 	1    2400 3250
@@ -1810,17 +1810,6 @@ F 3 "" H 4300 7150 50  0001 C CNN
 $EndComp
 Text Notes 2250 6150 1    60   ~ 0
 C5: RTC
-$Comp
-L Amplifier_Operational:OPA340P U48
-U 1 1 5C06AE96
-P 3800 1900
-F 0 "U48" H 3800 2150 50  0000 L CNN
-F 1 "OPA340P" H 3800 2050 50  0000 L CNN
-F 2 "My_Components:IC_DIP8_300" H 3800 1900 50  0001 L CNN
-F 3 "" H 3950 2050 50  0001 C CNN
-	1    3800 1900
-	1    0    0    -1  
-$EndComp
 Connection ~ 2600 2000
 Connection ~ 3300 1800
 $Comp
@@ -2285,5 +2274,16 @@ F 2 "My_Components:Cap_Elec_Radial_5mm" H 5150 1900 50  0001 C CNN
 F 3 "" H 5150 1900 50  0001 C CNN
 	1    5150 1900
 	0    -1   -1   0   
+$EndComp
+$Comp
+L Amplifier_Operational:MCP601-xP U48
+U 1 1 5DBEEC00
+P 3800 1900
+F 0 "U48" H 3850 2150 50  0000 L CNN
+F 1 "MCP601" H 3850 2050 50  0000 L CNN
+F 2 "My_Components:IC_DIP8_300" H 3700 1700 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf" H 3950 2050 50  0001 C CNN
+	1    3800 1900
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
