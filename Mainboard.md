@@ -10,7 +10,7 @@ The main board implements standard MSX2* functionality, as described in the [Spe
 * Memory:
   * RAM: 512 KiB SRAM, expandable to 4 MiB using an optional daugherboard. MSX* compatible memory pager. The RAM is mapped to slot 3-2
   * ROM: 256 KiB or 512 KiB Flash ROM. The ROM is mapped to the slot 0 and sub slots 3-0, 3-1, and 3-3
-* Video: Yamaha V9939 or Yamaha V9959 VDP
+* Video: Yamaha V9938 or Yamaha V9958 VDP
   * 128 KiB Video RAM
   * Composite, S-Video, and RGB video outputs
 * Audio: Yamaha YM2149 or General Instrument AY-3-8910 PSG
@@ -93,7 +93,7 @@ Capacitor          | C87       | 68 pF, MLCC, 5 mm Pitch                     | 1
 Capacitor          | C88       | 47 pF, MLCC, 5 mm Pitch                     | 1        | Mouser [810-FG28C0G1H470JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G1H470JNT0)
 Capacitor          | C89, C90  | 33 pF, MLCC, 5 mm Pitch                     | 2        | Mouser [810-FG28C0G1H330JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G1H330JNT0)
 Capacitor          | C91, C92  | 30 pF, Trim Capactiors, 5 mm Pitch          | 2        | Mouser [659-GKG30015](https://www.mouser.com/ProductDetail/659-GKG30015). Note: Can be replaced with Mouser [810-FG28C0G2A270JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G2A270JNT0) if color subcarrier frequency tunning is not required.
-Capacitor          | C93       | 27 pF, MLCC, 5 mm Pitch                     | 1        | Mouser [810-FG28C0G2A270JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G2A270JNT0)
+Capacitor          | C93       | 27 pF, MLCC, 5 mm Pitch                     | 1        | Mouser [810-FG28C0G2A270JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G2A270JNT0). Note C93 should be 18 pF for PAL support.
 Capacitor          | C94, C95  | 22 pF, MLCC, 5 mm Pitch                     | 2        | Mouser [810-FG28C0G1H220JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G1H220JNT0)
 Capacitor          | C96       | 4.7 pF, MLCC, 5 mm Pitch                    | 1        | Mouser [810-FG28C0G1H4R7CNT0](https://www.mouser.com/ProductDetail/810-FG28C0G1H4R7CNT0)
 Resistor Array     | RR1 - RR4 | 10 kohm, bussed, 10 pin SIP                 | 4        | Mouser [266-10K-RC](https://www.mouser.com/ProductDetail/266-10K-RC)
@@ -105,7 +105,7 @@ Resistor           | R2, R3    | 470 kohm, axial                             | 2
 Resistor           | R4        | 220 kohm, axial                             | 1        | Mouser [291-220K-RC](https://www.mouser.com/ProductDetail/291-220K-RC)
 Resistor           | R5, R6    | 100 kohm, axial                             | 2        | Mouser [291-100K-RC](https://www.mouser.com/ProductDetail/291-100K-RC)
 Resistor           | R7, R8    | 47 kohm, axial                              | 2        | Mouser [291-47K-RC](https://www.mouser.com/ProductDetail/291-47K-RC)
-Resistor           | R9, R10   | 20 kohm, 1% tolerance, axial                | 2        | Mouser [603-MFR-25FRF5220K](https://www.mouser.com/ProductDetail/603-MFR-25FRF5220K)
+Resistor           | R9, R10   | 20 kohm, 1% tolerance, axial                | 2        | Mouser [603-MFR-25FRF5220K](https://www.mouser.com/ProductDetail/603-MFR-25FRF5220K). Note R9 should be 16 kohm, 1% for PAL support.
 Resistor           | R11 - R13 | 10 kohm, axial                              | 3        | Mouser [291-10K-RC](https://www.mouser.com/ProductDetail/291-10K-RC). Note R11, R12 are optional - cassette recorder support.
 Resistor           | R14       | 5.6 kohm, axial                             | 1        | Mouser [291-5.6K-RC](https://www.mouser.com/ProductDetail/291-5.6K-RC)
 Resistor           | R15 - R24 | 4.7 kohm, axial                             | 10       | Mouser [291-4.7K-RC](https://www.mouser.com/ProductDetail/291-4.7K-RC). Note R17 - R19 are optional - cassette recorder support.
@@ -127,7 +127,7 @@ Connector          | J1        | DC Power Jack, 2mm                          | 1
 Connector          | J2        | RCA Phono connector, Yellow                 | 1        | Mouser [490-RCJ-014](https://www.mouser.com/ProductDetail/490-RCJ-014)
 Connector          | J2        | RCA Phono connector, White                  | 1        | Mouser [490-RCJ-013](https://www.mouser.com/ProductDetail/490-RCJ-013)
 Connector          | J4        | Mini DIN 4-pos, Right Angle, PCB mount      | 1        | Mouser [490-MD-40SM](https://www.mouser.com/ProductDetail/490-MD-40SM)
-Connector          | J5, J6    | Mini DIN 8-pos, Right Angle, PCB mount      | 2        | Mouser [490-MD-80SM](https://www.mouser.com/ProductDetail/490-MD-80SM). Note J5 is optional - RGB support; J6 is optional - cassette recorder support.
+Connector          | J5, J6    | DIN 8-pos, Right Angle, PCB mount           | 2        | Mouser [490-SDF-80J](https://www.mouser.com/ProductDetail/490-SDF-80J). Note J5 is optional - RGB support; J6 is optional - cassette recorder support.
 Connector          | J7, J8    | Sub-D DE9M, Right Angle, PCB mount          | 2        | Mouser [523-L717SDE09P1ACH3R](https://www.mouser.com/ProductDetail/523-L717SDE09P1ACH3R)
 Connector          | J9        | Micro Ribbon 14-pos, Female, Right Angle, PCB mount | 1        | Mouser [636-112-014-213R001](https://www.mouser.com/ProductDetail/636-112-014-213R001). Note J9 is optional - printer port support.
 Connector          | J10       | 8 pin friction lock connector               | 1        | Mouser [571-6404568](https://www.mouser.com/ProductDetail/571-6404568)
