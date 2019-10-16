@@ -105,7 +105,7 @@ Resistor           | R2, R3    | 470 kohm, axial                             | 2
 Resistor           | R4        | 220 kohm, axial                             | 1        | Mouser [291-220K-RC](https://www.mouser.com/ProductDetail/291-220K-RC)
 Resistor           | R5, R6    | 100 kohm, axial                             | 2        | Mouser [291-100K-RC](https://www.mouser.com/ProductDetail/291-100K-RC)
 Resistor           | R7, R8    | 47 kohm, axial                              | 2        | Mouser [291-47K-RC](https://www.mouser.com/ProductDetail/291-47K-RC)
-Resistor           | R9, R10   | 20 kohm, 1% tolerance, axial                | 2        | Mouser [603-MFR-25FRF5220K](https://www.mouser.com/ProductDetail/603-MFR-25FRF5220K). Note R9 should be 16 kohm, 1% for PAL support.
+Resistor           | R9, R10   | 20 kohm, 1% tolerance, axial                | 2        | Mouser [603-MFR-25FBF52-20K](https://www.mouser.com/ProductDetail/603-MFR-25FBF52-20K). Note R9 should be 16 kohm, 1% for PAL support.
 Resistor           | R11 - R13 | 10 kohm, axial                              | 3        | Mouser [291-10K-RC](https://www.mouser.com/ProductDetail/291-10K-RC). Note R11, R12 are optional - cassette recorder support.
 Resistor           | R14       | 5.6 kohm, axial                             | 1        | Mouser [291-5.6K-RC](https://www.mouser.com/ProductDetail/291-5.6K-RC)
 Resistor           | R15 - R24 | 4.7 kohm, axial                             | 10       | Mouser [291-4.7K-RC](https://www.mouser.com/ProductDetail/291-4.7K-RC). Note R17 - R19 are optional - cassette recorder support.
