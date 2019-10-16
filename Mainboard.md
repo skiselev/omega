@@ -81,21 +81,21 @@ Integrated Circuit | U46       | Microprocessor Supervisory Circuit - ADM691A | 
 Integrated Circuit | U47       | Sony CXA1645P RGB Encoder, 24 pin DIP-400   | 1        | eBay
 Integrated Circuit | U48       | MCP601-I/P Operational Amplifier, 8 pin DIP | 1        | Mouser [579-MCP601IP](https://www.mouser.com/ProductDetail/579-MCP601IP)
 Integrated Circuit | U49       | LM311N, Voltage Comparator, 8 pin DIP       | 1        | Mouser [926-LM311N-NOPB](https://www.mouser.com/ProductDetail/926-LM311N-NOPB). Note U49 is optional - cassette recorder support.
-Capacitor          | C1 - C59  | 0.1 uF, MLCC, 5 mm Pitch                    | 59       | Mouser [594-K104K15X7RF53H5](https://www.mouser.com/ProductDetail/594-K104K15X7RF53H5)
-Capacitor          | C60 - C65 | 220 uF, Electrolytic                        | 6        | Mouser [647-UBW1E221MPD](https://www.mouser.com/ProductDetail/647-UBW1E221MPD). Note C62 - C64 optional - RGB output support
-Capacitor          | C66 - C72 | 47 uF, 25V, Aluminum Organic Polymer        | 7        | Mouser [80-A750EK476M1EAAE40](https://www.mouser.com/ProductDetail/80-A750EK476M1EAAE40)
-Capacitor          | C73 - C79 | 10 uF, Electrolytic                         | 7        | Mouser [647-UPW1E100MDD1TD](https://www.mouser.com/ProductDetail/647-UPW1E100MDD1TD). Note C72 optional - cassette recorder support.
-Capacitor          | C80       | 1 uF, Electrolytic                          | 1        | Mouser [710-860020672005](https://www.mouser.com/ProductDetail/710-860020672005). Note C79 optional - cassette recorder support.
-Capacitor          | C81, C82  | 22 nF, MLCC, 5 mm Pitch                     | 2        | Mouser [810-FG28X7R1H223KNT0](https://www.mouser.com/ProductDetail/810-FG28X7R1H223KNT0). Note C80, C81 optional - cassette recorder support.
-Capacitor          | C83       | 1.5 nF, MLCC, 5 mm Pitch                    | 1        | Mouser [810-FG28C0G1H152JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G1H152JNT0)
-Capacitor          | C84 - C86 | 330 pF, MLCC, 5 mm Pitch                    | 3        | Mouser [810-FG28C0G1H331JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G1H331JNT0)
-Capacitor          | C87       | 68 pF, MLCC, 5 mm Pitch                     | 1        | Mouser [810-FG28C0G1H680JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G1H680JNT0)
-Capacitor          | C88       | 47 pF, MLCC, 5 mm Pitch                     | 1        | Mouser [810-FG28C0G1H470JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G1H470JNT0)
-Capacitor          | C89, C90  | 33 pF, MLCC, 5 mm Pitch                     | 2        | Mouser [810-FG28C0G1H330JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G1H330JNT0)
-Capacitor          | C91, C92  | 30 pF, Trim Capactiors, 5 mm Pitch          | 2        | Mouser [659-GKG30015](https://www.mouser.com/ProductDetail/659-GKG30015). Note: Can be replaced with Mouser [810-FG28C0G2A270JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G2A270JNT0) if color subcarrier frequency tunning is not required.
-Capacitor          | C93       | 27 pF, MLCC, 5 mm Pitch                     | 1        | Mouser [810-FG28C0G2A270JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G2A270JNT0). Note C93 should be 18 pF for PAL support.
-Capacitor          | C94, C95  | 22 pF, MLCC, 5 mm Pitch                     | 2        | Mouser [810-FG28C0G1H220JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G1H220JNT0)
-Capacitor          | C96       | 4.7 pF, MLCC, 5 mm Pitch                    | 1        | Mouser [810-FG28C0G1H4R7CNT0](https://www.mouser.com/ProductDetail/810-FG28C0G1H4R7CNT0)
+Capacitor          | C1 - C57  | 0.1 uF, MLCC, 5 mm Pitch                    | 57       | Mouser [594-K104K15X7RF53H5](https://www.mouser.com/ProductDetail/594-K104K15X7RF53H5)
+Capacitor          | C58 - C63 | 220 uF, Electrolytic                        | 6        | Mouser [647-UBW1E221MPD](https://www.mouser.com/ProductDetail/647-UBW1E221MPD). Note C61 - C63 optional - RGB output support
+Capacitor          | C64 - C70 | 47 uF, 25V, Aluminum Organic Polymer        | 7        | Mouser [80-A750EK476M1EAAE40](https://www.mouser.com/ProductDetail/80-A750EK476M1EAAE40)
+Capacitor          | C71 - C77 | 10 uF, Electrolytic                         | 7        | Mouser [647-UPW1E100MDD1TD](https://www.mouser.com/ProductDetail/647-UPW1E100MDD1TD). Note C71 optional - cassette recorder support.
+Capacitor          | C78       | 1 uF, Electrolytic                          | 1        | Mouser [710-860020672005](https://www.mouser.com/ProductDetail/710-860020672005). Note C78 optional - cassette recorder support.
+Capacitor          | C79, C80  | 22 nF, MLCC, 5 mm Pitch                     | 2        | Mouser [810-FG28X7R1H223KNT0](https://www.mouser.com/ProductDetail/810-FG28X7R1H223KNT0). Note C79, C80 optional - cassette recorder support.
+Capacitor          | C81       | 1.5 nF, MLCC, 5 mm Pitch                    | 1        | Mouser [810-FG28C0G1H152JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G1H152JNT0)
+Capacitor          | C82 - C84 | 330 pF, MLCC, 5 mm Pitch                    | 3        | Mouser [810-FG28C0G1H331JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G1H331JNT0)
+Capacitor          | C85       | 68 pF, MLCC, 5 mm Pitch                     | 1        | Mouser [810-FG28C0G1H680JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G1H680JNT0)
+Capacitor          | C86       | 47 pF, MLCC, 5 mm Pitch                     | 1        | Mouser [810-FG28C0G1H470JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G1H470JNT0)
+Capacitor          | C87, C88  | 33 pF, MLCC, 5 mm Pitch                     | 2        | Mouser [810-FG28C0G1H330JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G1H330JNT0)
+Capacitor          | C89, C90  | 30 pF, Trim Capactiors, 5 mm Pitch          | 2        | Mouser [659-GKG30015](https://www.mouser.com/ProductDetail/659-GKG30015). Note: Can be replaced with Mouser [810-FG28C0G2A270JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G2A270JNT0) if color subcarrier frequency tunning is not required.
+Capacitor          | C91       | 27 pF, MLCC, 5 mm Pitch                     | 1        | Mouser [810-FG28C0G2A270JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G2A270JNT0). Note C91 should be 18 pF for PAL support.
+Capacitor          | C92, C93  | 22 pF, MLCC, 5 mm Pitch                     | 2        | Mouser [810-FG28C0G1H220JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G1H220JNT0)
+Capacitor          | C94       | 4.7 pF, MLCC, 5 mm Pitch                    | 1        | Mouser [810-FG28C0G1H4R7CNT0](https://www.mouser.com/ProductDetail/810-FG28C0G1H4R7CNT0)
 Resistor Array     | RR1 - RR4 | 10 kohm, bussed, 10 pin SIP                 | 4        | Mouser [266-10K-RC](https://www.mouser.com/ProductDetail/266-10K-RC)
 Resistor Array     | RR5, RR6  | 4.7 kohm, bussed, 10 pin SIP                | 2        | Mouser [266-4.7K-RC](https://www.mouser.com/ProductDetail/266-4.7K-RC)
 Resistor Array     | RR7       | 4.7 kohm, bussed, 6 pin SIP                 | 1        | Mouser [264-4.7K-RC](https://www.mouser.com/ProductDetail/264-4.7K-RC)
