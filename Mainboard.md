@@ -32,6 +32,27 @@ The main board implements standard MSX2* functionality, as described in the [Spe
 
 ### Connectors
 
+#### J5 - RGB Connector
+Pin | Description     
+--- | ---------------
+1   | Power: GND
+2   |	Output: Audio
+3   |	Output: AV (4.55V)
+4   |	Output: Composite Video
+5   |	Output: YS (3 V)
+6   |	Output: Red
+7   | Output: Green
+8   | Output: Blue
+
+#### J6 - Cassette Connector
+Pin | Description     
+--- | ---------------
+1, 2, 3, 8   | Power: GND
+4   |	Output: Sound output to cassette recorder (microphone level)
+5   |	Input: Sound input from cassette recorder (line level)
+6   |	Output: Relay - Motor control
+7   | Output: Relay - Motor control
+
 #### J11 - Keyboard Interface
 Pin | Description     | Pin | Description
 --- | --------------- | --- | ----------------
@@ -200,6 +221,7 @@ IC Socket          | U48, U49  | 8 pin DIP                                   | 2
 ## Changes
 * Version 1.1
   * Fix the known issues of version 1.0
+  * Use DIN-8 connectors with standard MSX/MSX2 pinout for RGB and Cassette interfaces
 * Version 1.0
   * Initial version
 
