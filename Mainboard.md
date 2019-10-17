@@ -32,11 +32,43 @@ The main board implements standard MSX2* functionality, as described in the [Spe
 
 ### Connectors
 
+#### J1 - Power (5V)
+Connect regulated +5V power supply to this connector.
+
+Note: On-board components use only 5V supply voltage. Some cartridges might also need 12V/-12V supply voltage. J10 connector should be used in this case.
+
+Pin | Description     
+--- | ---------------
+Tip (the inner contact) | Power: 5V (positive terminal)
+Barrel / Sleeve         |	Power: GND (negative terminal)
+
+#### J2 - Composite Video
+
+Pin | Description     
+--- | ---------------
+Tip (the inner contact) | Output: Composite Video
+Ring / Sleeve         |	Power: GND
+
+#### J3 - Audio
+
+Pin | Description     
+--- | ---------------
+Tip (the inner contact) | Output: Audio (line level)
+Ring / Sleeve         |	Power: GND
+
+#### J4 - S-Video
+
+Pin | Description     
+--- | ---------------
+1, 2 | Power: GND
+3    |	Output: Luminance (intensity)
+4    | Output: Chrominance (color)
+
 #### J5 - RGB Connector
 Pin | Description     
 --- | ---------------
 1   | Power: GND
-2   |	Output: Audio
+2   |	Output: Audio (line level)
 3   |	Output: AV (4.55V)
 4   |	Output: Composite Video
 5   |	Output: YS (3 V)
@@ -53,10 +85,51 @@ Pin | Description
 6   |	Output: Relay - Motor control
 7   | Output: Relay - Motor control
 
+#### J7, J8 - Joystick Connectors
+Pin | Description     
+--- | ---------------
+1   | Input: Forward (north / up)
+2   | Input: Backward (south / down)
+3   | Input: Left (west)
+4   | Input: Right (east)
+5   | Power: 5V
+6   | Input: Trigger 1
+7   | Input: Trigger 2
+8   | Output: Joystick select
+9   | Power: GND
+
+#### J9 - Printer Connector
+Pin | Description     
+--- | ---------------
+1   | Output: /STROBE
+2   | Output: D0
+3   | Output: D1
+4   | Output: D2
+5   | Output: D3
+6   | Output: D4
+7   | Output: D5
+8   | Output: D6
+9   | Output: D7
+10  | No connection
+11  | Input: Busy
+12  | No connection
+13  | No connection
+14  | Power: GND
+
+#### J10 - Power (5V, 12V, -12V)
+Connect regulated 5V/12V/-12V power supply to this connector.
+
+Pin | Description     
+--- | ---------------
+1, 2, 3 | Power: GND
+4, 5, 6 |	Power: 5V
+7   |	Power: 12V
+8   |	Power: -12V
+
 #### J11 - Keyboard Interface
 Pin | Description     | Pin | Description
 --- | --------------- | --- | ----------------
-1   | Input: Column 0 | 2   | Power: +5V
+1   | Input: Column 0 | 2   | Power: 5V
 3   |	Input: Column 1 | 4   | Output: Row A
 5   |	Input: Column 2 | 6   | Output: Row B
 7   |	Input: Column 3 | 8   | Output: Row C
@@ -64,6 +137,30 @@ Pin | Description     | Pin | Description
 11  |	Input: Column 5 | 12  | Output: Caps Lock LED
 13  | Input: Column 6 | 14  | Output: Kana LED
 15  | Input: Column 7 | 16  | Power: GND
+
+#### J12 - SRAM Extension
+Pin | Description      | Pin | Description
+--- | ---------------- | --- | ----------------
+1   | Power: 5V        | 2   | Power: 5V
+3   |	Output: /RAM2_CS | 4   | Output: /RAM1_CS
+5   |	Output: /RAM4_CS | 6   | Output: /RAM3_CS
+7   |	Output: /RAM6_CS | 8   | Output: /RAM5_CS
+9   |	Output: RAM_A18  | 10  | Output: /RAM7_CS
+11  |	Output: RAM_A16  | 12  | Output: RAM_A15 
+13  | Output: RAM_A14  | 14  | Output: RAM_A17 
+15  | Output: A12      | 16  | Output: /WR
+17  | Output: A7       | 18  | Output: A13
+19  | Output: A6       | 20  | Output: A8
+21  | Output: A5       | 22  | Output: A9
+23  | Output: A4       | 24  | Output: A11
+25  | Output: A3       | 26  | Output: /RD
+27  | Output: A2       | 28  | Output: A10
+29  | Output: A1       | 30  | Bi-directional: MD7
+31  | Output: A0       | 32  | Bi-directional: MD6
+33  | Bi-directional: MD0 | 34  | Bi-directional: MD5
+35  | Bi-directional: MD1 | 36  | Bi-directional: MD4
+37  | Bi-directional: MD2 | 38  | Bi-directional: MD3
+39  | Power: GND       | 40  | Power: GND
 
 ### Bill of Materials - Version 1.1
 
