@@ -114,9 +114,9 @@ Text Label 8000 3300 0    60   ~ 0
 ~SLT_WAIT
 Text Label 4500 1500 0    60   ~ 0
 ~RFSH
-Text Label 8000 2800 0    60   ~ 0
-~NMI
 Text Label 8000 2700 0    60   ~ 0
+~NMI
+Text Label 8000 2600 0    60   ~ 0
 ~BUSREQ
 Text Label 4500 2100 0    60   ~ 0
 ~INT
@@ -441,10 +441,10 @@ F 3 "" H 8100 4550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C87
+L Device:C C85
 U 1 1 5BF85069
 P 7750 3800
-F 0 "C87" H 7775 3900 50  0000 L CNN
+F 0 "C85" H 7775 3900 50  0000 L CNN
 F 1 "68pF" H 7775 3700 50  0000 L CNN
 F 2 "My_Components:Cap_Cer_508" H 7788 3650 50  0001 C CNN
 F 3 "" H 7750 3800 50  0001 C CNN
@@ -452,10 +452,10 @@ F 3 "" H 7750 3800 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:C C90
+L Device:C C88
 U 1 1 5BF850EC
 P 7750 4300
-F 0 "C90" H 7775 4400 50  0000 L CNN
+F 0 "C88" H 7775 4400 50  0000 L CNN
 F 1 "33pF" H 7775 4200 50  0000 L CNN
 F 2 "My_Components:Cap_Cer_508" H 7788 4150 50  0001 C CNN
 F 3 "" H 7750 4300 50  0001 C CNN
@@ -463,10 +463,10 @@ F 3 "" H 7750 4300 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:C C89
+L Device:C C87
 U 1 1 5BF8514D
 P 7750 4800
-F 0 "C89" H 7775 4900 50  0000 L CNN
+F 0 "C87" H 7775 4900 50  0000 L CNN
 F 1 "33pF" H 7775 4700 50  0000 L CNN
 F 2 "My_Components:Cap_Cer_508" H 7788 4650 50  0001 C CNN
 F 3 "" H 7750 4800 50  0001 C CNN
@@ -839,11 +839,9 @@ Wire Wire Line
 Wire Wire Line
 	8500 2500 8000 2500
 Wire Wire Line
-	8500 2600 8000 2600
-Wire Wire Line
 	4900 1500 4500 1500
 Wire Wire Line
-	8000 2800 8500 2800
+	8000 2700 8500 2700
 Wire Wire Line
 	8000 2900 8500 2900
 Wire Wire Line
@@ -851,7 +849,7 @@ Wire Wire Line
 Wire Wire Line
 	8000 3300 8500 3300
 Wire Wire Line
-	8000 2700 8500 2700
+	8000 2600 8500 2600
 Wire Wire Line
 	4300 2100 4900 2100
 Wire Wire Line
@@ -1240,10 +1238,10 @@ Wire Wire Line
 	3900 2000 3900 2900
 Connection ~ 3900 2900
 $Comp
-L Device:R R31
+L Device:R R29
 U 1 1 5C039811
 P 900 1750
-F 0 "R31" V 980 1750 50  0000 C CNN
+F 0 "R29" V 980 1750 50  0000 C CNN
 F 1 "1k" V 900 1750 50  0000 C CNN
 F 2 "My_Components:Res_762" V 830 1750 50  0001 C CNN
 F 3 "" H 900 1750 50  0001 C CNN
@@ -1558,8 +1556,6 @@ Wire Wire Line
 	7900 5200 8700 5200
 Wire Wire Line
 	7700 5300 8700 5300
-Text Label 8000 2600 0    60   ~ 0
-PRT_BUSY
 NoConn ~ 8500 3100
 $Comp
 L Connector_Generic:Conn_02x07_Top_Bottom J9
@@ -1583,4 +1579,50 @@ Wire Wire Line
 	4100 6100 4100 7400
 Wire Wire Line
 	1900 7400 4100 7400
+Text Label 10200 3300 0    60   ~ 0
+PRT_BUSY
+Wire Wire Line
+	10600 3300 10200 3300
+Text HLabel 10600 3300 2    60   Output ~ 0
+PRT_BUSY
+NoConn ~ 8500 2800
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J13
+U 1 1 5F89FB61
+P 5200 5800
+F 0 "J13" H 5250 6029 50  0000 C CNN
+F 1 "~RST~/~NMI" H 5250 5931 50  0000 C CNN
+F 2 "My_Components:Conn_Pin_Header_2x2_2.54mm" H 5200 5800 50  0001 C CNN
+F 3 "~" H 5200 5800 50  0001 C CNN
+	1    5200 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 5800 5600 5800
+Wire Wire Line
+	5600 5800 5600 5900
+Wire Wire Line
+	5500 5900 5600 5900
+Connection ~ 5600 5900
+Wire Wire Line
+	5600 5900 5600 6000
+Wire Wire Line
+	5000 5800 4600 5800
+Wire Wire Line
+	5000 5900 4600 5900
+Text Label 4600 5800 0    60   ~ 0
+~RESET
+Text Label 4600 5900 0    60   ~ 0
+~NMI
+$Comp
+L power:GND #PWR0155
+U 1 1 5F907B82
+P 5600 6000
+F 0 "#PWR0155" H 5600 5750 50  0001 C CNN
+F 1 "GND" H 5600 5850 50  0000 C CNN
+F 2 "" H 5600 6000 50  0001 C CNN
+F 3 "" H 5600 6000 50  0001 C CNN
+	1    5600 6000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
