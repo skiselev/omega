@@ -91,32 +91,32 @@ Text Label 4500 1300 0    60   ~ 0
 $Comp
 L my_components:RR9 RR5
 U 1 1 5BECD787
-P 8800 2850
-F 0 "RR5" H 8700 3400 50  0000 L CNN
-F 1 "4.7k" H 8700 2300 50  0000 L CNN
-F 2 "My_Components:Conn_SIL10" H 8800 2850 50  0001 C CNN
-F 3 "" H 8800 2850 50  0000 C CNN
-	1    8800 2850
+P 8800 3050
+F 0 "RR5" H 8700 3600 50  0000 L CNN
+F 1 "4.7k" H 8700 2500 50  0000 L CNN
+F 2 "My_Components:Conn_SIL10" H 8800 3050 50  0001 C CNN
+F 3 "" H 8800 3050 50  0000 C CNN
+	1    8800 3050
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR0105
 U 1 1 5BECDAE1
-P 8400 2300
-F 0 "#PWR0105" H 8400 2150 50  0001 C CNN
-F 1 "VCC" H 8400 2450 50  0000 C CNN
-F 2 "" H 8400 2300 50  0001 C CNN
-F 3 "" H 8400 2300 50  0001 C CNN
-	1    8400 2300
+P 8400 2500
+F 0 "#PWR0105" H 8400 2350 50  0001 C CNN
+F 1 "VCC" H 8400 2650 50  0000 C CNN
+F 2 "" H 8400 2500 50  0001 C CNN
+F 3 "" H 8400 2500 50  0001 C CNN
+	1    8400 2500
 	1    0    0    -1  
 $EndComp
-Text Label 8000 3300 0    60   ~ 0
+Text Label 8000 3500 0    60   ~ 0
 ~SLT_WAIT
 Text Label 4500 1500 0    60   ~ 0
 ~RFSH
-Text Label 8000 2700 0    60   ~ 0
+Text Label 8000 2900 0    60   ~ 0
 ~NMI
-Text Label 8000 2600 0    60   ~ 0
+Text Label 8000 2800 0    60   ~ 0
 ~BUSREQ
 Text Label 4500 2100 0    60   ~ 0
 ~INT
@@ -231,7 +231,7 @@ F 3 "" H 9300 4900 60  0000 C CNN
 	1    9300 5200
 	1    0    0    -1  
 $EndComp
-Text Label 8000 2500 0    60   ~ 0
+Text Label 8000 2700 0    60   ~ 0
 ~KBD_WAIT
 Text Label 10200 1800 0    60   ~ 0
 ~MREQ
@@ -287,50 +287,50 @@ Text Label 700  2200 0    60   ~ 0
 ~VDP_INT
 Text Label 700  2300 0    60   ~ 0
 ~SLT_INT
-Text Label 8000 3200 0    60   ~ 0
+Text Label 8000 3400 0    60   ~ 0
 ~SLT_INT
 Text Label 9100 3100 0    60   ~ 0
 ~SLT_INT
 Text HLabel 9500 3100 2    60   Input ~ 0
 ~SLT_INT
-Text Label 6900 1400 0    60   ~ 0
-A3
-Text Label 6900 1300 0    60   ~ 0
-A4
-Text Label 6900 1200 0    60   ~ 0
-A5
-Text Label 6900 1000 0    60   ~ 0
-A7
 Text Label 6900 1700 0    60   ~ 0
+A3
+Text Label 6900 1600 0    60   ~ 0
+A4
+Text Label 6900 1500 0    60   ~ 0
+A5
+Text Label 6900 1300 0    60   ~ 0
+A7
+Text Label 6900 2000 0    60   ~ 0
 ~M1
-Text Label 6900 900  0    60   ~ 0
+Text Label 6900 1200 0    60   ~ 0
 ~IORQ
-Text Label 6900 1100 0    60   ~ 0
+Text Label 6900 1400 0    60   ~ 0
 A6
 $Comp
 L my_components:ATF16V8B U12
 U 1 1 5BF764B1
-P 7800 1250
-F 0 "U12" H 7500 1850 60  0000 L CNN
-F 1 "ATF16V8B" H 7500 650 60  0000 L CNN
-F 2 "My_Components:IC_DIP20_300" H 7800 1150 60  0001 C CNN
-F 3 "" H 7800 1150 60  0000 C CNN
-	1    7800 1250
+P 7800 1550
+F 0 "U12" H 7500 2250 60  0000 C CNN
+F 1 "ATF16V8B" H 7500 2150 60  0000 C CNN
+F 2 "My_Components:IC_DIP20_300" H 7800 1450 60  0001 C CNN
+F 3 "" H 7800 1450 60  0000 C CNN
+	1    7800 1550
 	1    0    0    -1  
 $EndComp
-Text Label 6900 1500 0    60   ~ 0
+Text Label 6900 1800 0    60   ~ 0
 A2
-Text Label 6900 800  0    60   ~ 0
+Text Label 6900 1100 0    60   ~ 0
 ~WR
-Text Label 8800 900  2    60   ~ 0
-~VDP_CS
-Text Label 8800 800  2    60   ~ 0
-~PSG_CS
-Text Label 8800 1300 2    60   ~ 0
-~PPI_CS
-Text Label 8800 1100 2    60   ~ 0
-~RTC_CS
 Text Label 8800 1200 2    60   ~ 0
+~VDP_CS
+Text Label 8800 1100 2    60   ~ 0
+~PSG_CS
+Text Label 8800 1600 2    60   ~ 0
+~PPI_CS
+Text Label 8800 1400 2    60   ~ 0
+~RTC_CS
+Text Label 8800 1500 2    60   ~ 0
 ~PAGE_CS
 Text Label 9100 3300 0    60   ~ 0
 ~VDP_CS
@@ -388,7 +388,7 @@ Text Label 8300 6000 0    60   ~ 0
 ~RTC_CS_B
 Text Label 10300 4600 2    60   ~ 0
 ALARM
-Text Label 6900 2500 0    60   ~ 0
+Text Label 6900 2700 0    60   ~ 0
 ALARM
 Text Label 11000 4300 2    60   ~ 0
 RTC_VCC
@@ -419,17 +419,6 @@ F 3 "" H 7300 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Crystal Y2
-U 1 1 5BF83530
-P 8100 4050
-F 0 "Y2" H 8100 4200 50  0000 C CNN
-F 1 "32768 Hz" H 8100 3900 50  0000 C CNN
-F 2 "My_Components:Crystal_32K_Horiz" H 8100 4050 50  0001 C CNN
-F 3 "" H 8100 4050 50  0001 C CNN
-	1    8100 4050
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:R R5
 U 1 1 5BF84662
 P 8100 4550
@@ -441,21 +430,21 @@ F 3 "" H 8100 4550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C85
+L Device:CTRIM C88
 U 1 1 5BF85069
 P 7750 3800
-F 0 "C85" H 7775 3900 50  0000 L CNN
-F 1 "68pF" H 7775 3700 50  0000 L CNN
-F 2 "My_Components:Cap_Cer_508" H 7788 3650 50  0001 C CNN
+F 0 "C88" H 7600 3900 50  0000 L CNN
+F 1 "30pF" H 7775 3700 50  0000 L CNN
+F 2 "My_Components:C_Trim_Murata" H 7788 3650 50  0001 C CNN
 F 3 "" H 7750 3800 50  0001 C CNN
 	1    7750 3800
-	0    -1   1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C88
+L Device:C C87
 U 1 1 5BF850EC
 P 7750 4300
-F 0 "C88" H 7775 4400 50  0000 L CNN
+F 0 "C87" H 7775 4400 50  0000 L CNN
 F 1 "33pF" H 7775 4200 50  0000 L CNN
 F 2 "My_Components:Cap_Cer_508" H 7788 4150 50  0001 C CNN
 F 3 "" H 7750 4300 50  0001 C CNN
@@ -463,10 +452,10 @@ F 3 "" H 7750 4300 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:C C87
+L Device:C C86
 U 1 1 5BF8514D
 P 7750 4800
-F 0 "C87" H 7775 4900 50  0000 L CNN
+F 0 "C86" H 7775 4900 50  0000 L CNN
 F 1 "33pF" H 7775 4700 50  0000 L CNN
 F 2 "My_Components:Cap_Cer_508" H 7788 4650 50  0001 C CNN
 F 3 "" H 7750 4800 50  0001 C CNN
@@ -521,47 +510,47 @@ Text Label 6500 3100 2    60   ~ 0
 D6
 Text Label 6500 3200 2    60   ~ 0
 D7
-Text Label 6900 1600 0    60   ~ 0
+Text Label 6900 1900 0    60   ~ 0
 A0
-Text Label 8800 1000 2    60   ~ 0
+Text Label 8800 1300 2    60   ~ 0
 ~RTC_AD_WR
 $Comp
 L my_components:RR9 RR1
 U 1 1 5BF3C9E5
-P 7600 2850
-F 0 "RR1" H 7500 3400 50  0000 L CNN
-F 1 "10k" H 7500 2300 50  0000 L CNN
-F 2 "My_Components:Conn_SIL10" H 7600 2850 50  0001 C CNN
-F 3 "" H 7600 2850 50  0000 C CNN
-	1    7600 2850
+P 7600 3050
+F 0 "RR1" H 7500 3600 50  0000 L CNN
+F 1 "10k" H 7500 2500 50  0000 L CNN
+F 2 "My_Components:Conn_SIL10" H 7600 3050 50  0001 C CNN
+F 3 "" H 7600 3050 50  0000 C CNN
+	1    7600 3050
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR0107
 U 1 1 5BF3CB51
-P 7200 2300
-F 0 "#PWR0107" H 7200 2150 50  0001 C CNN
-F 1 "VCC" H 7200 2450 50  0000 C CNN
-F 2 "" H 7200 2300 50  0001 C CNN
-F 3 "" H 7200 2300 50  0001 C CNN
-	1    7200 2300
+P 7200 2500
+F 0 "#PWR0107" H 7200 2350 50  0001 C CNN
+F 1 "VCC" H 7200 2650 50  0000 C CNN
+F 2 "" H 7200 2500 50  0001 C CNN
+F 3 "" H 7200 2500 50  0001 C CNN
+	1    7200 2500
 	1    0    0    -1  
 $EndComp
-Text Label 6900 2600 0    60   ~ 0
-D0
-Text Label 6900 2700 0    60   ~ 0
-D1
 Text Label 6900 2800 0    60   ~ 0
-D2
+D0
 Text Label 6900 2900 0    60   ~ 0
-D3
+D1
 Text Label 6900 3000 0    60   ~ 0
-D4
+D2
 Text Label 6900 3100 0    60   ~ 0
-D5
+D3
 Text Label 6900 3200 0    60   ~ 0
-D6
+D4
 Text Label 6900 3300 0    60   ~ 0
+D5
+Text Label 6900 3400 0    60   ~ 0
+D6
+Text Label 6900 3500 0    60   ~ 0
 D7
 $Comp
 L my_components:ADM693 U46
@@ -833,23 +822,23 @@ Wire Wire Line
 Wire Wire Line
 	4900 1300 4500 1300
 Wire Wire Line
-	8500 2400 8400 2400
+	8500 2600 8400 2600
 Wire Wire Line
-	8400 2400 8400 2300
+	8400 2600 8400 2500
 Wire Wire Line
-	8500 2500 8000 2500
+	8500 2700 8000 2700
 Wire Wire Line
 	4900 1500 4500 1500
 Wire Wire Line
-	8000 2700 8500 2700
-Wire Wire Line
 	8000 2900 8500 2900
 Wire Wire Line
-	8000 3200 8500 3200
+	8000 3100 8500 3100
 Wire Wire Line
-	8000 3300 8500 3300
+	8000 3400 8500 3400
 Wire Wire Line
-	8000 2600 8500 2600
+	8000 3500 8500 3500
+Wire Wire Line
+	8000 2800 8500 2800
 Wire Wire Line
 	4300 2100 4900 2100
 Wire Wire Line
@@ -939,31 +928,25 @@ Wire Wire Line
 Wire Wire Line
 	9100 3100 9500 3100
 Wire Wire Line
-	6900 1400 7300 1400
+	6900 1700 7300 1700
 Wire Wire Line
-	6900 1300 7300 1300
+	6900 1600 7300 1600
 Wire Wire Line
-	6900 1200 7300 1200
+	6900 1500 7300 1500
 Wire Wire Line
-	7300 1000 6900 1000
+	7300 1300 6900 1300
 Wire Wire Line
-	7300 1700 6900 1700
+	7300 2000 6900 2000
 Wire Wire Line
-	7300 900  6900 900 
+	7300 1200 6900 1200
 Wire Wire Line
-	7300 1100 6900 1100
+	7300 1400 6900 1400
 Wire Wire Line
-	7300 1500 6900 1500
-Wire Wire Line
-	8300 800  8800 800 
-Wire Wire Line
-	7300 800  6900 800 
-Wire Wire Line
-	8300 900  8800 900 
-Wire Wire Line
-	8300 1000 8800 1000
+	7300 1800 6900 1800
 Wire Wire Line
 	8300 1100 8800 1100
+Wire Wire Line
+	7300 1100 6900 1100
 Wire Wire Line
 	8300 1200 8800 1200
 Wire Wire Line
@@ -972,6 +955,12 @@ Wire Wire Line
 	8300 1400 8800 1400
 Wire Wire Line
 	8300 1500 8800 1500
+Wire Wire Line
+	8300 1600 8800 1600
+Wire Wire Line
+	8300 1700 8800 1700
+Wire Wire Line
+	8300 1800 8800 1800
 Wire Wire Line
 	9100 3300 9500 3300
 Wire Wire Line
@@ -1005,7 +994,7 @@ Wire Wire Line
 Wire Wire Line
 	8000 5700 7700 5700
 Wire Wire Line
-	8000 3000 8500 3000
+	8000 3200 8500 3200
 Wire Wire Line
 	6700 5300 6300 5300
 Wire Wire Line
@@ -1064,15 +1053,11 @@ Wire Wire Line
 	7600 4800 7500 4800
 Connection ~ 7500 4800
 Wire Wire Line
-	7300 1600 6900 1600
+	7300 1900 6900 1900
 Wire Wire Line
-	7300 2400 7200 2400
+	7300 2600 7200 2600
 Wire Wire Line
-	7200 2400 7200 2300
-Wire Wire Line
-	7300 2600 6900 2600
-Wire Wire Line
-	7300 2700 6900 2700
+	7200 2600 7200 2500
 Wire Wire Line
 	7300 2800 6900 2800
 Wire Wire Line
@@ -1086,7 +1071,11 @@ Wire Wire Line
 Wire Wire Line
 	7300 3300 6900 3300
 Wire Wire Line
-	7300 2500 6900 2500
+	7300 3400 6900 3400
+Wire Wire Line
+	7300 3500 6900 3500
+Wire Wire Line
+	7300 2700 6900 2700
 Wire Wire Line
 	900  2000 1200 2000
 Wire Wire Line
@@ -1197,9 +1186,9 @@ Text Label 2600 3650 2    60   ~ 0
 ~PRT_STB_WR
 Text Label 700  6600 0    60   ~ 0
 ~PRT_DAT_WR
-Text Label 8800 1400 2    60   ~ 0
+Text Label 8800 1700 2    60   ~ 0
 ~PRT_CMD_CS
-Text Label 8800 1500 2    60   ~ 0
+Text Label 8800 1800 2    60   ~ 0
 ~PRT_DAT_WR
 Wire Wire Line
 	1300 3700 1300 4100
@@ -1283,9 +1272,9 @@ Wire Wire Line
 Wire Wire Line
 	10600 4500 10600 4300
 Connection ~ 10600 4300
-Text Label 8000 3000 0    60   ~ 0
+Text Label 8000 3100 0    60   ~ 0
 ~BUSDIR2
-Text Label 8000 2900 0    60   ~ 0
+Text Label 8000 3200 0    60   ~ 0
 ~BUSDIR1
 Text Label 10200 2900 0    60   ~ 0
 ~BUSDIR1
@@ -1556,7 +1545,7 @@ Wire Wire Line
 	7900 5200 8700 5200
 Wire Wire Line
 	7700 5300 8700 5300
-NoConn ~ 8500 3100
+NoConn ~ 8500 3300
 $Comp
 L Connector_Generic:Conn_02x07_Top_Bottom J9
 U 1 1 5F762796
@@ -1585,7 +1574,7 @@ Wire Wire Line
 	10600 3300 10200 3300
 Text HLabel 10600 3300 2    60   Output ~ 0
 PRT_BUSY
-NoConn ~ 8500 2800
+NoConn ~ 8500 3000
 $Comp
 L Connector_Generic:Conn_02x02_Odd_Even J13
 U 1 1 5F89FB61
@@ -1624,5 +1613,42 @@ F 2 "" H 5600 6000 50  0001 C CNN
 F 3 "" H 5600 6000 50  0001 C CNN
 	1    5600 6000
 	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0160
+U 1 1 5FBC8ECD
+P 7800 700
+F 0 "#PWR0160" H 7800 550 50  0001 C CNN
+F 1 "VCC" H 7800 850 50  0000 C CNN
+F 2 "" H 7800 700 50  0001 C CNN
+F 3 "" H 7800 700 50  0001 C CNN
+	1    7800 700 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 800  7800 700 
+$Comp
+L power:GND #PWR0161
+U 1 1 5FC53EE4
+P 7800 2400
+F 0 "#PWR0161" H 7800 2150 50  0001 C CNN
+F 1 "GND" H 7800 2250 50  0000 C CNN
+F 2 "" H 7800 2400 50  0001 C CNN
+F 3 "" H 7800 2400 50  0001 C CNN
+	1    7800 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 2400 7800 2300
+$Comp
+L Device:Crystal Y2
+U 1 1 5BF83530
+P 8100 4050
+F 0 "Y2" H 8100 4200 50  0000 C CNN
+F 1 "32768 Hz" H 8100 3900 50  0000 C CNN
+F 2 "My_Components:Crystal_32K_Horiz" H 8100 4050 50  0001 C CNN
+F 3 "" H 8100 4050 50  0001 C CNN
+	1    8100 4050
+	0    -1   1    0   
 $EndComp
 $EndSCHEMATC

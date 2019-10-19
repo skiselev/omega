@@ -475,49 +475,6 @@ Text Label 9100 3100 0    60   ~ 0
 CAS_MOT
 Text Label 9100 3200 0    60   ~ 0
 CAS_OUT
-$Comp
-L my_components:ATF16V8B U13
-U 1 1 5C006E3B
-P 7800 3250
-F 0 "U13" H 7500 3850 60  0000 L CNN
-F 1 "ATF16V8B" H 7500 2650 60  0000 L CNN
-F 2 "My_Components:IC_DIP20_300" H 7800 3150 60  0001 C CNN
-F 3 "" H 7800 3150 60  0000 C CNN
-	1    7800 3250
-	1    0    0    -1  
-$EndComp
-Text Label 7300 3500 2    60   ~ 0
-SLT_A
-Text Label 7300 3600 2    60   ~ 0
-SLT_B
-Text Label 7300 3400 2    60   ~ 0
-SB_SLT_B
-Text Label 6050 3000 0    60   ~ 0
-~MREQ
-Text Label 6050 3100 0    60   ~ 0
-~RFSH
-Text Label 7300 3200 2    60   ~ 0
-~FFFF
-Text Label 6050 2900 0    60   ~ 0
-A14
-Text Label 6050 2800 0    60   ~ 0
-A15
-Text Label 6050 3700 0    60   ~ 0
-~RD
-Text Label 8700 3400 2    60   ~ 0
-ROM_A16
-Text Label 8700 3500 2    60   ~ 0
-ROM_A17
-Text Label 8700 3300 2    60   ~ 0
-~ROM_CS
-Text Label 8700 3200 2    60   ~ 0
-~RAM_SL
-Text Label 8700 3100 2    60   ~ 0
-~MEM_RD
-Text Label 8700 2800 2    60   ~ 0
-~SLTSL1
-Text Label 8700 2900 2    60   ~ 0
-~SLTSL2
 Text Label 6200 700  0    60   ~ 0
 SLT_A
 Text Label 6200 1400 0    60   ~ 0
@@ -526,8 +483,6 @@ Text Label 6200 4500 0    60   ~ 0
 SB_SLT_A
 Text Label 6200 5200 0    60   ~ 0
 SB_SLT_B
-Text Label 7300 3300 2    60   ~ 0
-SB_SLT_A
 Text Label 3950 3950 0    60   ~ 0
 ~SUB_REG_CS
 Wire Wire Line
@@ -913,30 +868,6 @@ Wire Wire Line
 Wire Wire Line
 	9100 3200 9500 3200
 Wire Wire Line
-	8300 2800 8700 2800
-Wire Wire Line
-	8300 2900 8700 2900
-Wire Wire Line
-	8300 3100 8700 3100
-Wire Wire Line
-	8300 3200 8700 3200
-Wire Wire Line
-	8300 3300 8700 3300
-Wire Wire Line
-	8300 3400 8700 3400
-Wire Wire Line
-	6600 3500 7300 3500
-Wire Wire Line
-	6500 3600 7300 3600
-Wire Wire Line
-	6050 3000 7300 3000
-Wire Wire Line
-	6050 3100 7300 3100
-Wire Wire Line
-	6050 3700 7300 3700
-Wire Wire Line
-	8300 3500 8700 3500
-Wire Wire Line
 	3500 2500 3500 1700
 Wire Wire Line
 	3500 1700 3200 1700
@@ -965,19 +896,15 @@ Wire Wire Line
 Wire Wire Line
 	3200 2200 4400 2200
 Wire Wire Line
-	6600 3500 6600 700 
+	6600 3300 6600 700 
 Wire Wire Line
 	6200 1400 6500 1400
 Wire Wire Line
 	6700 4500 6200 4500
 Wire Wire Line
-	6700 4500 6700 3300
+	6700 4500 6700 3100
 Wire Wire Line
-	6700 3300 7300 3300
-Wire Wire Line
-	7300 3400 6800 3400
-Wire Wire Line
-	6800 3400 6800 5200
+	6800 3200 6800 5200
 Wire Wire Line
 	4800 5900 5200 5900
 Wire Wire Line
@@ -1060,23 +987,9 @@ Wire Wire Line
 Text Label 700  4700 0    60   ~ 0
 A10
 Wire Wire Line
-	6050 2900 7300 2900
-Wire Wire Line
-	6050 2800 7300 2800
-Wire Wire Line
-	8900 3000 8900 4200
-Wire Wire Line
-	8300 3000 8900 3000
-Text Label 8300 3000 0    60   ~ 0
-~SLTSL3
-Wire Wire Line
-	7300 3200 6400 3200
-Wire Wire Line
-	6400 3200 6400 3600
-Wire Wire Line
 	2900 3600 6400 3600
 Wire Wire Line
-	6500 1400 6500 3600
+	6500 1400 6500 3400
 Wire Wire Line
 	2100 6600 2700 6600
 Wire Wire Line
@@ -1228,4 +1141,117 @@ Wire Wire Line
 	10000 6100 9500 6100
 Text Label 9500 6100 0    60   ~ 0
 PRT_BUSY
+Wire Wire Line
+	6400 3000 6400 3600
+$Comp
+L power:GND #PWR0156
+U 1 1 5FCB9839
+P 7800 3900
+F 0 "#PWR0156" H 7800 3650 50  0001 C CNN
+F 1 "GND" H 7805 3727 50  0000 C CNN
+F 2 "" H 7800 3900 50  0001 C CNN
+F 3 "" H 7800 3900 50  0001 C CNN
+	1    7800 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 3800 7800 3900
+$Comp
+L power:VCC #PWR0157
+U 1 1 5FC9BEB9
+P 7800 2200
+F 0 "#PWR0157" H 7800 2050 50  0001 C CNN
+F 1 "VCC" H 7817 2373 50  0000 C CNN
+F 2 "" H 7800 2200 50  0001 C CNN
+F 3 "" H 7800 2200 50  0001 C CNN
+	1    7800 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 2300 7800 2200
+Wire Wire Line
+	7300 3000 6400 3000
+Text Label 8300 2800 0    60   ~ 0
+~SLTSL3
+Wire Wire Line
+	8300 2800 8900 2800
+Wire Wire Line
+	8900 2800 8900 4200
+Wire Wire Line
+	6900 2600 7300 2600
+Wire Wire Line
+	6900 2700 7300 2700
+Wire Wire Line
+	7300 3200 6800 3200
+Wire Wire Line
+	6700 3100 7300 3100
+Wire Wire Line
+	8300 3300 8700 3300
+Wire Wire Line
+	7050 3500 7300 3500
+Wire Wire Line
+	6900 2900 7300 2900
+Wire Wire Line
+	6900 2800 7300 2800
+Wire Wire Line
+	6500 3400 7300 3400
+Wire Wire Line
+	6600 3300 7300 3300
+Wire Wire Line
+	8300 3200 8700 3200
+Wire Wire Line
+	8300 3100 8700 3100
+Wire Wire Line
+	8300 3000 8700 3000
+Wire Wire Line
+	8300 2900 8700 2900
+Wire Wire Line
+	8300 2700 8700 2700
+Wire Wire Line
+	8300 2600 8700 2600
+Text Label 7300 3100 2    60   ~ 0
+SB_SLT_A
+Text Label 8700 2700 2    60   ~ 0
+~SLTSL2
+Text Label 8700 2600 2    60   ~ 0
+~SLTSL1
+Text Label 8700 2900 2    60   ~ 0
+~MEM_RD
+Text Label 8700 3000 2    60   ~ 0
+~RAM_SL
+Text Label 8700 3100 2    60   ~ 0
+~ROM_CS
+Text Label 8700 3300 2    60   ~ 0
+ROM_A17
+Text Label 8700 3200 2    60   ~ 0
+ROM_A16
+Text Label 7050 3500 0    60   ~ 0
+~RD
+Text Label 6900 2600 0    60   ~ 0
+A15
+Text Label 6900 2700 0    60   ~ 0
+A14
+Text Label 7300 3000 2    60   ~ 0
+~FFFF
+Text Label 6900 2900 0    60   ~ 0
+~RFSH
+Text Label 6900 2800 0    60   ~ 0
+~MREQ
+Text Label 7300 3200 2    60   ~ 0
+SB_SLT_B
+Text Label 7300 3400 2    60   ~ 0
+SLT_B
+Text Label 7300 3300 2    60   ~ 0
+SLT_A
+$Comp
+L my_components:ATF16V8B U13
+U 1 1 5C006E3B
+P 7800 3050
+F 0 "U13" H 7500 3750 60  0000 C CNN
+F 1 "ATF16V8B" H 7500 3650 60  0000 C CNN
+F 2 "My_Components:IC_DIP20_300" H 7800 2950 60  0001 C CNN
+F 3 "" H 7800 2950 60  0000 C CNN
+	1    7800 3050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
