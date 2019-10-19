@@ -1158,44 +1158,6 @@ Wire Wire Line
 	2200 6000 2200 6200
 Wire Wire Line
 	3300 5650 3300 7500
-<<<<<<< HEAD
-=======
-$Comp
-L Device:R R23
-U 1 1 5F651789
-P 9650 5600
-F 0 "R23" V 9550 5500 50  0000 C CNN
-F 1 "4.7k" V 9550 5700 50  0000 C CNN
-F 2 "My_Components:Res_762" V 9580 5600 50  0001 C CNN
-F 3 "~" H 9650 5600 50  0001 C CNN
-	1    9650 5600
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R24
-U 1 1 5F651EB8
-P 9650 5800
-F 0 "R24" V 9550 5700 50  0000 C CNN
-F 1 "4.7k" V 9550 5900 50  0000 C CNN
-F 2 "My_Components:Res_762" V 9580 5800 50  0001 C CNN
-F 3 "~" H 9650 5800 50  0001 C CNN
-	1    9650 5800
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R25
-U 1 1 5F652358
-P 9650 6000
-F 0 "R25" V 9550 5900 50  0000 C CNN
-F 1 "4.7k" V 9550 6100 50  0000 C CNN
-F 2 "My_Components:Res_762" V 9580 6000 50  0001 C CNN
-F 3 "~" H 9650 6000 50  0001 C CNN
-	1    9650 6000
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9500 5600 9000 5600
->>>>>>> cbeb0d5ef9f06e8e0b89049008452a4f096efef7
 Wire Wire Line
 	10000 5300 9500 5300
 Wire Wire Line

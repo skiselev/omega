@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 update=10/18/2019 5:18:27 PM
-=======
-update=10/16/2019 10:56:10 PM
->>>>>>> cbeb0d5ef9f06e8e0b89049008452a4f096efef7
 version=1
 last_client=kicad
 [cvpcb]

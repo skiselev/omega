@@ -1,20 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.1.0)-1*
-<<<<<<< HEAD
 G04 #@! TF.CreationDate,2019-10-18T17:23:07-07:00*
-=======
-G04 #@! TF.CreationDate,2019-10-16T22:54:57-07:00*
->>>>>>> cbeb0d5ef9f06e8e0b89049008452a4f096efef7
 G04 #@! TF.ProjectId,Omega-Mainboard,4f6d6567-612d-44d6-9169-6e626f617264,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Legend,Bot*
 G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-<<<<<<< HEAD
 G04 Created by KiCad (PCBNEW (5.1.0)-1) date 2019-10-18 17:23:07*
-=======
-G04 Created by KiCad (PCBNEW (5.1.0)-1) date 2019-10-16 22:54:57*
->>>>>>> cbeb0d5ef9f06e8e0b89049008452a4f096efef7
 %MOMM*%
 %LPD*%
 G04 APERTURE LIST*

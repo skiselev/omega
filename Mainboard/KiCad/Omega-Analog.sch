@@ -26,17 +26,10 @@ F 3 "" H 1350 2000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-<<<<<<< HEAD
 L Device:R R26
 U 1 1 5BF9B70C
 P 1750 2000
 F 0 "R26" V 1830 2000 50  0000 C CNN
-=======
-L Device:R R29
-U 1 1 5BF9B70C
-P 1750 2000
-F 0 "R29" V 1830 2000 50  0000 C CNN
->>>>>>> cbeb0d5ef9f06e8e0b89049008452a4f096efef7
 F 1 "2.2k" V 1750 2000 50  0000 C CNN
 F 2 "My_Components:Res_762" V 1680 2000 50  0001 C CNN
 F 3 "" H 1750 2000 50  0001 C CNN
@@ -234,17 +227,10 @@ $EndComp
 Wire Wire Line
 	7400 4400 7600 4400
 $Comp
-<<<<<<< HEAD
 L Device:R R32
 U 1 1 5BFD2E32
 P 7900 4050
 F 0 "R32" V 7980 4050 50  0000 C CNN
-=======
-L Device:R R35
-U 1 1 5BFD2E32
-P 7900 4050
-F 0 "R35" V 7980 4050 50  0000 C CNN
->>>>>>> cbeb0d5ef9f06e8e0b89049008452a4f096efef7
 F 1 "1k" V 7900 4050 50  0000 C CNN
 F 2 "My_Components:Res_762" V 7830 4050 50  0001 C CNN
 F 3 "" H 7900 4050 50  0001 C CNN
@@ -406,17 +392,10 @@ Wire Wire Line
 Wire Wire Line
 	7500 3900 7600 3900
 $Comp
-<<<<<<< HEAD
 L Device:R R24
 U 1 1 5BFD5463
 P 5400 3650
 F 0 "R24" V 5480 3650 50  0000 C CNN
-=======
-L Device:R R27
-U 1 1 5BFD5463
-P 5400 3650
-F 0 "R27" V 5480 3650 50  0000 C CNN
->>>>>>> cbeb0d5ef9f06e8e0b89049008452a4f096efef7
 F 1 "2.7k" V 5400 3650 50  0000 C CNN
 F 2 "My_Components:Res_762" V 5330 3650 50  0001 C CNN
 F 3 "" H 5400 3650 50  0001 C CNN
@@ -438,17 +417,10 @@ F 3 "" H 5700 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-<<<<<<< HEAD
 L Device:R R23
 U 1 1 5BFD57B6
 P 5400 4750
 F 0 "R23" V 5480 4750 50  0000 C CNN
-=======
-L Device:R R26
-U 1 1 5BFD57B6
-P 5400 4750
-F 0 "R26" V 5480 4750 50  0000 C CNN
->>>>>>> cbeb0d5ef9f06e8e0b89049008452a4f096efef7
 F 1 "2.7k" V 5400 4750 50  0000 C CNN
 F 2 "My_Components:Res_762" V 5330 4750 50  0001 C CNN
 F 3 "" H 5400 4750 50  0001 C CNN
@@ -512,17 +484,10 @@ F 3 "" H 1250 4500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-<<<<<<< HEAD
 L Device:R R42
 U 1 1 5BFD6F40
 P 2400 4750
 F 0 "R42" V 2480 4750 50  0000 C CNN
-=======
-L Device:R R45
-U 1 1 5BFD6F40
-P 2400 4750
-F 0 "R45" V 2480 4750 50  0000 C CNN
->>>>>>> cbeb0d5ef9f06e8e0b89049008452a4f096efef7
 F 1 "100" V 2400 4750 50  0000 C CNN
 F 2 "My_Components:Res_762" V 2330 4750 50  0001 C CNN
 F 3 "" H 2400 4750 50  0001 C CNN
@@ -679,17 +644,10 @@ Wire Wire Line
 	3650 1000 4300 1000
 Connection ~ 4300 1000
 $Comp
-<<<<<<< HEAD
 L Device:R R41
 U 1 1 5BFE5B5A
 P 4650 1900
 F 0 "R41" V 4730 1900 50  0000 C CNN
-=======
-L Device:R R44
-U 1 1 5BFE5B5A
-P 4650 1900
-F 0 "R44" V 4730 1900 50  0000 C CNN
->>>>>>> cbeb0d5ef9f06e8e0b89049008452a4f096efef7
 F 1 "100" V 4650 1900 50  0000 C CNN
 F 2 "My_Components:Res_762" V 4580 1900 50  0001 C CNN
 F 3 "" H 4650 1900 50  0001 C CNN
@@ -755,17 +713,10 @@ Wire Wire Line
 	2800 3500 2400 3500
 Connection ~ 2400 3500
 $Comp
-<<<<<<< HEAD
 L Device:R R31
 U 1 1 5BFEE3E7
 P 1650 3800
 F 0 "R31" V 1730 3800 50  0000 C CNN
-=======
-L Device:R R34
-U 1 1 5BFEE3E7
-P 1650 3800
-F 0 "R34" V 1730 3800 50  0000 C CNN
->>>>>>> cbeb0d5ef9f06e8e0b89049008452a4f096efef7
 F 1 "1k" V 1650 3800 50  0000 C CNN
 F 2 "My_Components:Res_762" V 1580 3800 50  0001 C CNN
 F 3 "" H 1650 3800 50  0001 C CNN
@@ -1458,7 +1409,6 @@ F 3 "" H 3700 7150 50  0001 C CNN
 	1    3700 7150
 	1    0    0    -1  
 $EndComp
-<<<<<<< HEAD
 $Comp
 L Device:C C46
 U 1 1 5C01EB09
@@ -1492,8 +1442,6 @@ F 3 "" H 4600 7150 50  0001 C CNN
 	1    4600 7150
 	1    0    0    -1  
 $EndComp
-=======
->>>>>>> cbeb0d5ef9f06e8e0b89049008452a4f096efef7
 Wire Wire Line
 	1900 7000 1900 6900
 Wire Wire Line
@@ -1597,15 +1545,9 @@ F 3 "" H 800 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-<<<<<<< HEAD
 	6800 5700 7100 5700
 Wire Wire Line
 	7100 5700 7100 5800
-=======
-	8000 5700 8300 5700
-Wire Wire Line
-	8300 5700 8300 5800
->>>>>>> cbeb0d5ef9f06e8e0b89049008452a4f096efef7
 $Comp
 L power:GND #PWR097
 U 1 1 5C028B5E
@@ -1642,7 +1584,6 @@ $EndComp
 $Comp
 L power:VDD #PWR0100
 U 1 1 5C02A175
-<<<<<<< HEAD
 P 6400 5600
 F 0 "#PWR0100" H 6400 5450 50  0001 C CNN
 F 1 "VDD" H 6400 5750 50  0000 C CNN
@@ -1658,28 +1599,12 @@ L Device:CP1 C65
 U 1 1 5C03B8E7
 P 4900 7150
 F 0 "C65" H 4925 7250 50  0000 L CNN
-=======
-P 7300 5600
-F 0 "#PWR0100" H 7300 5450 50  0001 C CNN
-F 1 "VDD" H 7300 5750 50  0000 C CNN
-F 2 "" H 7300 5600 50  0001 C CNN
-F 3 "" H 7300 5600 50  0001 C CNN
-	1    7300 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1 C67
-U 1 1 5C02DA9D
-P 4900 7150
-F 0 "C67" H 4925 7250 50  0000 L CNN
->>>>>>> cbeb0d5ef9f06e8e0b89049008452a4f096efef7
 F 1 "47uF" H 4925 7050 50  0000 L CNN
 F 2 "My_Components:Cap_Elec_Radial_6.3mm" H 4900 7150 50  0001 C CNN
 F 3 "" H 4900 7150 50  0001 C CNN
 	1    4900 7150
 	1    0    0    -1  
 $EndComp
-<<<<<<< HEAD
 $Comp
 L Device:CP1 C68
 U 1 1 5C03BA30
@@ -1687,59 +1612,11 @@ P 5200 7150
 F 0 "C68" H 5225 7250 50  0000 L CNN
 F 1 "10uF" H 5225 7050 50  0000 L CNN
 F 2 "My_Components:Cap_Elec_Radial_5mm" H 5200 7150 50  0001 C CNN
-=======
-Wire Wire Line
-	8000 5800 8000 5700
-$Comp
-L Device:CP1 C68
-U 1 1 5C03B50C
-P 5200 7150
-F 0 "C68" H 5225 7250 50  0000 L CNN
-F 1 "47uF" H 5225 7050 50  0000 L CNN
-F 2 "My_Components:Cap_Elec_Radial_6.3mm" H 5200 7150 50  0001 C CNN
->>>>>>> cbeb0d5ef9f06e8e0b89049008452a4f096efef7
 F 3 "" H 5200 7150 50  0001 C CNN
 	1    5200 7150
 	1    0    0    -1  
 $EndComp
-<<<<<<< HEAD
 Text Notes 1950 6150 1    60   ~ 0
-=======
-$Comp
-L Device:CP1 C69
-U 1 1 5C03B65E
-P 7300 5950
-F 0 "C69" H 7325 6050 50  0000 L CNN
-F 1 "47uF" H 7325 5850 50  0000 L CNN
-F 2 "My_Components:Cap_Elec_Radial_6.3mm" H 7300 5950 50  0001 C CNN
-F 3 "" H 7300 5950 50  0001 C CNN
-	1    7300 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1 C64
-U 1 1 5C03B8E7
-P 4000 7150
-F 0 "C64" H 4025 7250 50  0000 L CNN
-F 1 "47uF" H 4025 7050 50  0000 L CNN
-F 2 "My_Components:Cap_Elec_Radial_6.3mm" H 4000 7150 50  0001 C CNN
-F 3 "" H 4000 7150 50  0001 C CNN
-	1    4000 7150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1 C65
-U 1 1 5C03BA30
-P 4300 7150
-F 0 "C65" H 4325 7250 50  0000 L CNN
-F 1 "47uF" H 4325 7050 50  0000 L CNN
-F 2 "My_Components:Cap_Elec_Radial_6.3mm" H 4300 7150 50  0001 C CNN
-F 3 "" H 4300 7150 50  0001 C CNN
-	1    4300 7150
-	1    0    0    -1  
-$EndComp
-Text Notes 2250 6150 1    60   ~ 0
->>>>>>> cbeb0d5ef9f06e8e0b89049008452a4f096efef7
 C5: RTC
 Connection ~ 2600 2000
 Connection ~ 3300 1800
@@ -2154,7 +2031,6 @@ F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 3300 4600 50  0001
 	1    0    0    -1  
 $EndComp
 $Comp
-<<<<<<< HEAD
 L Device:CP1 C67
 U 1 1 5C03B7A7
 P 7100 5950
@@ -2466,33 +2342,6 @@ F 1 "47uF" H 6425 5850 50  0000 L CNN
 F 2 "My_Components:Cap_Elec_Radial_6.3mm" H 6400 5950 50  0001 C CNN
 F 3 "" H 6400 5950 50  0001 C CNN
 	1    6400 5950
-=======
-L Device:CP1 C70
-U 1 1 5C03B7A7
-P 8300 5950
-F 0 "C70" H 8325 6050 50  0000 L CNN
-F 1 "47uF" H 8325 5850 50  0000 L CNN
-F 2 "My_Components:Cap_Elec_Radial_6.3mm" H 8300 5950 50  0001 C CNN
-F 3 "" H 8300 5950 50  0001 C CNN
-	1    8300 5950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7300 5600 7300 5800
-Wire Wire Line
-	7300 6100 7300 6300
-Wire Wire Line
-	8300 6100 8300 6300
-$Comp
-L Device:CP1 C66
-U 1 1 5C02D926
-P 4600 7150
-F 0 "C66" H 4625 7250 50  0000 L CNN
-F 1 "47uF" H 4625 7050 50  0000 L CNN
-F 2 "My_Components:Cap_Elec_Radial_6.3mm" H 4600 7150 50  0001 C CNN
-F 3 "" H 4600 7150 50  0001 C CNN
-	1    4600 7150
->>>>>>> cbeb0d5ef9f06e8e0b89049008452a4f096efef7
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
