@@ -322,6 +322,12 @@ IC Socket          | U48, U49  | 8 pin DIP                                   | 2
 * Version 1.1
   * Fix the known issues of version 1.0
   * Use DIN-8 connectors with standard MSX/MSX2 pinout for RGB and Cassette interfaces
+  * Move keyboard pull-ups to the motherboard
+  * Add LC filters for VDP and RGB encoder
+  * Add RESET / NMI header
+  * Connect slots pins 44 and 46 to GND
+  * Add polyfuse for Joystick ports
+
 * Version 1.0
   * Initial version
 
