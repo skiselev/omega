@@ -401,7 +401,13 @@ IC Socket          | U48, U49  | 8 pin DIP                                   | 2
 
 ### BIOS
 
+Omega runs [C-BIOS](https://sourceforge.net/projects/cbios/) - an open source BIOS for MSX computers.
+It can also run the original MSX2* BIOS from computers with a similar slot organization and hardware specifications, for example [Sanyo* PHC-23J](https://www.msx.org/wiki/Sanyo_PHC-23J) and [Philips* NMS 8250](https://www.msx.org/wiki/Philips_NMS_8250).
+
 ### SPLD Fuse Maps
+
+Omega uses three ATF16V8/GAL16V8 SPLDs (U12 - U14) for address decode and various other logic. The SPLD fuse maps (JED files) are provided in [SPLD](SPLD) directory of this repository. The SPLDs are implemented using Flash/EEPROM technology and can be programmed by commonly available EPROM programmers, such as MiniPro TL866.
+The source code (PLD) files are also provided in the directory mentioned above. If needed, they can be modified, for example to change the slot mapping. Use [GALasm](https://github.com/daveho/GALasm) to compile PLD files to JED fuse maps.
 
 ## Changes
 * Version 1.1
