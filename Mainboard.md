@@ -9,11 +9,11 @@ Main Board for Omega Home Computer
   * [Connectors](#connectors)
   * [Jumpers](#jumpers)
   * [Bill of Materials](#bill-of-materials)
-  * [Input / Output Ports](#input-output-ports)
+  * [Input / Output Ports](#input--output-ports)
   * [Slot Map](#slot-map)
 * [Firmware Documentation](#firmware-documentation)
-  * [BIOS and OS](#bios-and-os)
-  * [SPLD Fuse Map](#spld-fuse-map)
+  * [BIOS](#bios)
+  * [SPLD Fuse Maps](#spld-fuse-maps)
 * [Release Notes](#release-notes)
   * [Changes](#changes)
   * [Known Issues](#known-issues)
@@ -240,7 +240,7 @@ Jumper Position | Description
 1-2             | NTSC
 2-3             | PAL
 
-### Bill of Materials - Version 1.1
+### Bill of Materials
 
 [Omega Keyboard project on Mouser.com](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=11fd34d22c) - View and order all components except of the PCB, Yamaha V9938 VDP, Yamaha YM2149 PSG, Ricoh RP5C01 RTC, NEC D41464 DRAM, Sony CXA1645P RGB Encoder, and CR2032 battery.
 
@@ -396,6 +396,12 @@ IC Socket          | U48, U49  | 8 pin DIP                                   | 2
   * 0x0000 - 0xFFFF (64 KiB): Main RAM (memory mapper)
 * Slot 3, Sub slot 3
   * 0x0000 - 0xFFFF (64 KiB): User ROM #2, mapped to Flash ROM 0x30000 - 0x3FFFF
+
+## Firmware Documentation
+
+### BIOS
+
+### SPLD Fuse Maps
 
 ## Changes
 * Version 1.1
