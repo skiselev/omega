@@ -426,6 +426,9 @@ The source code (PLD) files are also provided in the directory mentioned above. 
   * Initial version
 
 ## Known Issues
+* Version 1.1
+  * Top silkscreen: R30 should be 1k (lower case 'k')
+
 * Version 1.0
   * Top silkscreen: References R8 and R36 are swapped. The values are indicated correctly on the silkscreen.
   * Top silkscreen: The values of C48 and C82 are swapped. C48 should be 0.1 uF, and C82 should be 1.5nF.
