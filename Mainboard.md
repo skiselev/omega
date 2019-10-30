@@ -162,6 +162,67 @@ Pin | Description      | Pin | Description
 37  | Bi-directional: MD2 | 38  | Bi-directional: MD3
 39  | Power: GND       | 40  | Power: GND
 
+#### J13 - /RST and /NMI Header
+Pin | Description    | Pin | Description
+--- | -------------- | --- | -----------
+1   | In/Out: /RESET | 2   | Power: GND
+3   | Input: /NMI    | 4   | Power: GND
+
+#### J14 - VDP Color Bus
+Pin | Description
+--- | -----------
+1   | Power: 5V
+2   | Output: /DHCLK
+3   | Output: /DLCLK
+4   | Output: CBDR
+5   | In/Out: CB7
+6   | In/Out: CB6
+7   | In/Out: CB5
+8   | In/Out: CB4
+9   | In/Out: CB3
+10  | In/Out: CB2
+11  | In/Out: CB1
+12  | In/Out: CB0
+13  | Power: GND
+
+### Jumpers
+
+#### JP1 - ROM_A18
+JP1 selects whether bottom 256 KiB or top 256 KiB of 512 KiB are mapped to the system memory / slots.
+
+Jumper Position	| Description
+--------------- | -----------
+Open*           | Use Flash ROM addresses 0x00000 - 0x3FFFF
+Closed          | Use Flash ROM addresses 0x40000 - 0x7FFFF
+
+#### JP2 - KBD_TYPE
+JP2 selects the layout for Japanese keyboards
+
+Jumper Position | Description
+--------------- | -----------
+Open*           | JIS layout
+Closed          | ANSI/AIUEO/50on layout
+
+#### JP3, JP4 - V9938/V9958
+JP3 and JP4 select VDP type used. JP3 connects VDP pin 21 either to 470 ohm pull-up (V9938, unused composite video output), or to 5V power supply (V9958, DAC power supply). JP4 selects whether VDP CSYNC output goes directly to RGB encoder (V9958) or to a level shifer circuit (V9938).
+
+*Warnining: Incorrect setting of JP3 will damage VDP*
+
+Jumper Position | Description
+--------------- | -----------
+1-2             | V9938 VDP
+2-3             | V9958 VDP
+
+#### JP5, JP6 - NTSC/PAL
+JP5 and JP6 selects the color encoding system for the video output. More specifically, JP5 configures the RGB encoder and JP6 selects the color subcarrier frequency.
+
+*Note: Some components used only for PAL color subcarrier frequency generation, and can be omitted if NTSC color encoding is used. Refer to Bill of Materials section for more information*
+
+Jumper Position | Description
+--------------- | -----------
+1-2             | NTSC
+2-3             | PAL
+
 ### Bill of Materials - Version 1.1
 
 [Omega Keyboard project on Mouser.com](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=11fd34d22c) - View and order all components except of the PCB, Yamaha V9938 VDP, Yamaha YM2149 PSG, Ricoh RP5C01 RTC, NEC D41464 DRAM, Sony CXA1645P RGB Encoder, and CR2032 battery.
