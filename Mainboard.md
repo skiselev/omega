@@ -188,7 +188,7 @@ Pin | Description
 ### Jumpers
 
 #### JP1 - ROM_A18
-JP1 selects whether bottom 256 KiB or top 256 KiB of 512 KiB are mapped to the system memory / slots.
+JP1 selects whether bottom 256 KiB or top 256 KiB of 512 KiB Flash ROM are mapped to the system memory / slots.
 
 Jumper Position	| Description
 --------------- | -----------
