@@ -1,6 +1,23 @@
 # Omega Main Board
 Main Board for Omega Home Computer
 
+## Table of Content
+* [Introduction](#introduction)
+* [Specifications](#specifications)
+* [Hardware Documentation](#hardware-documentation)
+  * [Schematic and PCB Layout](#schematic-and-pcb-layout)
+  * [Connectors](#connectors)
+  * [Jumpers](#jumpers)
+  * [Bill of Materials](#bill-of-materials)
+  * [Input / Output Ports](#input-output-ports)
+  * [Slot Map](#slot-map)
+* [Firmware Documentation](#firmware-documentation)
+  * [BIOS and OS](#bios-and-os)
+  * [SPLD Fuse Map](#spld-fuse-map)
+* [Release Notes](#release-notes)
+  * [Changes](#changes)
+  * [Known Issues](#known-issues)
+
 ## Introduction
 The main board implements standard MSX2* functionality, as described in the [Specifications](#specifications) section below. The main board is designed to be stacked under the keyboard PCB, thus creating a "keyboard computer" form factor typical for 1980's home computers.
 ![Omega Mainboard connected to Keyboard](Mainboard/images/Omega-Keyboard_and_Mainboard-1.0.jpg)
