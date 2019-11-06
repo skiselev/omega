@@ -105,12 +105,12 @@ Alternatively they can be ordered from a PCB manufacturing service using [Gerber
 ## Troubleshooting Tips
 
 * Inspect your board for any soldering issues
-* Check the jumpers and the switches settings. Pay attention to the SW3 switch settings, and make sure that the selected UMB addresses do not conflict with BIOS extension ROMs. For example 0xC0000-0xC7FFF range is normally used by VGA BIOS, make sure that the corresponding switch is turned off when using VGA card
-* Make sure that your system is getting the power, and that power supply voltage is within 5%-10% range of the nominal voltage
+* Check the jumpers and the switches settings.
+* Make sure that your system is getting the power, and that power supply voltage is within 5% range of the nominal voltage (5V)
 * Observe the system activity
-  * Does it produce any beeping sounds?
+  * Does it produce any picture?
   * Using multimeter with frequency measurement or an oscilloscope check for pulses on the key processor and chipset signals:
-    * OSC, and CLK (CPU clock) signals
-    * AD0 signal on the CPU, A0 signal on ISA bus
-    * /MEMR, /MEMW, /IOR, /IOW signals on ISA bus
-  * Using an ISA POST card or a backplane with a POST display, check if system outputs any POST codes. If so, is there any particular code it is getting stuck on?
+    * (CPU clock) signals
+    * A0 signal on the CPU
+    * /RD, and /WR signals CPU signals
+
