@@ -428,6 +428,7 @@ The source code (PLD) files are also provided in the directory mentioned above. 
 ## Known Issues
 * Version 1.1
   * Top silkscreen: R30 should be 1k (lower case 'k')
+  * Top silkscreen: L2 and L3 should be 5.6uH
 
 * Version 1.0
   * Top silkscreen: References R8 and R36 are swapped. The values are indicated correctly on the silkscreen.
