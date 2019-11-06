@@ -242,7 +242,7 @@ Jumper Position | Description
 
 ### Bill of Materials
 
-[Omega Keyboard project on Mouser.com](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=11fd34d22c) - View and order all components except of the PCB, Yamaha V9938 VDP, Yamaha YM2149 PSG, Ricoh RP5C01 RTC, NEC D41464 DRAM, Sony CXA1645P RGB Encoder, and CR2032 battery.
+[Omega Mainboard project on Mouser.com](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=11fd34d22c) - View and order all components except of the PCB, Yamaha V9938 VDP, Yamaha YM2149 PSG, Ricoh RP5C01 RTC, NEC D41464 DRAM, Sony CXA1645P RGB Encoder, and CR2032 battery.
 
 Component type     | Reference | Description                                 | Quantity | Possible sources and notes
 ------------------ | --------- | ------------------------------------------- | -------- | --------------------------
