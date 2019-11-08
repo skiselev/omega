@@ -223,7 +223,7 @@ Closed          | ANSI/AIUEO/50on layout
 #### JP3, JP4 - V9938/V9958
 JP3 and JP4 select VDP type used. JP3 connects VDP pin 21 either to 470 ohm pull-up (V9938, unused composite video output), or to 5V power supply (V9958, DAC power supply). JP4 selects whether VDP CSYNC output goes directly to RGB encoder (V9958) or to a level shifer circuit (V9938).
 
-*Warnining: Incorrect setting of JP3 will damage VDP*
+*Warning: Incorrect setting of JP3 will damage VDP*
 
 Jumper Position | Description
 --------------- | -----------
@@ -242,7 +242,7 @@ Jumper Position | Description
 
 ### Bill of Materials
 
-[Omega Mainboard project on Mouser.com](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=11fd34d22c) - View and order all components except of the PCB, Yamaha V9938 VDP, Yamaha YM2149 PSG, Ricoh RP5C01 RTC, NEC D41464 DRAM, Sony CXA1645P RGB Encoder, and CR2032 battery.
+[Omega Mainboard project on Mouser.com](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=11fd34d22c) - View and order all components except of the PCB, Yamaha V9958 VDP, Yamaha YM2149 PSG, Ricoh RP5C01 RTC, NEC D41464 DRAM, Sony CXA1645P RGB Encoder, and CR2032 battery.
 
 Component type     | Reference | Description                                 | Quantity | Possible sources and notes
 ------------------ | --------- | ------------------------------------------- | -------- | --------------------------
@@ -349,6 +349,47 @@ IC Socket          | U15 - U18, U27 - U32, U46 | 16 pin DIP                  | 1
 IC Socket          | U33 - U45 | 14 pin DIP                                  | 13       | Mouser [517-4814-3000-CP](https://www.mouser.com/ProductDetail/517-4814-3000-CP)
 IC Socket          | U48, U49  | 8 pin DIP                                   | 2        | Mouser [517-4808-3000-CP](https://www.mouser.com/ProductDetail/517-4808-3000-CP)
 
+### Configuration Options and Component Replacement Notes
+
+#### NTSC Video Standard Support
+The Omega Main Board can be configured to support either NTSC (60 Hz) or PAL (50 Hz) video standard. To support NTSC standard the board should be configured as follows:
+* Do not install the following components (they are required for PAL support only):
+  * Crystal Oscillator: Y3
+  * Capacitors: C43, C90, C93
+  * Resistors: R1, R3; Integrated Circuit: U43
+  * Note: C43 and U43 also used for V9938 VDP CSYNC level converer. They must be installed if V9938 VDP is used
+* Install a wire links JP5 and JP6 in 1-2 position for NTSC standard support
+
+#### PAL Video Standard Support
+To support PAL standard the board should be configured as follows:
+* Install the following components:
+  * Crystal Oscillator: Y3
+  * Capacitors: C43, C90, C93
+  * Resistors: R1, R3
+  * Integrated Circuits: U43
+* Replace the following components:
+  * R9 use 16 kohm resistor (instead of 20 kohm)
+  * C91 use 18 pF capacitor (instead of 27 pF)
+* Install a wire links JP5 and JP6 in 2-3 position for PAL standard support
+
+#### V9958 VDP Support
+The Omega Main Baord can be configured to support either V9958 VDP (recommended) or V9938 VDP. To support V9958 VDP the board should be configured as follows:
+* Do not install the following components:
+  * Transistor: Q2
+  * Capacitor: C43
+  * Integrated Circuit: U43
+  * Note: C43 and U43 also used for PAL clock generation. They must be installed if PAL video standard support is desired
+* Install a wire links JP3 and JP4 in 2-3 position for V9958 VDP
+
+#### V9938 VDP Support
+To support V9938 VDP the board should be configured as follows:
+* Install the following components:
+  * Transistor: Q2
+  * Capacitor: C43
+  * Integrated Circuit: U43
+* Install a wire links JP3 and JP4 in 1-2 position for V9938 VDP.
+* *Warning: Incorrect setting of JP3 will damage VDP*
+  
 ### Input / Output Ports
 
 * 0x90 - 0x91 (aliases 0x92 - 0x93) - Printer Port
