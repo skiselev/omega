@@ -27,7 +27,7 @@ The main board implements standard MSX2* functionality, as described in the [Spe
 * Memory:
   * RAM: 512 KiB SRAM, expandable to 4 MiB using an optional daugherboard. MSX* compatible memory pager. The RAM is mapped to slot 3-2
   * ROM: 256 KiB or 512 KiB Flash ROM. The ROM is mapped to the slot 0 and sub slots 3-0, 3-1, and 3-3
-* Video: Yamaha V9938 or Yamaha V9958 VDP
+* Video: Yamaha V9958 or Yamaha V9938 VDP
   * 128 KiB Video RAM
   * Composite, S-Video, and RGB video outputs
 * Audio: Yamaha YM2149 or General Instrument AY-3-8910 PSG
@@ -249,7 +249,7 @@ Component type     | Reference | Description                                 | Q
 PCB                |           | Omega Mainboard PCB - Version 1.1           | 1        | Refer to the [RetroBrew Computers Board Inventory](https://retrobrewcomputers.org/doku.php?id=boardinventory) page for ordering information, or order from a PCB manufacturer of your choice using provided Gerber or KiCad files
 Integrated Circuit | U1        | Z80 CPU, CMOS, 40 pin DIP - Z84C00xxPEG     | 1        | Mouser [692-Z84C0010PEG](https://www.mouser.com/ProductDetail/692-Z84C0010PEG)
 Integrated Circuit | U2        | 82C55 PPI, CMOS, 40 pin DIP - CP82C55AZ     | 1        | Mouser [968-CP82C55A-5Z](https://www.mouser.com/ProductDetail/968-CP82C55A-5Z)
-Integrated Circuit | U3        | V9938 VDP, 64 pin DIP                       | 1        | eBay
+Integrated Circuit | U3        | V9958 VDP, 64 pin DIP                       | 1        | eBay. Note: V9938 VDP can be used instead
 Integrated Circuit | U4        | YM2149 PSG, 40 pin DIP or AY-3-8910         | 1        | eBay
 Integrated Circuit | U5        | RP5C01 RTC, 18 pin DIP                      | 1        | eBay
 Integrated Circuit | U6        | 512 KiB Flash ROM, 32 pin DIP - SST39SF040  | 1        | Mouser [804-39SF0407CPHE](https://www.mouser.com/ProductDetail/804-39SF0407CPHE)
