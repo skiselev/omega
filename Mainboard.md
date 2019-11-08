@@ -20,7 +20,7 @@ Main Board for Omega Home Computer
 
 ## Introduction
 The main board implements standard MSX2* functionality, as described in the [Specifications](#specifications) section below. The main board is designed to be stacked under the keyboard PCB, thus creating a "keyboard computer" form factor typical for 1980's home computers.
-![Omega Mainboard connected to Keyboard](Mainboard/images/Omega-Keyboard_and_Mainboard-1.0.jpg)
+![Omega Mainboard connected to Keyboard](Mainboard/images/Omega-Keyboard_and_Mainboard-1.1.jpg)
 
 ## Specifications
 * Processor: Zilog Z80 CPU (CMOS version - Z84C00) running at 3.58 MHz
