@@ -307,7 +307,7 @@ Resistor           | R15       | 5.6 kohm, axial                             | 1
 Resistor           | R16 - R22 | 4.7 kohm, axial                             | 7        | Mouser [291-4.7K-RC](https://www.mouser.com/ProductDetail/291-4.7K-RC). Note R18 - R20 are optional - cassette recorder support.
 Resistor           | R23, R24  | 2.7 kohm, axial                             | 2        | Mouser [291-2.7K-RC](https://www.mouser.com/ProductDetail/291-2.7K-RC). Note R23, R24 are optional - cassette recorder support.
 Resistor           | R25, R26  | 2.2 kohm, axial                             | 2        | Mouser [291-2.2K-RC](https://www.mouser.com/ProductDetail/291-2.2K-RC)
-Resistor           | R27 - R33 | 1 kohm, axial                               | 6        | Mouser [291-1K-RC](https://www.mouser.com/ProductDetail/291-1K-RC). Note R31, R32 are optional - cassette recorder support. Note R33 is optional - RGB output support.
+Resistor           | R27 - R33 | 1 kohm, axial                               | 7        | Mouser [291-1K-RC](https://www.mouser.com/ProductDetail/291-1K-RC). Note R31, R32 are optional - cassette recorder support. Note R33 is optional - RGB output support.
 Resistor           | R34       | 470 ohm, axial                              | 1        | Mouser [291-470-RC](https://www.mouser.com/ProductDetail/291-470-RC) 
 Resistor           | R35       | 180 ohm, axial                              | 1        | Mouser [291-180-RC](https://www.mouser.com/ProductDetail/291-180-RC). Note R35 is optional - RGB output support.
 Resistor           | R36       | 120 ohm, axial                              | 1        | Mouser [291-180-RC](https://www.mouser.com/ProductDetail/291-120-RC). Note R36 is optional - RGB output support.
