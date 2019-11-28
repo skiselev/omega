@@ -46,17 +46,7 @@ Alternatively they can be ordered from a PCB manufacturing service using [Gerber
 
 #### Optional Components
 
-* Either the SPLD IC U16 or the 74F00 logic IC U14 should be installed (but not both together)
-  * The SPLD provides UMB (upper memory blocks) support, and supports read/write access to the Flash ROM
-  * The 74F00 supports only 640 KiB of base RAM, and allows read-only access to the Flash ROM. It is not needed to install the DIP switch SW3 if using 74F00
- * 8087 math co-processor U1 is completely optional
-* The second SRAM U6 is optional, the system memory size will be limited to 512 KiB if that IC is not installed
-* DIP IC sockets are optional, but it is highly recommended to install them for the following ICs:
-  * Processor and math coprocessor - U1 and U2
-  * PIC12F629 microcontroller - U15
-  * SPLD IC - U16
-  * Memory ICs - U4 - U6; or at least of the Flash ROM - U4
-* The SP1 speaker is optional, and not required if using an external speaker, or no speaker at all
+* To be completed
 
 ### Other Components Required to Build Functional Computer System
 
