@@ -356,7 +356,7 @@ The Omega Main Board can be configured to support either NTSC (60 Hz) or PAL (50
 * Do not install the following components (they are required for PAL support only):
   * Crystal Oscillator: Y3
   * Capacitors: C43, C90, C93
-  * Resistors: R1, R3; Integrated Circuit: U43
+  * Resistors: R1, R30; Integrated Circuit: U43
   * Note: C43 and U43 also used for V9938 VDP CSYNC level converer. They must be installed if V9938 VDP is used
 * Install a wire links JP5 and JP6 in 1-2 position for NTSC standard support
 
@@ -365,7 +365,7 @@ To support PAL standard the board should be configured as follows:
 * Install the following components:
   * Crystal Oscillator: Y3
   * Capacitors: C43, C90, C93
-  * Resistors: R1, R3
+  * Resistors: R1, R30
   * Integrated Circuits: U43
 * Replace the following components:
   * R9 use 16 kohm resistor (instead of 20 kohm)
