@@ -95,12 +95,24 @@ Alternatively they can be ordered from a PCB manufacturing service using [Gerber
 ## Troubleshooting Tips
 
 * Inspect your board for any soldering issues
-* Check the jumpers and the switches settings.
-* Make sure that your system is getting the power, and that power supply voltage is within 5% range of the nominal voltage (5V)
+* Check the jumpers settings
+* Make sure that your system is getting the power, and that power supply voltage is within 5% range of the nominal voltage (5 V)
+* Start troubleshooting using C-BIOS image first. Once C-BIOS boots, proceed with MSX2 BIOS
+  * C-BIOS will initialize the VDP (and show an error message) even the SRAM is not installed or if components related to SRAM are not working.
+  * C-BIOS does not access the RTC, and will boot and work even if the RTC IC (U5 RP5C01) is not installed or defective.
 * Observe the system activity
   * Does it produce any picture?
-  * Using multimeter with frequency measurement or an oscilloscope check for pulses on the key processor and chipset signals:
-    * (CPU clock) signals
-    * A0 signal on the CPU
-    * /RD, and /WR signals CPU signals
-
+    * Does your display or TV show "no signal" message? In this case VDP is not being initialized correctly, or there is an issue with the NTSC/PAL encoder U47 (CXA1645). Check VDP output and U47 input signals.
+    * Does your display show that NTSC or PAL input has been detected, yet the screen is black? If using MSX2 BIOS, this likely means that the CPU can't access the RTC IC U5 (RP5C01). Try using C-BIOS instead. It doesn't access RTC, and should work in this case.
+  * Using multimeter with the frequency measurement function or an oscilloscope check key CPU and VDP signals:
+    * CLK signal on U3 (VDP), pin 8. It should be a 3.579545 MHz square wave signal
+    * CLK signal on U1 (CPU), pin 6. It should be a 3.579545 MHz square wave signal
+    * A0 signal on U1 (CPU), pin 30. This is a good indicator of CPU activity. There should be a few hundred kHz pulses
+    * /RD and /WR signals on U1 (Z80 CPU), pins 21 and 22 respectively. These signals are also a good indicator of CPU activity. There should be a few hundred kHz pulses
+    * /MEM_RD signal on U26, pin 1. This signal generated (goes low) every time CPU fetches data from memory. There should be a few hundred kHz pulses
+    * /ROM_CS and /RAM0_CS signals on U6 (Flash ROM) pin 22, and U7 (SRAM) pin 22 respectively. These signals go low every time CPU accesses Flash ROM or SRAM. 
+    * CSYNC signal on U3 (VDP), pin 6. It should be 15.734 kHz signal for NTSC	15.625 kHz for PAL.
+    * SYNCIN signal on U47, pin 10. It should be 15.734 kHz signal for NTSC	15.625 kHz for PAL.
+    * SCIN signal on U47, pin 6. It should be 3.579545 MHz for NTSC and	4.433618 MHz for PAL.
+    * RED, GREEN, and BLUE signals on U3 (VDP), pins 23, 22, and 24 respectively.
+    
