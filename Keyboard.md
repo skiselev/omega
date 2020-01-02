@@ -8,9 +8,9 @@ Keyboard for the Omega Home Computer
 
 ### Schematic and PCB Layout
 
-[Schematic - Version 1.0](Keyboard/KiCad/Omega-Keyboard-Schematic-1.0.pdf)
+[Schematic - Version 1.1](Keyboard/KiCad/Omega-Keyboard-Schematic-1.1.pdf)
 
-[PCB Layout - Version 1.0](Keyboard/KiCad/Omega-Keyboard-Board-1.0.pdf)
+[PCB Layout - Version 1.1](Keyboard/KiCad/Omega-Keyboard-Board-1.1.pdf)
 
 ### Connectors
 
@@ -52,6 +52,11 @@ Resistor Array     | RR1       | 4.7 k, bussed, 10 pin SIP         | 1        | 
 Resistor           | R1 - R3    | 470 ohm, through hole            | 3        | Mouser [291-470-RC](https://www.mouser.com/ProductDetail/291-470-RC)
 
 ## Changes
+* Version 1.1
+  * Rename RR1 to RN1
+  * Keep pull-ups only for buffered COLUMN outputs. Replace RN1 with 6-pin SIP resistor array
+  * Update schematic to use newer KiCad libraries
+  * Add project URL and logos to the silk screen
 * Version 1.0
   * Initial version
 

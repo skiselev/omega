@@ -1,16 +1,17 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.1.0)-1*
+G04 #@! TF.CreationDate,2020-01-02T13:27:13-08:00*
+G04 #@! TF.ProjectId,Omega-Keyboard,4f6d6567-612d-44b6-9579-626f6172642e,rev?*
+G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Profile,NP*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 4.0.7) date 01/01/19 19:01:52*
+G04 Created by KiCad (PCBNEW (5.1.0)-1) date 2020-01-02 13:27:13*
 %MOMM*%
 %LPD*%
-G01*
 G04 APERTURE LIST*
-%ADD10C,0.100000*%
-%ADD11C,0.150000*%
+%ADD10C,0.150000*%
 G04 APERTURE END LIST*
 D10*
-D11*
 X246380000Y-86995000D02*
 X246380000Y-88265000D01*
 X226060000Y-86995000D02*
