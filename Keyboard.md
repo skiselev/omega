@@ -48,7 +48,7 @@ Keycaps            | SW1-SW73  | 104 Keycaps kit for Cherry MX Keyboard | 1   | 
 Connector          | J1 | 2x8 pin header, right angle, shrouded, 2.54 mm pitch | 1 | Mouser [710-61201621721](https://www.mouser.com/ProductDetail/710-61201621721)
 Capacitor          | C1, C2    | 0.1 uF, MLCC, 5 mm lead spacing   | 2       | Mouser [594-K104K15X7RF53H5](https://www.mouser.com/ProductDetail/594-K104K15X7RF53H5)
 Capacitor          | C3        | 10 uF, MLCC, 5 mm lead spacing    | 1       | Mouser [810-FG28X5R1E106MR00](https://www.mouser.com/ProductDetail/810-FG28X5R1E106MR00)
-Resistor Array     | RR1       | 4.7 k, bussed, 10 pin SIP         | 1        | Mouser [266-4.7K-RC](https://www.mouser.com/ProductDetail/266-4.7K-RC)
+Resistor Array     | RN1       | 4.7 kohm, bussed, 6 pin SIP       | 1        | Mouser [264-4.7K-RC](https://www.mouser.com/ProductDetail/264-4.7K-RC)
 Resistor           | R1 - R3    | 470 ohm, through hole            | 3        | Mouser [291-470-RC](https://www.mouser.com/ProductDetail/291-470-RC)
 
 ## Changes

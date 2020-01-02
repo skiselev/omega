@@ -43,9 +43,9 @@ The main board implements standard MSX2* functionality, as described in the [Spe
 
 ### Schematic and PCB Layout
 
-[Schematic - Version 1.1](Mainboard/KiCad/Omega-Mainboard-Schematic-1.1.pdf)
+[Schematic - Version 1.2](Mainboard/KiCad/Omega-Mainboard-Schematic-1.2.pdf)
 
-[PCB Layout - Version 1.1](Mainboard/KiCad/Omega-Mainboard-Board-1.1.pdf)
+[PCB Layout - Version 1.2](Mainboard/KiCad/Omega-Mainboard-Board-1.2.pdf)
 
 ### Connectors
 
@@ -451,6 +451,8 @@ Omega uses three ATF16V8/GAL16V8 SPLDs (U12 - U14) for address decode and variou
 The source code (PLD) files are also provided in the directory mentioned above. If needed, they can be modified, for example to change the slot mapping. Use [GALasm](https://github.com/daveho/GALasm) to compile PLD files to JED fuse maps.
 
 ## Changes
+* Version 1.2
+  * Fix the known issues of version 1.1
 * Version 1.1
   * Fix the known issues of version 1.0
   * Use DIN-8 connectors with standard MSX/MSX2 pinout for RGB and Cassette interfaces
