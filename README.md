@@ -7,9 +7,9 @@ This project is an open source implementation of an MSX2 compatible computer. Th
 ![Omega System - Keyboard stacked on Main Board](Mainboard/images/Omega-Mainboard-1.1-Stacked.jpg)
 
 ## Status
-* The keyboard design is completed. Keyboard PCB Version 1.0 is available.
-* The main board design is completed. Main Board PCB Version 1.1 is available.
-* The complete system is tested and it works properly. A few minor issues were found and are documented in [Known Issues](https://github.com/skiselev/omega/blob/master/Mainboard.md#known-issues) section.
+* The keyboard design is completed. Keyboard PCB Version 1.1 is available.
+* The main board design is completed. Main Board PCB Version 1.2 is available.
+* The complete system is tested and it works properly.
 
 ## Boards Documentation
 
