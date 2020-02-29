@@ -11,8 +11,10 @@ This project is an open source implementation of an MSX2 compatible computer. Th
 * The main board design is completed. Main Board PCB Version 1.2 is available.
 * The complete system is tested and it works properly.
 
-## Boards Documentation
+## Documentation
 
 [Keyboard](Keyboard.md)
 
 [Main Board](Mainboard.md)
+
+[Enclosure](Enclosure.md)
