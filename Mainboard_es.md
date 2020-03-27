@@ -14,7 +14,7 @@ Placa Base para el Omega Home Computer
 * [Documentación del Firmware](#documentación-del-firmware)
   * [BIOS](#bios)
   * [Esquema de fusibles SPLD](#esquema-de-fusibles-spld)
-* [Notas de la versión](#notas-de-la-version)
+* [Notas de la versión](#notas-de-la-versión)
   * [Cambios](#cambios)
   * [Problemas conocidos](#problemas-conocidos)
 
@@ -455,6 +455,7 @@ El Omega usa tres SPLDs ATF16V8/GAL16V8 (U12 - U14) para decodificación de dire
 Los ficheros con el código fuente (PLD) también están disponibles en la carpeta mencionada anteriormente. Si fuese necesario pueden ser modificados para, por ejemplo, cambiar el mapeo de slots. Usa [GALasm](https://github.com/daveho/GALasm) para compilar los ficheros PLD y obtner sus esquemas de fusibles JED.
 
 ##Notas de la versión
+
 ### Cambios
 * Versión 1.2
   * Solucionados los problemas conocidos de la versión 1.1
