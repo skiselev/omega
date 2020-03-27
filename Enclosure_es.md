@@ -34,7 +34,7 @@ Tuercas            |           | M3 hex                            | 5        | 
 Panel Acrílico     |           | [Panel inferior](Enclosure/Omega-Eco1_User.dxf) | 1 | corte laser de 3mm en acrilico
 Panel Acrílico     |           | [Paneles superior, laterales, arandelas](Enclosure/Omega-Eco2_User.dxf) | 1 | corte laser de 3mm en acrilico
 Pieza impresa 3D   |           | [Guia de slots](Enclosure/Omega-Slots_Guide.stl) | 1 | (Opcional) impreso en 3D
-Switch             |           | Toggle Switch                     | 1        | (Optional) Mouser [612-100-A1121](https://www.mouser.com/ProductDetail/612-100-A1121). Se monta este interruptor en el panel posterior, y puede ser utilizado para cambiar entre dos mitades de la ROM, p.e. para cambiar entre BIOS MSX2 y C-BIOS. Opcionalmente, se puede montar un botón de reset en esa ubicación.
+Interruptor        |           | Interruptor de palanca                | 1        | (Optional) Mouser [612-100-A1121](https://www.mouser.com/ProductDetail/612-100-A1121). Se monta este interruptor en el panel posterior, y puede ser utilizado para cambiar entre dos mitades de la ROM, p.e. para cambiar entre BIOS MSX2 y C-BIOS. Opcionalmente, se puede montar un botón de reset en esa ubicación.
 
 ## Notas de la versión
 
