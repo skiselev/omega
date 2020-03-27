@@ -1,6 +1,8 @@
 # Chasis del Omega
 Caja de acrílico para el Omega Home Computer
 
+[Read this document in English](Enclosure.md)
+
 ## Introducción
 Esta es una caja de acrílico cortada con laser para el Omega Home Computer.
 El diseño presupone que será cortado de una lámina de 3mm de acrílico (o plástico similar)
