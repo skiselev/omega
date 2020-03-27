@@ -1,6 +1,8 @@
 # Omega Enclosure
 Acrylic Enclosure for the Omega Home Computer
 
+[Lea este documento en español](Enclosure_es.md)
+
 ## Introduction
 This is a laser cut acrylic enclosure for the Omega Home Computer.
 The design assumes that it will be laser cut from a 3 mm acrylic (or similar plastic) sheet.
