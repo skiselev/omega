@@ -1,4 +1,4 @@
-# Ordenador Casero Omega. Instrucciones para construir la Placa Base.
+# Omega Home Computer. Instrucciones para construir la Placa Base.
 
 ## Requisitos Previos.
 
@@ -18,12 +18,12 @@
 ### Componentes
 
 ### Adquisición de los componentes
-La lista de componentes proporcionada en [Bill of Materials](Mainboard_es.md#lista-de-componentes) que forma parte de la sección del fichero [Mainboard_es.md](Mainboard_es.md). También aporta fuentes recomendadas para adquirir los componentes.
+La lista de componentes proporcionada en [Lista de componentes](Mainboard_es.md#lista-de-componentes) que forma parte de la sección del fichero [Mainboard_es.md](Mainboard_es.md). También aporta fuentes recomendadas para adquirir los componentes.
 La mayoría de los componentes están disponibles en distribuidores habituales como [Mouser](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccesID=11fd34d22c) y [Digi-key](https://www.digikey.com).
 Algunos componentes antiguos y fuera de producción están disponibles tanto en eBay como en páginas de recicladores y revendedores de componentes electrónicos chinos.
 
 Las placas (PCB) del Omega son facilitadas por los miembros de [RetroBrew Computers group](https://www.retrobrewcomputers.org/doku.php?id=boardinventory#omega_home_computer_project_sergey_kiselev).
-Como alternativa pueden ser encargarlas a una empresa de  fabricación de PCB usando los ficheros [Gerber](Mainboard/gerber) o [Kicad](Mainboard/Kicad) facilitados en este repositorio GitHub.
+Como alternativa pueden ser encargarlas a una empresa de  fabricación de PCB usando los ficheros [Gerber](Mainboard/gerber) o [KiCad](Mainboard/KiCad) facilitados en este repositorio GitHub.
 
 #### Remplazo de Componentes
 

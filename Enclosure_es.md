@@ -38,8 +38,9 @@ Interruptor        |           | Interruptor de palanca                | 1      
 
 ## Notas de la versión
 
-## Cambios
+### Cambios
 * Version 1.0
   * Versión inicial
 
-## Problemas conocidos
+### Problemas conocidos
+
