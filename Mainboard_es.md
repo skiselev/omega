@@ -454,7 +454,7 @@ También puede funcionar con BIOS MSX2* originales de ordenadores con organizaci
 El Omega usa tres SPLDs ATF16V8/GAL16V8 (U12 - U14) para decodificación de direcciones y otras lógicas varias. Los esquemas de fusibles SPLD (ficheros JED) están disponibles en la carpeta [Mainboard/SPLD](Mainboard/SPLD) de este repositorio. Los SPLDs son implementados usando tecnología Flash/EEPROM y pueden ser programados con los programadores de EEPROM disponibles habitualmente tales como el MiniPro TL866.
 Los ficheros con el código fuente (PLD) también están disponibles en la carpeta mencionada anteriormente. Si fuese necesario pueden ser modificados para, por ejemplo, cambiar el mapeo de slots. Usa [GALasm](https://github.com/daveho/GALasm) para compilar los ficheros PLD y obtner sus esquemas de fusibles JED.
 
-##Notas de la versión
+## Notas de la versión
 
 ### Cambios
 * Versión 1.2
