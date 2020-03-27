@@ -13,7 +13,7 @@ Este proyecto es una implementación open source de un ordenador compatible MSX2
 
 ## Documentación de las Placas.
 
-[Keyboard](Keyboard.es.md)
+[Teclado](Keyboard.es.md)
 
 [Placa Base](Mainboard.es.md)
 
