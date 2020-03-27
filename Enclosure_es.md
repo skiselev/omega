@@ -12,7 +12,7 @@ El diseño presupone que será cortado de una lámina de 3mm de acrílico (o pl�
 
 El chasis se ha de ensamblar en el siguiente orden:
 
-1. Once tonrillos M3 x 12 se han de insertar en los agujeros del panel inferior
+1. Se insertan once tonrillos M3 x 12 en los agujeros del panel inferior (cara arriba)
 2. Se colocan arandelas de 3 mm en dichos tornillos en la cara superior del panel inferior
 3. Se inserta la placa base encima de las arandelas
 4. Se enroscan siete separadores M3 x 15 mm por encima de esos tornillos, excluyendo los agujeros proximos a los slots de cartucho
