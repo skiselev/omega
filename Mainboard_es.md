@@ -4,7 +4,7 @@ Placa Base para el Omega Home Computer
 ## Tabla de Contenido
 * [Introducción](#introducción)
 * [Especificaciones](#especificaciones)
-* [Documentación del Hardware](#documentacion-del-hardware)
+* [Documentación del Hardware](#documentación-del-hardware)
   * [Esquema y diseño de la PCB](#esquema-y-diseño-de-la-pcb)
   * [Conectores](#conectores)
   * [Jumpers](#jumpers)
