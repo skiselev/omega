@@ -11,10 +11,10 @@ Placa Base para el Omega Home Computer
   * [Lista de componentes](#lista-de-componentes)
   * [Puertos de Entrada y Salida](#puertos-de-entrada-y-salida)
   * [Mapa de Slots](#mapa-de-slots)
-* [Documentación del Firmware](#documentacion-del-firmware)
+* [Documentación del Firmware](#documentación-del-firmware)
   * [BIOS](#bios)
-  * [Mapa de fusibles SPLD](#mapas-de-fusibles-spld)
-* [Notas de Revisión](#notas-de-revision)
+  * [Esquema de fusibles SPLD](#esquema-de-fusibles-spld)
+* [Notas de la versión](#notas-de-la-version)
   * [Cambios](#cambios)
   * [Problemas conocidos](#problemas-conocidos)
 
@@ -442,7 +442,7 @@ Para hacerlo funcionar con el VDP V9938 la configuración debe ser de la siguien
 * Slot 3, Sub slot 3
   * 0x0000 - 0xFFFF (64 KiB): ROM de usuario #2, mapeada a la ROM 0x30000 - 0x3FFFF
 
-## Documentación de la Firmware
+## Documentación del Firmware
 
 ### BIOS
 
@@ -452,9 +452,10 @@ También puede funcionar con BIOS MSX2* originales de ordenadores con organizaci
 
 ### Esquema de fusibles SPLD
 El Omega usa tres SPLDs ATF16V8/GAL16V8 (U12 - U14) para decodificación de direcciones y otras lógicas varias. Los esquemas de fusibles SPLD (ficheros JED) están disponibles en la carpeta [Mainboard/SPLD](Mainboard/SPLD) de este repositorio. Los SPLDs son implementados usando tecnología Flash/EEPROM y pueden ser programados con los programadores de EEPROM disponibles habitualmente tales como el MiniPro TL866.
-Los ficheros con el código fuente (PLD) también están disponibles en la carpeta mencionada anteriormente. Si fuese necesario pueden ser modificados para, por ejemplo, cambiar el mapeo de slots. Usa [GALasm](https://github.com/daveho/GALasm) para compilar los ficheros PLD y obtner esquemas de fusibles JED.
+Los ficheros con el código fuente (PLD) también están disponibles en la carpeta mencionada anteriormente. Si fuese necesario pueden ser modificados para, por ejemplo, cambiar el mapeo de slots. Usa [GALasm](https://github.com/daveho/GALasm) para compilar los ficheros PLD y obtner sus esquemas de fusibles JED.
 
-## Cambios
+##Notas de la versión
+### Cambios
 * Versión 1.2
   * Solucionados los problemas conocidos de la versión 1.1
 * Versión 1.1
