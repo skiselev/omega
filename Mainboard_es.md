@@ -41,7 +41,7 @@ La Placa Base tiene implementada la funcionalidad del estándar MSX2*, tal como 
 
 ## Documentación del Hardware
 
-### Esquemático y diseño de la PCB
+### Esquema y diseño de la PCB
 
 [Esquematico - Version 1.2](Mainboard/KiCad/Omega-Mainboard-Schematic-1.2.pdf)
 
@@ -394,7 +394,7 @@ Para hacerlo funcionar con el VDP V9938 la configuración debe ser de la siguien
 * Suelde un cable que una JP3 y JP4 en la posición 1-2 para VDP V9958
 * *Aviso: Una configuración erronea del JP3 dañará el VDP*
   
-### Puertos de Entrada / Salida
+### Puertos de entrada y salida
 
 * 0x90 - 0x91 (alias 0x92 - 0x93) - Puerto de Impresora
   * 0x90: Escritura: Pulso (Strobe) (Bit 0)
