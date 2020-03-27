@@ -83,7 +83,7 @@ Como alternativa pueden ser encargarlas a una empresa de  fabricación de PCB us
 4. Inspecciona cuidadosamente todas las soldaduras. Repasa las soldaduras que creas necesario. Opcionalmente usa un multímetro para buscar corto-circuitos de la placa y para medir la conectividad de la línea alimentación
 5. Limpia la PCB usando toallitas, bastoncillos de algodón y el cepillo de dientes mojados en alcohol.
 6. Programa la Flash ROM con la imagen de la BIOS (pendiente: añadir instrucciones de la imagen)
-7. Programa las SPLDs con el [esquemas de fusibles](Mainboard/SPLD)
+7. Programa las SPLDs con el [esquema de fusibles SPLD](Mainboard/SPLD)
 8. Inserta cuidadosamente los integrados en sus zócalos. Si no entran, usa una superficie libre de estática para doblar los pines de los integrados. Repasa la orientación de los integrados (IC). Asegúrate de que todos los pines del integrado entran en el zócalo y no se doblan.
 9. Inspecciona toda la placa una vez más.
 10. Instala los jumpers de configuración. Están referenciados en la sección [Jumpers](Mainboard_es.md#jumpers) del fichero [Mainboard_es.md](Mainboard_es.md)
