@@ -16,3 +16,5 @@ Este proyecto es una implementación open source de un ordenador compatible MSX2
 [Keyboard](Keyboard.es.md)
 
 [Placa Base](Mainboard.es.md)
+
+[Carcasa](Enclosure_es.md)
