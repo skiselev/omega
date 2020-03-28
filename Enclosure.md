@@ -30,8 +30,8 @@ Component type     | Reference | Description                       | Quantity | 
 ------------------ | --------- | --------------------------------- | -------- | --------------------------
 Standoff           |           | M3 x 10 mm, female, OD: 5 mm hex  | 6        | Mouser [534-24393](https://www.mouser.com/ProductDetail/534-24393)
 Standoff           |           | M3 x 15 mm, male/female, OD: 5 mm hex  | 7   | Mouser [534-24315](https://www.mouser.com/ProductDetail/534-24315)
-Screw              |           | M3 x 12 mm, Flat Socket Cap       | 11       | Fastenal [M42510012A40000](https://www.fastenal.com/products/details/M42510012A40000)
-Screw              |           | M3 x 8 mm, Flat Socket Cap        | 6        | Fastenal [M42510008A40000](https://www.fastenal.com/products/details/M42510008A40000)
+Screw              |           | M3 x 12 mm, Button Socket Cap     | 11       | Fastenal [MB2510012A20000](https://www.fastenal.com/products/details/MB2510012A20000)
+Screw              |           | M3 x 6 mm, Button Socket Cap      | 6        | Fastenal [MB2510006A20000](https://www.fastenal.com/products/details/MB2510006A20000)
 Nut                |           | M3 hex                            | 5        | Fastenal [MN2510000A20000](https://www.fastenal.com/products/details/MN2510000A20000)
 Acrylic panel      |           | [Bottom plate](Enclosure/Omega-Eco1_User.dxf) | 1 | Laser cut from 3 mm acrylic
 Acrylic panel      |           | [Top plate, side plates, washers](Enclosure/Omega-Eco2_User.dxf) | 1 | Laser cut from 3 mm acrylic
