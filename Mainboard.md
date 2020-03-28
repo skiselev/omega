@@ -1,6 +1,8 @@
 # Omega Main Board
 Main Board for Omega Home Computer
 
+[Lea este documento en español](Mainboard_es.md)
+
 ## Table of Content
 * [Introduction](#introduction)
 * [Specifications](#specifications)

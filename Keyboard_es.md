@@ -1,6 +1,8 @@
 # Teclado del Omega
 Teclado para el Ordenador Personal Omega
 
+[Read this document in English](Keyboard.md)
+
 ## Introduccion
 ![Assembled Keyboard](Keyboard/images/Omega_Keyboard-Complete.jpg)
 

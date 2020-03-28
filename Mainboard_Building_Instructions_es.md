@@ -1,5 +1,7 @@
 # Omega Home Computer. Instrucciones para construir la Placa Base.
 
+[Read this document in English](Mainboard_Building_Instructions.md)
+
 ## Requisitos Previos.
 
 ## Herramientas, Equipo y Componentes

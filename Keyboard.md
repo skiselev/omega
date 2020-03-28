@@ -1,6 +1,8 @@
 # Omega Keyboard
 Keyboard for the Omega Home Computer
 
+[Lea este documento en español](Keyboard_es.md)
+
 ## Introduction
 ![Assembled Keyboard](Keyboard/images/Omega_Keyboard-Complete.jpg)
 

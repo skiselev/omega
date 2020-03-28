@@ -1,6 +1,8 @@
 # Omega Placa Base
 Placa Base para el Omega Home Computer
 
+[Read this document in English](Mainboard.md)
+
 ## Tabla de Contenido
 * [Introducción](#introducción)
 * [Especificaciones](#especificaciones)

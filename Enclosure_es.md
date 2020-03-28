@@ -1,6 +1,8 @@
 # Chasis del Omega
 Caja de acrílico para el Omega Home Computer
 
+[Read this document in English](Enclosure.md)
+
 ## Introducción
 Esta es una caja de acrílico cortada con laser para el Omega Home Computer.
 El diseño presupone que será cortado de una lámina de 3mm de acrílico (o plástico similar)
@@ -28,8 +30,8 @@ Tipo de componente | Referencia| Descripcion                       | Cantidad | 
 ------------------ | --------- | --------------------------------- | -------- | --------------------------
 Separadores        |           | M3 x 10 mm, female, OD: 5 mm hex  | 6        | Mouser [534-24393](https://www.mouser.com/ProductDetail/534-24393)
 Separadores        |           | M3 x 15 mm, male/female, OD: 5 mm hex  | 7   | Mouser [534-24315](https://www.mouser.com/ProductDetail/534-24315)
-Tornillos          |           | M3 x 12 mm, Flat Socket Cap       | 11       | Fastenal [M42510012A40000](https://www.fastenal.com/products/details/M42510012A40000)
-Tornillos          |           | M3 x 8 mm, Flat Socket Cap        | 6        | Fastenal [M42510008A40000](https://www.fastenal.com/products/details/M42510008A40000)
+Tornillos          |           | M3 x 12 mm, Button Socket Cap     | 11       | Fastenal [MB2510012A20000](https://www.fastenal.com/products/details/MB2510012A20000)
+Tornillos          |           | M3 x 6 mm, Button Socket Cap      | 6        | Fastenal [MB2510006A20000](https://www.fastenal.com/products/details/MB2510006A20000)
 Tuercas            |           | M3 hex                            | 5        | Fastenal [MN2510000A20000](https://www.fastenal.com/products/details/MN2510000A20000)
 Panel Acrílico     |           | [Panel inferior](Enclosure/Omega-Eco1_User.dxf) | 1 | corte laser de 3mm en acrilico
 Panel Acrílico     |           | [Paneles superior, laterales, arandelas](Enclosure/Omega-Eco2_User.dxf) | 1 | corte laser de 3mm en acrilico
