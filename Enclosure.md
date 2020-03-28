@@ -22,7 +22,7 @@ The enclosure is assembled in the following order:
 6. (Optional) Switch is connected to the header on the mainboard
 7. The keyboard PCB is placed on top of standoffs. It is secured using one M3 hex nut under the space bar, and using six M3 x 10 mm standoffs elsewhere
 8. Four side panels are placed through the cut outs in the bottom plate. (Optional) Switch is mounted on the back panel
-9. The top panel is assembed on the standoffs using six M3 x 8 mm screws
+9. The top panel is assembed on the standoffs using six M3 x 6 mm screws
 
 ### Bill of Materials - Version 1.0
 
