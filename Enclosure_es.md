@@ -22,7 +22,7 @@ El chasis se ha de ensamblar en el siguiente orden:
 6. (Opcional) Se conecta un interruptor al conector de pines en la placa base
 7. Se coloca la placa del teclado encima de los separadores. Se asegura utilizando una tuerca M3 bajo la barra espaciadora, y seis separadores M3 x 10 mm en el resto
 8. Se colocan cuatro paneles laterales a través de las ranuras en el panel inferior. (Opcional) Se monta el interruptor en el panel posterior
-9. Se fija el panel superior sobre los separadores utilizando seis tornillos M3 x 8 mm
+9. Se fija el panel superior sobre los separadores utilizando seis tornillos M3 x 6 mm
 
 ### Lista de componentes - Version 1.0
 
