@@ -3,6 +3,7 @@ cartridge_length=109;
 cartridge_width=17;
 cartridge_spacing=22.86;
 bottom_thickness=2.8;
+nut_slot_depth=1.8;
 connector_length=70.1;
 connector_width=9.4;
 connector_offset=5;
@@ -34,10 +35,18 @@ difference() {
         // lower slot - left hole
         translate([thickness+tolerance+cartridge_length/2+5-holes_distance/2,thickness+tolerance+cartridge_width/2,0]) {
             cylinder(d=holes_diameter,h=bottom_thickness);
+            // nut slot
+            translate([0,0,bottom_thickness-nut_slot_depth]) {
+                cylinder(d=5.50*2/sqrt(3), $fn=6, h=nut_slot_depth);
+            }
         }
         // lower slot - right hole
         translate([thickness+tolerance+cartridge_length/2+5+holes_distance/2,thickness+tolerance+cartridge_width/2,0]) {
             cylinder(d=holes_diameter,h=bottom_thickness);
+            // nut slot
+            translate([0,0,bottom_thickness-nut_slot_depth]) {
+                cylinder(d=5.50*2/sqrt(3), $fn=6, h=nut_slot_depth);
+            }
         }
         // upper slot - cartridge cutout
         translate([thickness,cartridge_spacing+thickness,bottom_thickness]) {
@@ -50,10 +59,18 @@ difference() {
         // upper slot - left hole
         translate([thickness+tolerance+cartridge_length/2+5-holes_distance/2,cartridge_spacing+thickness+tolerance+cartridge_width/2,0]) {
             cylinder(d=holes_diameter,h=bottom_thickness);
+            // nut slot
+            translate([0,0,bottom_thickness-nut_slot_depth]) {
+                cylinder(d=5.50*2/sqrt(3), $fn=6, h=nut_slot_depth);
+            }
         }
         // upper slot - right hole
         translate([thickness+tolerance+cartridge_length/2+5+holes_distance/2,cartridge_spacing+thickness+tolerance+cartridge_width/2,0]) {
             cylinder(d=holes_diameter,h=bottom_thickness);
+            // nut slot
+            translate([0,0,bottom_thickness-nut_slot_depth]) {
+                cylinder(d=5.50*2/sqrt(3), $fn=6, h=nut_slot_depth);
+            }
         }
     }
 }
