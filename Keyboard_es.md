@@ -1,35 +1,35 @@
-# Omega Keyboard
-Keyboard for the Omega Home Computer
+# Teclado del Omega
+Teclado para el Ordenador Personal Omega
 
-[Lea este documento en español](Keyboard_es.md)
+[Read this document in English](Keyboard.md)
 
-## Introduction
+## Introduccion
 ![Assembled Keyboard](Keyboard/images/Omega_Keyboard-Complete.jpg)
 
-## Hardware Documentation
+## Documentación del Hardware 
 
-### Schematic and PCB Layout
+### Esquemático y Diseño de la PCB
 
 [Schematic - Version 1.1](Keyboard/KiCad/Omega-Keyboard-Schematic-1.1.pdf)
 
 [PCB Layout - Version 1.1](Keyboard/KiCad/Omega-Keyboard-Board-1.1.pdf)
 
-### Connectors
+### Conectores
 
 #### J1 - Keyboard Interface
-Pin | Description      | Pin | Description
---- | ---------------- | --- | ----------------
-1   | Output: Column 0 | 2   | Power: +5V
-3   |	Output: Column 1 | 4   | Input: Row A
-5   |	Output: Column 2 | 6   | Input: Row B
-7   |	Output: Column 3 | 8   | Input: Row C
-9   |	Output: Column 4 | 10  | Input: Row D
-11  |	Output: Column 5 | 12  | Input: Caps Lock LED
-13  | Output: Column 6 | 14  | Input: Kana LED
-15  | Output: Column 7 | 16  | Power: GND
+Pin | Description         | Pin | Descripción
+--- | ------------------- | --- | ----------------
+1   | Salida: Columna 0   | 2   | Power: +5V
+3   | Salida: Columna 1   | 4   | Entrada: Fila A
+5   | Salida: Columna 2   | 6   | Entrada: Fila B
+7   | Salida: Columna 3   | 8   | Entrada: Fila C
+9   | Salida: Columna 4   | 10  | Entrada: Fila D
+11  | Salida: Columna 5   | 12  | Entrada: Caps Lock LED
+13  | Salida: Columna 6   | 14  | Entrada: Kana LED
+15  | Salida: Columna 7   | 16  | Power: GND
 
 
-### Bill of Materials - Version 1.0
+### Lista de Materiales - Versión 1.0
 
 [Omega Keyboard project on Mouser.com](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=716135aec2) - View and order all components except of the keycaps set, and the PCB.
 
@@ -53,15 +53,15 @@ Capacitor          | C3        | 10 uF, MLCC, 5 mm lead spacing    | 1       | M
 Resistor Array     | RN1       | 4.7 kohm, bussed, 6 pin SIP       | 1        | Mouser [264-4.7K-RC](https://www.mouser.com/ProductDetail/264-4.7K-RC)
 Resistor           | R1 - R3    | 470 ohm, through hole            | 3        | Mouser [291-470-RC](https://www.mouser.com/ProductDetail/291-470-RC)
 
-## Changes
-* Version 1.1
-  * Rename RR1 to RN1
-  * Keep pull-ups only for buffered COLUMN outputs. Replace RN1 with 6-pin SIP resistor array
-  * Update schematic to use newer KiCad libraries
-  * Add project URL and logos to the silk screen
+## Cambios
+* Versión 1.1
+  * Renombrar RR1 por RN1
+  * Mantener las resistencias pull-ups sólo para las salidas buffer de COLUMNAS. Sustituir RN1 por un array de resistencias SIP de 6-pin
+  * Actualizar el esquemático para usar librerías de KiCad más recientes
+  * Añadir la URL del proyecto y los logos a la serigrafía
 * Version 1.0
-  * Initial version
+  * Versión Inicial
 
-## Known Issues
+## Problemas Conocidos
 * Version 1.0
-  * Pull-up resistors are not needed on the keyboard COLUMN outputs. They should be placed on the mainboard instead
+  * Las resistencias Pull-up no son necesarias en las salidas COLUMNAS del teclado. En su lugar, debería ir en la Placa Base.

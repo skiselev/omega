@@ -1,5 +1,7 @@
 # Omega Home Computer - Main Board Building Instructions
 
+[Lea este documento en español](Mainboard_Building_Instructions_es.md)
+
 ## Prerequisites
 
 ### Tools, Equipment, and Supplies
