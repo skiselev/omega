@@ -47,7 +47,7 @@ Keyboard Switch    | SW65      |  MX Cherry - High Force Linear    | 1        | 
 Switch Leveling Kit | SW13, SW49, SW64, SW65, SW73 | Leveling kit for MX 1x2, 1x2.25, 1x2.75 | 5 | Mouser [540-G99-0742](https://www.mouser.com/ProductDetail/540-G99-0742)
 Switch Leveling Kit | SW64 | Leveling kit for MX 1x8               | 1        | Mouser [540-G99-0226](https://www.mouser.com/ProductDetail/540-G99-0226) Note: Use one of 540-G99-0742 to build a through hole leveling kit for the spacebar
 Keycaps            | SW1-SW73  | 104 Keycaps kit for Cherry MX Keyboard | 1   | Amazon, for example [this one](https://www.amazon.com/Aland-Doubleshot-Spacebar-Mechanical-Keyboard/dp/B07JVL16TD)
-Connector          | J1 | 2x8 pin header, right angle, shrouded, 2.54 mm pitch | 1 | Mouser [710-61201621721](https://www.mouser.com/ProductDetail/710-61201621721)
+Connector          | J1 | 2x8 pin header, right angle, shrouded, 2.54 mm pitch | 1 | Mouser [710-61201621721](https://www.mouser.com/ProductDetail/710-61201621721) or use 2x8 pin female header to plug the keyboard directly to the mainboard using 15 mm standoffs between them: Mouser [200-ESQ10812LD](https://www.mouser.com/ProductDetail/200-ESQ10812LD)
 Capacitor          | C1, C2    | 0.1 uF, MLCC, 5 mm lead spacing   | 2       | Mouser [594-K104K15X7RF53H5](https://www.mouser.com/ProductDetail/594-K104K15X7RF53H5)
 Capacitor          | C3        | 10 uF, MLCC, 5 mm lead spacing    | 1       | Mouser [810-FG28X5R1E106MR00](https://www.mouser.com/ProductDetail/810-FG28X5R1E106MR00)
 Resistor Array     | RN1       | 4.7 kohm, bussed, 6 pin SIP       | 1        | Mouser [264-4.7K-RC](https://www.mouser.com/ProductDetail/264-4.7K-RC)
