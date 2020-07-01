@@ -312,7 +312,7 @@ Resistor           | R25, R26  | 2.2 kohm, axial                             | 2
 Resistor           | R27 - R33 | 1 kohm, axial                               | 7        | Mouser [291-1K-RC](https://www.mouser.com/ProductDetail/291-1K-RC). Note R31, R32 are optional - cassette recorder support. Note R33 is optional - RGB output support.
 Resistor           | R34       | 470 ohm, axial                              | 1        | Mouser [291-470-RC](https://www.mouser.com/ProductDetail/291-470-RC) 
 Resistor           | R35       | 180 ohm, axial                              | 1        | Mouser [291-180-RC](https://www.mouser.com/ProductDetail/291-180-RC). Note R35 is optional - RGB output support.
-Resistor           | R36       | 120 ohm, axial                              | 1        | Mouser [291-180-RC](https://www.mouser.com/ProductDetail/291-120-RC). Note R36 is optional - RGB output support.
+Resistor           | R36       | 120 ohm, axial                              | 1        | Mouser [291-120-RC](https://www.mouser.com/ProductDetail/291-120-RC). Note R36 is optional - RGB output support.
 Resistor           | R37 - R42 | 100 ohm, axial                              | 6        | Mouser [291-100-RC](https://www.mouser.com/ProductDetail/291-100-RC). Note R42 is optional - cassette recorder support.
 Resistor           | R43 - R48 | 75 ohm, axial                               | 6        | Mouser [291-75-RC](https://www.mouser.com/ProductDetail/291-75-RC). Note R46 - R48 are optional - RGB output support.
 Relay              | RY1       | 5V SPDT relay                               | 1        | Mouser [653-G5V-1-T90-DC5](https://www.mouser.com/ProductDetail/653-G5V-1-T90-DC5)
@@ -343,6 +343,7 @@ Battery Holder     | BT1       | CR2032 Battery holder                       | 1
 Battery            | BT1       | CR2032 Battery                              | 1        | Mouser [614-CR2032-200](https://www.mouser.com/ProductDetail/614-CR2032-200), [658-CR2032](https://www.mouser.com/ProductDetail/658-CR2032). Note: Not included in Mouser Project due to shipping restrictions.
 IC Socket          | U1, U2, U4 | 40 pin DIP                                 | 3        | Mouser [517-4840-6000-CP](https://www.mouser.com/ProductDetail/517-4840-6000-CP)
 IC Socket          | U3        | 64 pin DIP                                  | 1        | eBay
+IC Socket          | U3        | 64 pin DIP (pin strips, alternate)          | 4        | Digikey [317-87-121-41-005101] (https://www.digikey.com/product-detail/en/preci-dip/317-87-121-41-005101/1212-1133-ND/3757383)
 IC Socket          | U6, U7    | 32 pin DIP                                  | 2        | Mouser [517-4832-6000-CP](https://www.mouser.com/ProductDetail/517-4832-6000-CP)
 IC Socket          | U47       | 24 pin DIP, 400 mil spacing                 | 1        | Mouser [517-4824-6000-CP](https://www.mouser.com/ProductDetail/517-4824-6000-CP) or [517-4824-3000-CP](https://www.mouser.com/ProductDetail/517-4824-3000-CP). Note: Cut the socket in the middle. If using a socket with 600 mil spacing, remove excess material. Alternatively, solder U47 (CXA1645P) without using a socket.
 IC Socket          | U12 - U14, U19 - U26 | 20 pin DIP                       | 11       | Mouser [517-4820-3000-CP](https://www.mouser.com/ProductDetail/517-4820-3000-CP)
