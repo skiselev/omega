@@ -312,7 +312,7 @@ Resistor           | R25, R26  | 2.2 kohm, axial                             | 2
 Resistor           | R27 - R33 | 1 kohm, axial                               | 7        | Mouser [291-1K-RC](https://www.mouser.com/ProductDetail/291-1K-RC). Note R31, R32 are optional - cassette recorder support. Note R33 is optional - RGB output support.
 Resistor           | R34       | 470 ohm, axial                              | 1        | Mouser [291-470-RC](https://www.mouser.com/ProductDetail/291-470-RC) 
 Resistor           | R35       | 180 ohm, axial                              | 1        | Mouser [291-180-RC](https://www.mouser.com/ProductDetail/291-180-RC). Note R35 is optional - RGB output support.
-Resistor           | R36       | 120 ohm, axial                              | 1        | Mouser [291-180-RC](https://www.mouser.com/ProductDetail/291-120-RC). Note R36 is optional - RGB output support.
+Resistor           | R36       | 120 ohm, axial                              | 1        | Mouser [291-120-RC](https://www.mouser.com/ProductDetail/291-120-RC). Note R36 is optional - RGB output support.
 Resistor           | R37 - R42 | 100 ohm, axial                              | 6        | Mouser [291-100-RC](https://www.mouser.com/ProductDetail/291-100-RC). Note R42 is optional - cassette recorder support.
 Resistor           | R43 - R48 | 75 ohm, axial                               | 6        | Mouser [291-75-RC](https://www.mouser.com/ProductDetail/291-75-RC). Note R46 - R48 are optional - RGB output support.
 Relay              | RY1       | 5V SPDT relay                               | 1        | Mouser [653-G5V-1-T90-DC5](https://www.mouser.com/ProductDetail/653-G5V-1-T90-DC5)
