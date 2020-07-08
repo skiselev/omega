@@ -8,6 +8,31 @@ PATCH_KEYS=1
 PATCH_BACKSLASH=1
 PATCH_VERSION=1
 
+# all necessary roms
+ROMS="${SYSTEM_ROMS_DIR}/nms8250_basic-bios2.rom ${SYSTEM_ROMS_DIR}/nms8250_msx2sub.rom ${SYSTEM_ROMS_DIR}/phc-23jb_basic-bios2.rom ${SYSTEM_ROMS_DIR}/phc-23jb_msx2sub.rom ${SYSTEM_ROMS_DIR}/phc-35j_basic-bios2p.rom ${SYSTEM_ROMS_DIR}/phc-35j_kanjibasic.rom ${SYSTEM_ROMS_DIR}/phc-35j_msx2psub.rom"
+
+# create ROMs directories, if necessary
+for dir in ${SYSTEM_ROMS_DIR}; do
+  if [ ! -d ${dir} ]; then
+    echo "Creating directory ${dir}...Please place the appropriate ROMs there, so that the BIOS can be built."
+    mkdir -p ${dir}
+  fi
+done
+
+# download CBIOS, if needed
+if [ ! -d ${CBIOS_ROMS_DIR} -o ! -f ${CBIOS_ROMS_DIR}/cbios_main_msx2.rom -o ! -f ${CBIOS_ROMS_DIR}/cbios_logo_msx2.rom -o ! -f ${CBIOS_ROMS_DIR}/cbios_sub.rom ]; then
+  wget -O cbios-0.29a.zip 'https://downloads.sourceforge.net/project/cbios/cbios/0.29/cbios-0.29a.zip?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fcbios%2Ffiles%2Fcbios%2F0.29%2Fcbios-0.29a.zip%2Fdownload%3Fuse_mirror%3Dastuteinternet%26r%3Dhttps%253A%252F%252Fsourceforge.net%252Fprojects%252Fcbios%252Ffiles%252Fcbios%252F0.29%252F%26use_mirror%3Dastuteinternet&ts=1594238820'
+  unzip cbios-0.29a.zip
+fi
+
+# check to make sure that all ROMs are present
+for rom in ${ROMS}; do
+  if [ ! -f ${rom} ]; then
+    echo "Please place a ROM file at ${rom}."
+    exit 1
+  fi
+done
+
 # Create MSX2 BIOS + C-BIOS NTSC image
 
 # copy MSX2 NTSC ROMs
