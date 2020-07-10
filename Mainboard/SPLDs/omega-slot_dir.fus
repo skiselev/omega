@@ -31,7 +31,7 @@ Pin 17 = VDPWAIT      XOR = 0   AC1 = 1
  23  xxxx xxxx xxxx ---- ---- ---- ---- ---- ---- ---- ----
 
 Pin 16 = KBDWAIT      XOR = 0   AC1 = 1
- 24  xx-- -x-- ---- ---- ---- ---- ---- -x-- xx-- ---- -x--
+ 24  -xx- -x-- ---- ---- ---- ---- ---- -x-- -xx- ---- -x--
  25  ---- ---- ---- ---- -x-- xxxx xxxx xxxx xxxx xxxx xxxx
  26  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  27  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
