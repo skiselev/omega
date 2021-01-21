@@ -1,881 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# 74xx_74LS138
+# 74LS00-my_components
 #
-DEF 74xx_74LS138 U 0 40 Y Y 1 L N
-F0 "U" -300 450 50 H V C CNN
-F1 "74xx_74LS138" -300 -550 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- DIP?16*
-$ENDFPLIST
-DRAW
-S -300 400 300 -500 1 1 10 f
-X A0 1 -500 300 200 R 50 50 1 0 I
-X O5 10 500 -200 200 L 50 50 1 0 O V
-X O4 11 500 -100 200 L 50 50 1 0 O V
-X O3 12 500 0 200 L 50 50 1 0 O V
-X O2 13 500 100 200 L 50 50 1 0 O V
-X O1 14 500 200 200 L 50 50 1 0 O V
-X O0 15 500 300 200 L 50 50 1 0 O V
-X VCC 16 0 600 200 D 50 50 1 0 W
-X A1 2 -500 200 200 R 50 50 1 0 I
-X A2 3 -500 100 200 R 50 50 1 0 I
-X E1 4 -500 -400 200 R 50 50 1 0 I L
-X E2 5 -500 -300 200 R 50 50 1 0 I L
-X E3 6 -500 -200 200 R 50 50 1 0 I
-X O7 7 500 -400 200 L 50 50 1 0 O V
-X GND 8 0 -700 200 U 50 50 1 0 W
-X O6 9 500 -300 200 L 50 50 1 0 O V
-ENDDRAW
-ENDDEF
-#
-# 74xx_74LS245
-#
-DEF 74xx_74LS245 U 0 40 Y Y 1 L N
-F0 "U" -300 650 50 H V C CNN
-F1 "74xx_74LS245" -300 -650 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-ALIAS 74HC245
-$FPLIST
- DIP?20*
-$ENDFPLIST
-DRAW
-S -300 600 300 -600 1 1 10 f
-P 3 1 0 0 -25 -50 -25 50 25 50 N
-P 4 1 0 0 -50 -50 25 -50 25 50 50 50 N
-X A->B 1 -500 -400 200 R 50 50 1 0 I
-X GND 10 0 -800 200 U 50 50 1 0 W
-X B7 11 500 -200 200 L 50 50 1 0 T
-X B6 12 500 -100 200 L 50 50 1 0 T
-X B5 13 500 0 200 L 50 50 1 0 T
-X B4 14 500 100 200 L 50 50 1 0 T
-X B3 15 500 200 200 L 50 50 1 0 T
-X B2 16 500 300 200 L 50 50 1 0 T
-X B1 17 500 400 200 L 50 50 1 0 T
-X B0 18 500 500 200 L 50 50 1 0 T
-X CE 19 -500 -500 200 R 50 50 1 0 I I
-X A0 2 -500 500 200 R 50 50 1 0 T
-X VCC 20 0 800 200 D 50 50 1 0 W
-X A1 3 -500 400 200 R 50 50 1 0 T
-X A2 4 -500 300 200 R 50 50 1 0 T
-X A3 5 -500 200 200 R 50 50 1 0 T
-X A4 6 -500 100 200 R 50 50 1 0 T
-X A5 7 -500 0 200 R 50 50 1 0 T
-X A6 8 -500 -100 200 R 50 50 1 0 T
-X A7 9 -500 -200 200 R 50 50 1 0 T
-ENDDRAW
-ENDDEF
-#
-# 74xx_74LS541
-#
-DEF 74xx_74LS541 U 0 40 Y Y 1 L N
-F0 "U" -300 650 50 H V C CNN
-F1 "74xx_74LS541" -300 -650 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-ALIAS 74HCT541
-$FPLIST
- DIP?20*
-$ENDFPLIST
-DRAW
-S -300 600 300 -600 1 1 10 f
-P 3 1 0 0 -25 -63 -25 37 25 37 N
-P 4 1 0 0 -50 -63 25 -63 25 37 50 37 N
-P 4 1 0 6 50 137 -50 187 -50 87 50 137 N
-X G1 1 -500 -400 200 R 50 50 1 0 I I
-X GND 10 0 -800 200 U 50 50 1 0 W
-X Y7 11 500 -200 200 L 50 50 1 0 T
-X Y6 12 500 -100 200 L 50 50 1 0 T
-X Y5 13 500 0 200 L 50 50 1 0 T
-X Y4 14 500 100 200 L 50 50 1 0 T
-X Y3 15 500 200 200 L 50 50 1 0 T
-X Y2 16 500 300 200 L 50 50 1 0 T
-X Y1 17 500 400 200 L 50 50 1 0 T
-X Y0 18 500 500 200 L 50 50 1 0 T
-X G2 19 -500 -500 200 R 50 50 1 0 I I
-X A0 2 -500 500 200 R 50 50 1 0 I
-X VCC 20 0 800 200 D 50 50 1 0 W
-X A1 3 -500 400 200 R 50 50 1 0 I
-X A2 4 -500 300 200 R 50 50 1 0 I
-X A3 5 -500 200 200 R 50 50 1 0 I
-X A4 6 -500 100 200 R 50 50 1 0 I
-X A5 7 -500 0 200 R 50 50 1 0 I
-X A6 8 -500 -100 200 R 50 50 1 0 I
-X A7 9 -500 -200 200 R 50 50 1 0 I
-ENDDRAW
-ENDDEF
-#
-# 74xx_74LS670
-#
-DEF 74xx_74LS670 U 0 40 Y Y 1 L N
-F0 "U" -300 650 50 H V C CNN
-F1 "74xx_74LS670" -300 -750 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-ALIAS 74LS670
-$FPLIST
- DIP?16*
-$ENDFPLIST
-DRAW
-S -300 600 300 -700 1 1 10 f
-X D2 1 -500 400 200 R 50 50 1 0 I
-X Q1 10 500 500 200 L 50 50 1 0 T
-X ~Er 11 -500 -600 200 R 50 50 1 0 I
-X ~Ew 12 -500 -200 200 R 50 50 1 0 I
-X Wb 13 -500 -100 200 R 50 50 1 0 I
-X Wa 14 -500 0 200 R 50 50 1 0 I
-X D1 15 -500 500 200 R 50 50 1 0 I
-X VCC 16 0 800 200 D 50 50 1 0 W
-X D3 2 -500 300 200 R 50 50 1 0 I
-X D4 3 -500 200 200 R 50 50 1 0 I
-X Rb 4 -500 -500 200 R 50 50 1 0 I
-X Ra 5 -500 -400 200 R 50 50 1 0 I
-X Q4 6 500 200 200 L 50 50 1 0 T
-X Q3 7 500 300 200 L 50 50 1 0 T
-X GND 8 0 -900 200 U 50 50 1 0 W
-X Q2 9 500 400 200 L 50 50 1 0 T
-ENDDRAW
-ENDDEF
-#
-# Amplifier_Operational_MCP601-xP
-#
-DEF Amplifier_Operational_MCP601-xP U 0 5 Y Y 1 F N
-F0 "U" 0 250 50 H V L CNN
-F1 "Amplifier_Operational_MCP601-xP" 0 150 50 H V L CNN
-F2 "Package_DIP:DIP-8_W7.62mm" -100 -200 50 H I L CNN
-F3 "" 150 150 50 H I C CNN
-ALIAS LM6171xxN OPA340P AD8001AN TLV2371P
-$FPLIST
- DIP*W7.62mm*
-$ENDFPLIST
-DRAW
-P 4 0 1 10 -200 200 200 0 -200 -200 -200 200 f
-X NC 1 -200 -100 100 U 50 50 1 1 N N
-X - 2 -300 -100 100 R 50 50 1 1 I
-X + 3 -300 100 100 R 50 50 1 1 I
-X V- 4 -100 -300 150 U 50 50 1 1 W
-X NC 5 -100 -100 100 U 50 50 1 1 N N
-X ~ 6 300 0 100 L 50 50 1 1 O
-X V+ 7 -100 300 150 D 50 50 1 1 W
-X NC 8 0 -100 100 U 50 50 1 1 N N
-ENDDRAW
-ENDDEF
-#
-# Connector_Barrel_Jack_Switch
-#
-DEF Connector_Barrel_Jack_Switch J 0 20 Y N 1 F N
-F0 "J" 0 210 50 H V C CNN
-F1 "Connector_Barrel_Jack_Switch" 0 -200 50 H V C CNN
-F2 "" 50 -40 50 H I C CNN
-F3 "" 50 -40 50 H I C CNN
-$FPLIST
- BarrelJack*
-$ENDFPLIST
-DRAW
-A -130 100 25 901 -901 0 1 10 F -130 125 -130 75
-A -130 100 25 901 -901 0 1 10 N -130 125 -130 75
-S -200 150 200 -150 0 1 10 f
-S 145 125 -130 75 0 1 10 F
-P 2 0 1 10 50 -90 75 -65 N
-P 2 0 1 10 200 100 150 100 N
-P 4 0 1 10 200 0 50 0 50 -90 25 -65 N
-P 6 0 1 10 -150 -100 -100 -100 -50 -50 0 -100 100 -100 200 -100 N
-X ~ 1 300 100 100 L 50 50 1 1 P
-X ~ 2 300 -100 100 L 50 50 1 1 P
-X ~ 3 300 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Connector_Conn_Coaxial
-#
-DEF Connector_Conn_Coaxial J 0 40 Y N 1 F N
-F0 "J" 10 120 50 H V C CNN
-F1 "Connector_Conn_Coaxial" 115 0 50 V V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- *BNC*
- *SMA*
- *SMB*
- *SMC*
- *Cinch*
-$ENDFPLIST
-DRAW
-A -2 0 71 1636 0 0 1 10 N -70 20 70 0
-A -1 0 71 0 -1638 0 1 10 N 70 0 -70 -20
-C 0 0 20 0 1 8 N
-P 2 0 1 0 -100 0 -20 0 N
-P 2 0 1 0 0 -100 0 -70 N
-X In 1 -200 0 100 R 50 50 1 1 P
-X Ext 2 0 -200 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Connector_DB9_Female
-#
-DEF Connector_DB9_Female J 0 40 Y N 1 F N
-F0 "J" 0 550 50 H V C CNN
-F1 "Connector_DB9_Female" 0 -575 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- DSUB*Female*
-$ENDFPLIST
-DRAW
-C -70 -400 30 0 1 0 N
-C -70 -200 30 0 1 0 N
-C -70 0 30 0 1 0 N
-C -70 200 30 0 1 0 N
-C -70 400 30 0 1 0 N
-C 50 -300 30 0 1 0 N
-C 50 -100 30 0 1 0 N
-C 50 100 30 0 1 0 N
-C 50 300 30 0 1 0 N
-P 2 0 1 0 -150 -400 -100 -400 N
-P 2 0 1 0 -150 -300 20 -300 N
-P 2 0 1 0 -150 -200 -100 -200 N
-P 2 0 1 0 -150 -100 20 -100 N
-P 2 0 1 0 -150 0 -100 0 N
-P 2 0 1 0 -150 100 20 100 N
-P 2 0 1 0 -150 200 -100 200 N
-P 2 0 1 0 -150 300 20 300 N
-P 2 0 1 0 -150 400 -100 400 N
-P 5 0 1 10 -150 525 -150 -525 150 -375 150 375 -150 525 f
-X 1 1 -300 400 150 R 50 50 1 1 P
-X 2 2 -300 200 150 R 50 50 1 1 P
-X 3 3 -300 0 150 R 50 50 1 1 P
-X 4 4 -300 -200 150 R 50 50 1 1 P
-X 5 5 -300 -400 150 R 50 50 1 1 P
-X 6 6 -300 300 150 R 50 50 1 1 P
-X 7 7 -300 100 150 R 50 50 1 1 P
-X 8 8 -300 -100 150 R 50 50 1 1 P
-X 9 9 -300 -300 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Connector_DIN-8
-#
-DEF Connector_DIN-8 J 0 40 Y Y 1 F N
-F0 "J" 125 225 50 H V C CNN
-F1 "Connector_DIN-8" 80 -230 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- DIN*
-$ENDFPLIST
-DRAW
-A -1 -1 201 -811 3 0 1 10 N 30 -200 200 0
-A 0 0 200 1 1799 0 1 10 N 200 0 -200 0
-A 1 -1 201 1797 -989 0 1 10 N -200 0 -30 -200
-C -120 -30 20 0 1 0 N
-C -100 80 20 0 1 0 N
-C -60 -110 20 0 1 0 N
-C 0 0 20 0 1 0 N
-C 0 130 20 0 1 0 N
-C 60 -110 20 0 1 0 N
-C 100 80 20 0 1 0 N
-C 120 -30 20 0 1 0 N
-P 2 0 1 0 -200 0 -140 -20 N
-P 2 0 1 0 0 -20 0 -200 N
-P 2 0 1 0 0 200 0 150 N
-P 2 0 1 0 200 0 140 -20 N
-P 3 0 1 0 -200 -100 -170 -100 -80 -110 N
-P 3 0 1 0 -200 100 -170 100 -120 90 N
-P 3 0 1 0 200 -100 170 -100 80 -110 N
-P 3 0 1 0 200 100 170 100 120 90 N
-P 4 0 1 10 -30 -195 -30 -165 30 -165 30 -195 N
-X ~ 1 -300 0 100 R 50 50 1 1 P
-X ~ 2 0 300 100 D 50 50 1 1 P
-X ~ 3 300 0 100 L 50 50 1 1 P
-X ~ 4 -300 100 100 R 50 50 1 1 P
-X ~ 5 300 100 100 L 50 50 1 1 P
-X ~ 6 -300 -100 100 R 50 50 1 1 P
-X ~ 7 300 -100 100 L 50 50 1 1 P
-X ~ 8 0 -300 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Connector_Generic_Conn_01x02
-#
-DEF Connector_Generic_Conn_01x02 J 0 40 Y N 1 F N
-F0 "J" 0 100 50 H V C CNN
-F1 "Connector_Generic_Conn_01x02" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_1x??_*
-$ENDFPLIST
-DRAW
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 50 50 -150 1 1 10 f
-X Pin_1 1 -200 0 150 R 50 50 1 1 P
-X Pin_2 2 -200 -100 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Connector_Generic_Conn_01x03
-#
-DEF Connector_Generic_Conn_01x03 J 0 40 Y N 1 F N
-F0 "J" 0 200 50 H V C CNN
-F1 "Connector_Generic_Conn_01x03" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_1x??_*
-$ENDFPLIST
-DRAW
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 150 50 -150 1 1 10 f
-X Pin_1 1 -200 100 150 R 50 50 1 1 P
-X Pin_2 2 -200 0 150 R 50 50 1 1 P
-X Pin_3 3 -200 -100 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Connector_Generic_Conn_01x08
-#
-DEF Connector_Generic_Conn_01x08 J 0 40 Y N 1 F N
-F0 "J" 0 400 50 H V C CNN
-F1 "Connector_Generic_Conn_01x08" 0 -500 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_1x??_*
-$ENDFPLIST
-DRAW
-S -50 -395 0 -405 1 1 6 N
-S -50 -295 0 -305 1 1 6 N
-S -50 -195 0 -205 1 1 6 N
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 205 0 195 1 1 6 N
-S -50 305 0 295 1 1 6 N
-S -50 350 50 -450 1 1 10 f
-X Pin_1 1 -200 300 150 R 50 50 1 1 P
-X Pin_2 2 -200 200 150 R 50 50 1 1 P
-X Pin_3 3 -200 100 150 R 50 50 1 1 P
-X Pin_4 4 -200 0 150 R 50 50 1 1 P
-X Pin_5 5 -200 -100 150 R 50 50 1 1 P
-X Pin_6 6 -200 -200 150 R 50 50 1 1 P
-X Pin_7 7 -200 -300 150 R 50 50 1 1 P
-X Pin_8 8 -200 -400 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Connector_Generic_Conn_01x13
-#
-DEF Connector_Generic_Conn_01x13 J 0 40 Y N 1 F N
-F0 "J" 0 700 50 H V C CNN
-F1 "Connector_Generic_Conn_01x13" 0 -700 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_1x??_*
-$ENDFPLIST
-DRAW
-S -50 -595 0 -605 1 1 6 N
-S -50 -495 0 -505 1 1 6 N
-S -50 -395 0 -405 1 1 6 N
-S -50 -295 0 -305 1 1 6 N
-S -50 -195 0 -205 1 1 6 N
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 205 0 195 1 1 6 N
-S -50 305 0 295 1 1 6 N
-S -50 405 0 395 1 1 6 N
-S -50 505 0 495 1 1 6 N
-S -50 605 0 595 1 1 6 N
-S -50 650 50 -650 1 1 10 f
-X Pin_1 1 -200 600 150 R 50 50 1 1 P
-X Pin_10 10 -200 -300 150 R 50 50 1 1 P
-X Pin_11 11 -200 -400 150 R 50 50 1 1 P
-X Pin_12 12 -200 -500 150 R 50 50 1 1 P
-X Pin_13 13 -200 -600 150 R 50 50 1 1 P
-X Pin_2 2 -200 500 150 R 50 50 1 1 P
-X Pin_3 3 -200 400 150 R 50 50 1 1 P
-X Pin_4 4 -200 300 150 R 50 50 1 1 P
-X Pin_5 5 -200 200 150 R 50 50 1 1 P
-X Pin_6 6 -200 100 150 R 50 50 1 1 P
-X Pin_7 7 -200 0 150 R 50 50 1 1 P
-X Pin_8 8 -200 -100 150 R 50 50 1 1 P
-X Pin_9 9 -200 -200 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Connector_Generic_Conn_02x02_Odd_Even
-#
-DEF Connector_Generic_Conn_02x02_Odd_Even J 0 40 Y N 1 F N
-F0 "J" 50 100 50 H V C CNN
-F1 "Connector_Generic_Conn_02x02_Odd_Even" 50 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_2x??_*
-$ENDFPLIST
-DRAW
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 50 150 -150 1 1 10 f
-S 150 -95 100 -105 1 1 6 N
-S 150 5 100 -5 1 1 6 N
-X Pin_1 1 -200 0 150 R 50 50 1 1 P
-X Pin_2 2 300 0 150 L 50 50 1 1 P
-X Pin_3 3 -200 -100 150 R 50 50 1 1 P
-X Pin_4 4 300 -100 150 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Connector_Generic_Conn_02x07_Top_Bottom
-#
-DEF Connector_Generic_Conn_02x07_Top_Bottom J 0 40 Y N 1 F N
-F0 "J" 50 400 50 H V C CNN
-F1 "Connector_Generic_Conn_02x07_Top_Bottom" 50 -400 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_2x??_*
-$ENDFPLIST
-DRAW
-S -50 -295 0 -305 1 1 6 N
-S -50 -195 0 -205 1 1 6 N
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 205 0 195 1 1 6 N
-S -50 305 0 295 1 1 6 N
-S -50 350 150 -350 1 1 10 f
-S 150 -295 100 -305 1 1 6 N
-S 150 -195 100 -205 1 1 6 N
-S 150 -95 100 -105 1 1 6 N
-S 150 5 100 -5 1 1 6 N
-S 150 105 100 95 1 1 6 N
-S 150 205 100 195 1 1 6 N
-S 150 305 100 295 1 1 6 N
-X Pin_1 1 -200 300 150 R 50 50 1 1 P
-X Pin_10 10 300 100 150 L 50 50 1 1 P
-X Pin_11 11 300 0 150 L 50 50 1 1 P
-X Pin_12 12 300 -100 150 L 50 50 1 1 P
-X Pin_13 13 300 -200 150 L 50 50 1 1 P
-X Pin_14 14 300 -300 150 L 50 50 1 1 P
-X Pin_2 2 -200 200 150 R 50 50 1 1 P
-X Pin_3 3 -200 100 150 R 50 50 1 1 P
-X Pin_4 4 -200 0 150 R 50 50 1 1 P
-X Pin_5 5 -200 -100 150 R 50 50 1 1 P
-X Pin_6 6 -200 -200 150 R 50 50 1 1 P
-X Pin_7 7 -200 -300 150 R 50 50 1 1 P
-X Pin_8 8 300 300 150 L 50 50 1 1 P
-X Pin_9 9 300 200 150 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Connector_Generic_Conn_02x08_Odd_Even
-#
-DEF Connector_Generic_Conn_02x08_Odd_Even J 0 40 Y N 1 F N
-F0 "J" 50 400 50 H V C CNN
-F1 "Connector_Generic_Conn_02x08_Odd_Even" 50 -500 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_2x??_*
-$ENDFPLIST
-DRAW
-S -50 -395 0 -405 1 1 6 N
-S -50 -295 0 -305 1 1 6 N
-S -50 -195 0 -205 1 1 6 N
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 205 0 195 1 1 6 N
-S -50 305 0 295 1 1 6 N
-S -50 350 150 -450 1 1 10 f
-S 150 -395 100 -405 1 1 6 N
-S 150 -295 100 -305 1 1 6 N
-S 150 -195 100 -205 1 1 6 N
-S 150 -95 100 -105 1 1 6 N
-S 150 5 100 -5 1 1 6 N
-S 150 105 100 95 1 1 6 N
-S 150 205 100 195 1 1 6 N
-S 150 305 100 295 1 1 6 N
-X Pin_1 1 -200 300 150 R 50 50 1 1 P
-X Pin_10 10 300 -100 150 L 50 50 1 1 P
-X Pin_11 11 -200 -200 150 R 50 50 1 1 P
-X Pin_12 12 300 -200 150 L 50 50 1 1 P
-X Pin_13 13 -200 -300 150 R 50 50 1 1 P
-X Pin_14 14 300 -300 150 L 50 50 1 1 P
-X Pin_15 15 -200 -400 150 R 50 50 1 1 P
-X Pin_16 16 300 -400 150 L 50 50 1 1 P
-X Pin_2 2 300 300 150 L 50 50 1 1 P
-X Pin_3 3 -200 200 150 R 50 50 1 1 P
-X Pin_4 4 300 200 150 L 50 50 1 1 P
-X Pin_5 5 -200 100 150 R 50 50 1 1 P
-X Pin_6 6 300 100 150 L 50 50 1 1 P
-X Pin_7 7 -200 0 150 R 50 50 1 1 P
-X Pin_8 8 300 0 150 L 50 50 1 1 P
-X Pin_9 9 -200 -100 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Connector_Generic_Conn_02x20_Odd_Even
-#
-DEF Connector_Generic_Conn_02x20_Odd_Even J 0 40 Y N 1 F N
-F0 "J" 50 1000 50 H V C CNN
-F1 "Connector_Generic_Conn_02x20_Odd_Even" 50 -1100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_2x??_*
-$ENDFPLIST
-DRAW
-S -50 -995 0 -1005 1 1 6 N
-S -50 -895 0 -905 1 1 6 N
-S -50 -795 0 -805 1 1 6 N
-S -50 -695 0 -705 1 1 6 N
-S -50 -595 0 -605 1 1 6 N
-S -50 -495 0 -505 1 1 6 N
-S -50 -395 0 -405 1 1 6 N
-S -50 -295 0 -305 1 1 6 N
-S -50 -195 0 -205 1 1 6 N
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 205 0 195 1 1 6 N
-S -50 305 0 295 1 1 6 N
-S -50 405 0 395 1 1 6 N
-S -50 505 0 495 1 1 6 N
-S -50 605 0 595 1 1 6 N
-S -50 705 0 695 1 1 6 N
-S -50 805 0 795 1 1 6 N
-S -50 905 0 895 1 1 6 N
-S -50 950 150 -1050 1 1 10 f
-S 150 -995 100 -1005 1 1 6 N
-S 150 -895 100 -905 1 1 6 N
-S 150 -795 100 -805 1 1 6 N
-S 150 -695 100 -705 1 1 6 N
-S 150 -595 100 -605 1 1 6 N
-S 150 -495 100 -505 1 1 6 N
-S 150 -395 100 -405 1 1 6 N
-S 150 -295 100 -305 1 1 6 N
-S 150 -195 100 -205 1 1 6 N
-S 150 -95 100 -105 1 1 6 N
-S 150 5 100 -5 1 1 6 N
-S 150 105 100 95 1 1 6 N
-S 150 205 100 195 1 1 6 N
-S 150 305 100 295 1 1 6 N
-S 150 405 100 395 1 1 6 N
-S 150 505 100 495 1 1 6 N
-S 150 605 100 595 1 1 6 N
-S 150 705 100 695 1 1 6 N
-S 150 805 100 795 1 1 6 N
-S 150 905 100 895 1 1 6 N
-X Pin_1 1 -200 900 150 R 50 50 1 1 P
-X Pin_10 10 300 500 150 L 50 50 1 1 P
-X Pin_11 11 -200 400 150 R 50 50 1 1 P
-X Pin_12 12 300 400 150 L 50 50 1 1 P
-X Pin_13 13 -200 300 150 R 50 50 1 1 P
-X Pin_14 14 300 300 150 L 50 50 1 1 P
-X Pin_15 15 -200 200 150 R 50 50 1 1 P
-X Pin_16 16 300 200 150 L 50 50 1 1 P
-X Pin_17 17 -200 100 150 R 50 50 1 1 P
-X Pin_18 18 300 100 150 L 50 50 1 1 P
-X Pin_19 19 -200 0 150 R 50 50 1 1 P
-X Pin_2 2 300 900 150 L 50 50 1 1 P
-X Pin_20 20 300 0 150 L 50 50 1 1 P
-X Pin_21 21 -200 -100 150 R 50 50 1 1 P
-X Pin_22 22 300 -100 150 L 50 50 1 1 P
-X Pin_23 23 -200 -200 150 R 50 50 1 1 P
-X Pin_24 24 300 -200 150 L 50 50 1 1 P
-X Pin_25 25 -200 -300 150 R 50 50 1 1 P
-X Pin_26 26 300 -300 150 L 50 50 1 1 P
-X Pin_27 27 -200 -400 150 R 50 50 1 1 P
-X Pin_28 28 300 -400 150 L 50 50 1 1 P
-X Pin_29 29 -200 -500 150 R 50 50 1 1 P
-X Pin_3 3 -200 800 150 R 50 50 1 1 P
-X Pin_30 30 300 -500 150 L 50 50 1 1 P
-X Pin_31 31 -200 -600 150 R 50 50 1 1 P
-X Pin_32 32 300 -600 150 L 50 50 1 1 P
-X Pin_33 33 -200 -700 150 R 50 50 1 1 P
-X Pin_34 34 300 -700 150 L 50 50 1 1 P
-X Pin_35 35 -200 -800 150 R 50 50 1 1 P
-X Pin_36 36 300 -800 150 L 50 50 1 1 P
-X Pin_37 37 -200 -900 150 R 50 50 1 1 P
-X Pin_38 38 300 -900 150 L 50 50 1 1 P
-X Pin_39 39 -200 -1000 150 R 50 50 1 1 P
-X Pin_4 4 300 800 150 L 50 50 1 1 P
-X Pin_40 40 300 -1000 150 L 50 50 1 1 P
-X Pin_5 5 -200 700 150 R 50 50 1 1 P
-X Pin_6 6 300 700 150 L 50 50 1 1 P
-X Pin_7 7 -200 600 150 R 50 50 1 1 P
-X Pin_8 8 300 600 150 L 50 50 1 1 P
-X Pin_9 9 -200 500 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Connector_Mini-DIN-4
-#
-DEF Connector_Mini-DIN-4 J 0 40 Y Y 1 F N
-F0 "J" 0 250 50 H V C CNN
-F1 "Connector_Mini-DIN-4" 0 -250 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- MINI?DIN*
-$ENDFPLIST
-DRAW
-A 0 0 200 -1269 -531 0 1 10 N -120 -160 120 -160
-A 2 4 200 1021 -1488 0 1 10 N -40 200 -170 -100
-A 2 5 198 -320 790 0 1 10 N 170 -100 40 200
-C -130 0 20 0 1 0 N
-C -80 100 20 0 1 0 N
-C 90 100 20 0 1 0 N
-C 130 0 20 0 1 0 N
-S -40 -100 40 -140 0 1 0 F
-P 2 0 1 0 -150 0 -200 0 N
-P 2 0 1 0 -100 100 -200 100 N
-P 2 0 1 0 110 100 200 100 N
-P 2 0 1 0 200 0 150 0 N
-P 3 0 1 10 -170 -100 -120 -100 -120 -160 N
-P 3 0 1 10 170 -100 120 -100 120 -160 N
-P 4 0 1 10 -40 200 -40 160 40 160 40 200 N
-X ~ 1 300 0 100 L 50 50 1 1 P
-X ~ 2 -300 0 100 R 50 50 1 1 P
-X ~ 3 300 100 100 L 50 50 1 1 P
-X ~ 4 -300 100 100 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_Battery_Cell
-#
-DEF Device_Battery_Cell BT 0 0 N N 1 F N
-F0 "BT" 100 100 50 H V L CNN
-F1 "Device_Battery_Cell" 100 0 50 H V L CNN
-F2 "" 0 60 50 V I C CNN
-F3 "" 0 60 50 V I C CNN
-DRAW
-S -90 70 90 60 0 1 0 F
-S -62 47 58 27 0 1 0 F
-P 2 0 1 0 0 30 0 0 N
-P 2 0 1 0 0 70 0 100 N
-P 2 0 1 10 20 135 60 135 N
-P 2 0 1 10 40 155 40 115 N
-X + 1 0 200 100 D 50 50 1 1 P
-X - 2 0 -100 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_C
-#
-DEF Device_C C 0 10 N Y 1 F N
-F0 "C" 25 100 50 H V L CNN
-F1 "Device_C" 25 -100 50 H V L CNN
-F2 "" 38 -150 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_*
-$ENDFPLIST
-DRAW
-P 2 0 1 20 -80 -30 80 -30 N
-P 2 0 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 50 50 1 1 P
-X ~ 2 0 -150 110 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_CP1
-#
-DEF Device_CP1 C 0 10 N N 1 F N
-F0 "C" 25 100 50 H V L CNN
-F1 "Device_CP1" 25 -100 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- CP_*
-$ENDFPLIST
-DRAW
-A 0 -150 128 1287 513 0 1 20 N -80 -50 80 -50
-P 2 0 1 20 -80 30 80 30 N
-P 2 0 1 0 -70 90 -30 90 N
-P 2 0 1 0 -50 70 -50 110 N
-X ~ 1 0 150 110 D 50 50 1 1 P
-X ~ 2 0 -150 130 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_CTRIM
-#
-DEF Device_CTRIM C 0 10 N N 1 F N
-F0 "C" 60 -80 50 H V C CNN
-F1 "Device_CTRIM" 120 -140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 20 -80 -30 80 -30 N
-P 2 0 1 20 -80 30 80 30 N
-P 2 0 1 12 50 100 -50 -100 N
-P 2 0 1 12 50 100 15 120 N
-P 2 0 1 12 50 100 85 80 N
-X ~ 1 0 150 120 D 50 50 1 1 P
-X ~ 2 0 -150 120 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_Crystal
-#
-DEF Device_Crystal Y 0 40 N N 1 F N
-F0 "Y" 0 150 50 H V C CNN
-F1 "Device_Crystal" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Crystal*
-$ENDFPLIST
-DRAW
-S -45 100 45 -100 0 1 12 N
-P 2 0 1 0 -100 0 -75 0 N
-P 2 0 1 20 -75 -50 -75 50 N
-P 2 0 1 20 75 -50 75 50 N
-P 2 0 1 0 100 0 75 0 N
-X 1 1 -150 0 50 R 50 50 1 1 P
-X 2 2 150 0 50 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_D
-#
-DEF Device_D D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "Device_D" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- TO-???*
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 0 1 8 -50 50 -50 -50 N
-P 2 0 1 0 50 0 -50 0 N
-P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_Jumper
-#
-DEF Device_Jumper JP 0 30 Y N 1 F N
-F0 "JP" 0 150 50 H V C CNN
-F1 "Device_Jumper" 0 -80 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- SolderJumper*
-$ENDFPLIST
-DRAW
-A 0 -26 125 1426 373 0 1 0 N -98 50 99 50
-C -100 0 35 0 1 0 N
-C 100 0 35 0 1 0 N
-X 1 1 -300 0 165 R 50 50 0 1 P
-X 2 2 300 0 165 L 50 50 0 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_Jumper_NC_Dual
-#
-DEF Device_Jumper_NC_Dual JP 0 30 Y N 1 F N
-F0 "JP" 50 -100 50 H V L CNN
-F1 "Device_Jumper_NC_Dual" 0 100 50 H V C BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- SolderJumper*Bridged*
-$ENDFPLIST
-DRAW
-A -60 10 64 386 1413 0 1 0 N -10 50 -110 50
-A 60 10 64 386 1413 0 1 0 N 110 50 10 50
-C -120 0 35 0 1 0 N
-C 0 0 36 0 1 0 N
-C 120 0 35 0 1 0 N
-X 1 1 -250 0 95 R 50 50 0 1 P
-X 2 2 0 -100 60 U 50 50 0 1 P
-X 3 3 250 0 95 L 50 50 0 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_L_Small
-#
-DEF Device_L_Small L 0 10 N N 1 F N
-F0 "L" 30 40 50 H V L CNN
-F1 "Device_L_Small" 30 -40 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Choke_*
- *Coil*
- Inductor_*
- L_*
-$ENDFPLIST
-DRAW
-A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
-A 0 -20 20 -899 899 0 1 0 N 0 -40 0 0
-A 0 20 20 -899 899 0 1 0 N 0 0 0 40
-A 0 60 20 -899 899 0 1 0 N 0 40 0 80
-X ~ 1 0 100 20 D 50 50 1 1 P
-X ~ 2 0 -100 20 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_Polyfuse
-#
-DEF Device_Polyfuse F 0 0 N Y 1 F N
-F0 "F" -100 0 50 V V C CNN
-F1 "Device_Polyfuse" 100 0 50 V V C CNN
-F2 "" 50 -200 50 H I L CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- *polyfuse*
- *PTC*
-$ENDFPLIST
-DRAW
-S -30 100 30 -100 0 1 10 N
-P 2 0 1 0 0 100 0 -100 N
-P 4 0 1 0 -60 100 -60 60 60 -60 60 -100 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_R
-#
-DEF Device_R R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "Device_R" 0 0 50 V V C CNN
-F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Omega-Mainboard-rescue_74LS00-my_components
-#
-DEF Omega-Mainboard-rescue_74LS00-my_components U 0 30 Y Y 4 F N
+DEF 74LS00-my_components U 0 30 Y Y 4 F N
 F0 "U" 0 0 60 H V C CNN
-F1 "Omega-Mainboard-rescue_74LS00-my_components" -100 -150 60 H V L CNN
+F1 "74LS00-my_components" -100 -150 60 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -918,11 +48,11 @@ X ~ 13 -300 -50 215 R 50 50 4 2 I I
 ENDDRAW
 ENDDEF
 #
-# Omega-Mainboard-rescue_74LS02-my_components
+# 74LS02-my_components
 #
-DEF Omega-Mainboard-rescue_74LS02-my_components U 0 30 Y Y 4 F N
+DEF 74LS02-my_components U 0 30 Y Y 4 F N
 F0 "U" 0 0 60 H V C CNN
-F1 "Omega-Mainboard-rescue_74LS02-my_components" -100 -150 60 H V L CNN
+F1 "74LS02-my_components" -100 -150 60 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -965,11 +95,11 @@ X ~ 13 350 0 200 L 50 50 4 2 O
 ENDDRAW
 ENDDEF
 #
-# Omega-Mainboard-rescue_74LS04-my_components
+# 74LS04-my_components
 #
-DEF Omega-Mainboard-rescue_74LS04-my_components U 0 30 Y Y 6 F N
+DEF 74LS04-my_components U 0 30 Y Y 6 F N
 F0 "U" -50 -150 60 H V C CNN
-F1 "Omega-Mainboard-rescue_74LS04-my_components" 0 150 60 H V C CNN
+F1 "74LS04-my_components" 0 150 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -994,11 +124,11 @@ X ~ 13 -300 0 200 R 50 50 6 1 I
 ENDDRAW
 ENDDEF
 #
-# Omega-Mainboard-rescue_74LS07-my_components
+# 74LS07-my_components
 #
-DEF Omega-Mainboard-rescue_74LS07-my_components U 0 30 Y Y 6 F N
+DEF 74LS07-my_components U 0 30 Y Y 6 F N
 F0 "U" -50 -150 60 H V C CNN
-F1 "Omega-Mainboard-rescue_74LS07-my_components" 0 150 60 H V C CNN
+F1 "74LS07-my_components" 0 150 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -1023,11 +153,11 @@ X ~ 13 -300 0 200 R 50 50 6 1 I
 ENDDRAW
 ENDDEF
 #
-# Omega-Mainboard-rescue_74LS125-my_components
+# 74LS125-my_components
 #
-DEF Omega-Mainboard-rescue_74LS125-my_components U 0 30 Y Y 4 F N
+DEF 74LS125-my_components U 0 30 Y Y 4 F N
 F0 "U" -50 -150 60 H V C CNN
-F1 "Omega-Mainboard-rescue_74LS125-my_components" -50 -250 60 H V C CNN
+F1 "74LS125-my_components" -50 -250 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -1052,11 +182,11 @@ X ~ 13 0 250 200 D 50 50 4 1 I I
 ENDDRAW
 ENDDEF
 #
-# Omega-Mainboard-rescue_74LS153-my_components
+# 74LS153-my_components
 #
-DEF Omega-Mainboard-rescue_74LS153-my_components U 0 10 Y Y 1 F N
+DEF 74LS153-my_components U 0 10 Y Y 1 F N
 F0 "U" -300 900 60 H V L CNN
-F1 "Omega-Mainboard-rescue_74LS153-my_components" -300 -900 60 H V L CNN
+F1 "74LS153-my_components" -300 -900 60 H V L CNN
 F2 "" 0 50 60 H V C CNN
 F3 "" 0 50 60 H V C CNN
 $FPLIST
@@ -1083,11 +213,11 @@ X VCC 16 0 850 0 D 50 50 0 1 W N
 ENDDRAW
 ENDDEF
 #
-# Omega-Mainboard-rescue_74LS157-my_components
+# 74LS157-my_components
 #
-DEF Omega-Mainboard-rescue_74LS157-my_components U 0 10 Y Y 1 F N
+DEF 74LS157-my_components U 0 10 Y Y 1 F N
 F0 "U" -300 850 60 H V L CNN
-F1 "Omega-Mainboard-rescue_74LS157-my_components" -300 -850 60 H V L CNN
+F1 "74LS157-my_components" -300 -850 60 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -1114,11 +244,11 @@ X VCC 16 0 800 0 D 50 50 0 1 W N
 ENDDRAW
 ENDDEF
 #
-# Omega-Mainboard-rescue_74LS175-my_components
+# 74LS175-my_components
 #
-DEF Omega-Mainboard-rescue_74LS175-my_components U 0 10 Y Y 1 F N
+DEF 74LS175-my_components U 0 10 Y Y 1 F N
 F0 "U" -300 650 60 H V L CNN
-F1 "Omega-Mainboard-rescue_74LS175-my_components" -300 -650 60 H V L CNN
+F1 "74LS175-my_components" -300 -650 60 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -1145,11 +275,11 @@ X CP 9 -500 -400 200 R 50 50 1 1 I C
 ENDDRAW
 ENDDEF
 #
-# Omega-Mainboard-rescue_74LS273-my_components
+# 74LS273-my_components
 #
-DEF Omega-Mainboard-rescue_74LS273-my_components U 0 10 Y Y 1 F N
+DEF 74LS273-my_components U 0 10 Y Y 1 F N
 F0 "U" -300 650 60 H V L CNN
-F1 "Omega-Mainboard-rescue_74LS273-my_components" -300 -650 60 H V L CNN
+F1 "74LS273-my_components" -300 -650 60 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -1180,11 +310,11 @@ X Q3 9 500 200 200 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# Omega-Mainboard-rescue_74LS30-my_components
+# 74LS30-my_components
 #
-DEF Omega-Mainboard-rescue_74LS30-my_components U 0 30 Y Y 1 F N
+DEF 74LS30-my_components U 0 30 Y Y 1 F N
 F0 "U" 0 0 60 H V C CNN
-F1 "Omega-Mainboard-rescue_74LS30-my_components" 0 -450 60 H V C CNN
+F1 "74LS30-my_components" 0 -450 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -1224,11 +354,11 @@ X ~ 6 350 0 200 L 50 50 1 2 O
 ENDDRAW
 ENDDEF
 #
-# Omega-Mainboard-rescue_74LS32-my_components
+# 74LS32-my_components
 #
-DEF Omega-Mainboard-rescue_74LS32-my_components U 0 30 Y Y 4 F N
+DEF 74LS32-my_components U 0 30 Y Y 4 F N
 F0 "U" 0 0 60 H V C CNN
-F1 "Omega-Mainboard-rescue_74LS32-my_components" -100 -150 60 H V L CNN
+F1 "74LS32-my_components" -100 -150 60 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -1271,11 +401,11 @@ X ~ 13 -300 -50 200 R 50 50 4 2 I I
 ENDDRAW
 ENDDEF
 #
-# Omega-Mainboard-rescue_74LS540-my_components
+# 74LS540-my_components
 #
-DEF Omega-Mainboard-rescue_74LS540-my_components U 0 10 Y Y 1 F N
+DEF 74LS540-my_components U 0 10 Y Y 1 F N
 F0 "U" -300 650 60 H V L CNN
-F1 "Omega-Mainboard-rescue_74LS540-my_components" -300 -650 60 H V L CNN
+F1 "74LS540-my_components" -300 -650 60 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -1308,11 +438,11 @@ X A8 9 -500 -200 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Omega-Mainboard-rescue_74LS74-my_components
+# 74LS74-my_components
 #
-DEF Omega-Mainboard-rescue_74LS74-my_components U 0 10 Y Y 2 F N
+DEF 74LS74-my_components U 0 10 Y Y 2 F N
 F0 "U" -300 350 60 H V L CNN
-F1 "Omega-Mainboard-rescue_74LS74-my_components" -300 -350 60 H V L CNN
+F1 "74LS74-my_components" -300 -350 60 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -1337,11 +467,11 @@ X Q 9 500 200 200 L 50 50 2 1 O
 ENDDRAW
 ENDDEF
 #
-# Omega-Mainboard-rescue_8255-my_components
+# 8255-my_components
 #
-DEF Omega-Mainboard-rescue_8255-my_components U 0 40 Y Y 1 F N
+DEF 8255-my_components U 0 40 Y Y 1 F N
 F0 "U" -400 1400 60 H V L CNN
-F1 "Omega-Mainboard-rescue_8255-my_components" -400 -1400 60 H V L CNN
+F1 "8255-my_components" -400 -1400 60 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -1392,11 +522,11 @@ X A0 9 -600 150 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Omega-Mainboard-rescue_ADM693-my_components
+# ADM693-my_components
 #
-DEF Omega-Mainboard-rescue_ADM693-my_components U 0 40 Y Y 1 F N
+DEF ADM693-my_components U 0 40 Y Y 1 F N
 F0 "U" -400 850 60 H V L CNN
-F1 "Omega-Mainboard-rescue_ADM693-my_components" -400 -850 60 H V L CNN
+F1 "ADM693-my_components" -400 -850 60 H V L CNN
 F2 "" 0 200 60 H V C CNN
 F3 "" 0 200 60 H V C CNN
 $FPLIST
@@ -1423,11 +553,11 @@ X PFI 9 -600 500 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Omega-Mainboard-rescue_AS6C4008-my_components
+# AS6C4008-my_components
 #
-DEF Omega-Mainboard-rescue_AS6C4008-my_components U 0 40 Y Y 1 F N
+DEF AS6C4008-my_components U 0 40 Y Y 1 F N
 F0 "U" 0 1700 60 H V C CNN
-F1 "Omega-Mainboard-rescue_AS6C4008-my_components" 0 1600 60 H V C CNN
+F1 "AS6C4008-my_components" 0 1600 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -1471,11 +601,11 @@ X A3 9 -600 800 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Omega-Mainboard-rescue_ATF16V8B-my_components
+# ATF16V8B-my_components
 #
-DEF Omega-Mainboard-rescue_ATF16V8B-my_components U 0 40 Y Y 1 F N
+DEF ATF16V8B-my_components U 0 40 Y Y 1 F N
 F0 "U" -300 700 60 H V C CNN
-F1 "Omega-Mainboard-rescue_ATF16V8B-my_components" -300 600 60 H V C CNN
+F1 "ATF16V8B-my_components" -300 600 60 H V C CNN
 F2 "" 0 -100 60 H V C CNN
 F3 "" 0 -100 60 H V C CNN
 $FPLIST
@@ -1506,11 +636,11 @@ X I8 9 -500 -350 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Omega-Mainboard-rescue_CXA1645-my_components
+# CXA1645-my_components
 #
-DEF Omega-Mainboard-rescue_CXA1645-my_components U 0 40 Y Y 1 F N
+DEF CXA1645-my_components U 0 40 Y Y 1 F N
 F0 "U" -400 950 60 H V C CNN
-F1 "Omega-Mainboard-rescue_CXA1645-my_components" -400 850 60 H V C CNN
+F1 "CXA1645-my_components" -400 850 60 H V C CNN
 F2 "" 0 200 60 H V C CNN
 F3 "" 0 200 60 H V C CNN
 $FPLIST
@@ -1543,11 +673,11 @@ X YCLPC 9 -600 -300 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Omega-Mainboard-rescue_D41464-my_components
+# D41464-my_components
 #
-DEF Omega-Mainboard-rescue_D41464-my_components U 0 40 Y Y 1 F N
+DEF D41464-my_components U 0 40 Y Y 1 F N
 F0 "U" -400 750 60 H V L CNN
-F1 "Omega-Mainboard-rescue_D41464-my_components" -400 -750 60 H V L CNN
+F1 "D41464-my_components" -400 -750 60 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -1576,11 +706,11 @@ X VCC 9 0 700 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Omega-Mainboard-rescue_HOLE-my_components
+# HOLE-my_components
 #
-DEF Omega-Mainboard-rescue_HOLE-my_components HOLE 0 40 N N 1 F N
+DEF HOLE-my_components HOLE 0 40 N N 1 F N
 F0 "HOLE" 100 0 60 H V L CNN
-F1 "Omega-Mainboard-rescue_HOLE-my_components" 100 -100 60 H I L CNN
+F1 "HOLE-my_components" 100 -100 60 H I L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -1589,11 +719,11 @@ X ~ 1 -250 0 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Omega-Mainboard-rescue_LM311-my_components
+# LM311-my_components
 #
-DEF Omega-Mainboard-rescue_LM311-my_components U 0 5 Y Y 1 F N
+DEF LM311-my_components U 0 5 Y Y 1 F N
 F0 "U" 150 250 50 H V L CNN
-F1 "Omega-Mainboard-rescue_LM311-my_components" 150 150 50 H V L CNN
+F1 "LM311-my_components" 150 150 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1614,11 +744,11 @@ X V+ 8 -100 300 150 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Omega-Mainboard-rescue_MSX_SLOT_HOST-my_components
+# MSX_SLOT_HOST-my_components
 #
-DEF Omega-Mainboard-rescue_MSX_SLOT_HOST-my_components BUS 0 40 Y Y 1 F N
+DEF MSX_SLOT_HOST-my_components BUS 0 40 Y Y 1 F N
 F0 "BUS" -400 1350 70 H V L CNN
-F1 "Omega-Mainboard-rescue_MSX_SLOT_HOST-my_components" -400 -1350 70 H V L CNN
+F1 "MSX_SLOT_HOST-my_components" -400 -1350 70 H V L CNN
 F2 "" 100 -300 60 H V C CNN
 F3 "" 100 -300 60 H V C CNN
 DRAW
@@ -1676,11 +806,11 @@ X ~M1 9 -600 800 200 R 50 50 1 1 I I
 ENDDRAW
 ENDDEF
 #
-# Omega-Mainboard-rescue_RP5C01-my_components
+# RP5C01-my_components
 #
-DEF Omega-Mainboard-rescue_RP5C01-my_components U 0 40 Y Y 1 F N
+DEF RP5C01-my_components U 0 40 Y Y 1 F N
 F0 "U" -400 1050 60 H V L CNN
-F1 "Omega-Mainboard-rescue_RP5C01-my_components" -400 -1050 60 H V L CNN
+F1 "RP5C01-my_components" -400 -1050 60 H V L CNN
 F2 "" 0 -300 60 H V C CNN
 F3 "" 0 -300 60 H V C CNN
 $FPLIST
@@ -1709,11 +839,11 @@ X GND 9 0 -1000 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Omega-Mainboard-rescue_RR5-my_components
+# RR5-my_components
 #
-DEF Omega-Mainboard-rescue_RR5-my_components RR 0 40 Y N 1 F N
+DEF RR5-my_components RR 0 40 Y N 1 F N
 F0 "RR" -100 350 50 H V L CNN
-F1 "Omega-Mainboard-rescue_RR5-my_components" -100 -350 50 H V L CNN
+F1 "RR5-my_components" -100 -350 50 H V L CNN
 F2 "" 0 -200 50 H V C CNN
 F3 "" 0 -200 50 H V C CNN
 DRAW
@@ -1727,11 +857,11 @@ X 6 6 -300 -250 200 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Omega-Mainboard-rescue_RR9-my_components
+# RR9-my_components
 #
-DEF Omega-Mainboard-rescue_RR9-my_components RR 0 40 Y N 1 F N
+DEF RR9-my_components RR 0 40 Y N 1 F N
 F0 "RR" -100 550 50 H V L CNN
-F1 "Omega-Mainboard-rescue_RR9-my_components" -100 -550 50 H V L CNN
+F1 "RR9-my_components" -100 -550 50 H V L CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -1749,11 +879,11 @@ X 6 6 -300 -50 200 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Omega-Mainboard-rescue_Relay_SPDT-my_components
+# Relay_SPDT-my_components
 #
-DEF Omega-Mainboard-rescue_Relay_SPDT-my_components RY 0 40 Y Y 1 F N
+DEF Relay_SPDT-my_components RY 0 40 Y Y 1 F N
 F0 "RY" -250 250 60 H V L CNN
-F1 "Omega-Mainboard-rescue_Relay_SPDT-my_components" -250 -450 60 H V L CNN
+F1 "Relay_SPDT-my_components" -250 -450 60 H V L CNN
 F2 "" -50 -200 60 H V C CNN
 F3 "" -50 -200 60 H V C CNN
 $FPLIST
@@ -1782,11 +912,11 @@ X ~ 9 -450 -200 200 R 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Omega-Mainboard-rescue_SST39SF040-my_components
+# SST39SF040-my_components
 #
-DEF Omega-Mainboard-rescue_SST39SF040-my_components U 0 40 Y Y 1 F N
+DEF SST39SF040-my_components U 0 40 Y Y 1 F N
 F0 "U" -50 1650 60 H V C CNN
-F1 "Omega-Mainboard-rescue_SST39SF040-my_components" 0 1550 60 H V C CNN
+F1 "SST39SF040-my_components" 0 1550 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -1830,11 +960,11 @@ X A3 9 -600 800 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Omega-Mainboard-rescue_V9938-my_components
+# V9938-my_components
 #
-DEF Omega-Mainboard-rescue_V9938-my_components U 0 40 Y Y 1 F N
+DEF V9938-my_components U 0 40 Y Y 1 F N
 F0 "U" -400 2300 60 H V L CNN
-F1 "Omega-Mainboard-rescue_V9938-my_components" -400 2200 60 H V L CNN
+F1 "V9938-my_components" -400 2200 60 H V L CNN
 F2 "" 0 850 60 H V C CNN
 F3 "" 0 850 60 H V C CNN
 $FPLIST
@@ -1909,11 +1039,11 @@ X ~RESET 9 -600 1150 200 R 50 50 1 1 I I
 ENDDRAW
 ENDDEF
 #
-# Omega-Mainboard-rescue_YM2149-my_components
+# YM2149-my_components
 #
-DEF Omega-Mainboard-rescue_YM2149-my_components U 0 40 Y Y 1 F N
+DEF YM2149-my_components U 0 40 Y Y 1 F N
 F0 "U" -400 1150 60 H V L CNN
-F1 "Omega-Mainboard-rescue_YM2149-my_components" -400 -1150 60 H V L CNN
+F1 "YM2149-my_components" -400 -1150 60 H V L CNN
 F2 "" 0 -200 60 H V C CNN
 F3 "" 0 -200 60 H V C CNN
 $FPLIST
@@ -1964,11 +1094,11 @@ X IOB4 9 600 -700 200 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# Omega-Mainboard-rescue_Z84C00-my_components
+# Z84C00-my_components
 #
-DEF Omega-Mainboard-rescue_Z84C00-my_components U 0 40 Y Y 1 F N
+DEF Z84C00-my_components U 0 40 Y Y 1 F N
 F0 "U" -400 1350 60 H V L CNN
-F1 "Omega-Mainboard-rescue_Z84C00-my_components" -400 -1350 60 H V L CNN
+F1 "Z84C00-my_components" -400 -1350 60 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -2016,97 +1146,6 @@ X CLK 6 -600 -900 200 R 50 50 1 1 I C
 X D4 7 600 -900 200 L 50 50 1 1 B
 X D3 8 600 -800 200 L 50 50 1 1 B
 X D5 9 600 -1000 200 L 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
-# Transistor_BJT_2N3906
-#
-DEF Transistor_BJT_2N3906 Q 0 0 Y N 1 F N
-F0 "Q" 200 75 50 H V L CNN
-F1 "Transistor_BJT_2N3906" 200 0 50 H V L CNN
-F2 "Package_TO_SOT_THT:TO-92_Inline" 200 -75 50 H I L CIN
-F3 "" 0 0 50 H I L CNN
-ALIAS 2N3905
-$FPLIST
- TO?92*
-$ENDFPLIST
-DRAW
-C 50 0 111 0 1 10 N
-P 2 0 1 0 25 25 100 100 N
-P 3 0 1 0 25 -25 100 -100 100 -100 N
-P 3 0 1 20 25 75 25 -75 25 -75 N
-P 5 0 1 0 90 -70 70 -90 50 -50 90 -70 90 -70 F
-X E 1 100 -200 100 U 50 50 1 1 P
-X B 2 -200 0 225 R 50 50 1 1 I
-X C 3 100 200 100 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_PWR_FLAG
-#
-DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
-F0 "#FLG" 0 75 50 H I C CNN
-F1 "power_PWR_FLAG" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
-X pwr 1 0 0 0 U 50 50 0 0 w
-ENDDRAW
-ENDDEF
-#
-# power_VCC
-#
-DEF power_VCC #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_VCC" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C 0 75 25 0 1 0 N
-P 2 0 1 0 0 0 0 50 N
-X VCC 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_VDD
-#
-DEF power_VDD #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_VDD" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C 0 75 25 0 1 0 N
-P 2 0 1 0 0 0 0 50 N
-X VDD 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_VSS
-#
-DEF power_VSS #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_VSS" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C 0 75 25 0 1 0 N
-P 2 0 1 0 0 0 0 50 N
-X VSS 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #

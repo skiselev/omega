@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Omega-Mainboard-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1238,7 +1238,7 @@ Wire Wire Line
 Text Label 7000 4000 0    60   ~ 0
 AUDIO
 $Comp
-L my_components:HOLE HOLE1
+L Omega-Mainboard-rescue:HOLE-my_components HOLE1
 U 1 1 5C161AFB
 P 6450 4600
 F 0 "HOLE1" H 6550 4600 60  0000 L CNN
@@ -1308,7 +1308,7 @@ F 3 "" H 6100 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L my_components:HOLE HOLE2
+L Omega-Mainboard-rescue:HOLE-my_components HOLE2
 U 1 1 5C1A08F5
 P 6450 4800
 F 0 "HOLE2" H 6550 4800 60  0000 L CNN
@@ -1319,7 +1319,7 @@ F 3 "" H 6450 4800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L my_components:HOLE HOLE3
+L Omega-Mainboard-rescue:HOLE-my_components HOLE3
 U 1 1 5C1A0DFB
 P 6450 5000
 F 0 "HOLE3" H 6550 5000 60  0000 L CNN
@@ -1330,7 +1330,7 @@ F 3 "" H 6450 5000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L my_components:HOLE HOLE4
+L Omega-Mainboard-rescue:HOLE-my_components HOLE4
 U 1 1 5C1A184C
 P 6450 5200
 F 0 "HOLE4" H 6550 5200 60  0000 L CNN
@@ -1341,7 +1341,7 @@ F 3 "" H 6450 5200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L my_components:HOLE HOLE5
+L Omega-Mainboard-rescue:HOLE-my_components HOLE5
 U 1 1 5C1A1852
 P 6450 5400
 F 0 "HOLE5" H 6550 5400 60  0000 L CNN
@@ -1352,7 +1352,7 @@ F 3 "" H 6450 5400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L my_components:HOLE HOLE6
+L Omega-Mainboard-rescue:HOLE-my_components HOLE6
 U 1 1 5C1A1858
 P 6450 5600
 F 0 "HOLE6" H 6550 5600 60  0000 L CNN
@@ -1378,7 +1378,7 @@ Wire Wire Line
 	6200 5600 6100 5600
 Connection ~ 6100 5600
 $Comp
-L my_components:HOLE HOLE7
+L Omega-Mainboard-rescue:HOLE-my_components HOLE7
 U 1 1 5C1A42ED
 P 6450 5800
 F 0 "HOLE7" H 6550 5800 60  0000 L CNN
@@ -1389,7 +1389,7 @@ F 3 "" H 6450 5800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L my_components:HOLE HOLE8
+L Omega-Mainboard-rescue:HOLE-my_components HOLE8
 U 1 1 5C1A42F3
 P 6450 6000
 F 0 "HOLE8" H 6550 6000 60  0000 L CNN
@@ -1400,7 +1400,7 @@ F 3 "" H 6450 6000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L my_components:HOLE HOLE9
+L Omega-Mainboard-rescue:HOLE-my_components HOLE9
 U 1 1 5C1A42F9
 P 6450 6200
 F 0 "HOLE9" H 6550 6200 60  0000 L CNN
@@ -1411,7 +1411,7 @@ F 3 "" H 6450 6200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L my_components:HOLE HOLE10
+L Omega-Mainboard-rescue:HOLE-my_components HOLE10
 U 1 1 5C1A42FF
 P 6450 6400
 F 0 "HOLE10" H 6550 6400 60  0000 L CNN
@@ -1434,7 +1434,7 @@ Wire Wire Line
 	6200 6400 6100 6400
 Connection ~ 6100 6400
 $Comp
-L my_components:HOLE HOLE11
+L Omega-Mainboard-rescue:HOLE-my_components HOLE11
 U 1 1 5C131D5E
 P 6450 6600
 F 0 "HOLE11" H 6550 6600 60  0000 L CNN

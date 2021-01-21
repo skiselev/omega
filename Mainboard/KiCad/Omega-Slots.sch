@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Omega-Mainboard-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L my_components:MSX_SLOT_HOST SLOT1
+L Omega-Mainboard-rescue:MSX_SLOT_HOST-my_components SLOT1
 U 1 1 5BEF23EE
 P 1900 2100
 F 0 "SLOT1" H 1500 3450 70  0000 L CNN
@@ -150,7 +150,7 @@ B_CLK
 Text Label 900  3300 0    60   ~ 0
 SLT1_SND
 $Comp
-L my_components:MSX_SLOT_HOST SLOT2
+L Omega-Mainboard-rescue:MSX_SLOT_HOST-my_components SLOT2
 U 1 1 5BEF246E
 P 4400 2100
 F 0 "SLOT2" H 4000 3450 70  0000 L CNN
@@ -1072,7 +1072,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 900  900  900 
 $Comp
-L my_components:RR9 RR4
+L Omega-Mainboard-rescue:RR9-my_components RR4
 U 1 1 5BEF9034
 P 7200 2350
 F 0 "RR4" H 7100 2900 50  0000 L CNN
@@ -1165,7 +1165,7 @@ Text HLabel 9500 3200 2    60   Output ~ 0
 Text HLabel 9500 3300 2    60   Output ~ 0
 ~BUSDIR2
 $Comp
-L my_components:ATF16V8B U14
+L Omega-Mainboard-rescue:ATF16V8B-my_components U14
 U 1 1 5C015547
 P 1700 5050
 F 0 "U14" H 1400 5750 60  0000 C CNN
