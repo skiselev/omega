@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Omega-Mainboard-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -214,7 +213,7 @@ CAS_IN
 Text HLabel 10600 1500 2    60   Output ~ 0
 CAS_IN
 $Comp
-L Omega-Mainboard-rescue:LM311-my_components U49
+L my_components:LM311 U49
 U 1 1 5BFD2D8A
 P 7100 4400
 F 0 "U49" H 7250 4650 50  0000 L CNN
@@ -1637,7 +1636,7 @@ Optional: Cassete I/O
 Wire Wire Line
 	5200 7400 5200 7300
 $Comp
-L Omega-Mainboard-rescue:Relay_SPDT-my_components RY1
+L my_components:Relay_SPDT RY1
 U 1 1 5C150327
 P 3250 3300
 F 0 "RY1" H 3000 3550 60  0000 L CNN
@@ -2025,7 +2024,7 @@ U 1 1 5DD9BC89
 P 3300 4600
 F 0 "J6" H 3400 4850 50  0000 C CNN
 F 1 "Cassette" H 3500 4350 50  0000 C CNN
-F 2 "artemisa:DIN8" H 3300 4600 50  0001 C CNN
+F 2 "My_Components:Conn_DIN_8pin" H 3300 4600 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 3300 4600 50  0001 C CNN
 	1    3300 4600
 	1    0    0    -1  

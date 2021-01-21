@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Omega-Mainboard-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Omega-Mainboard-rescue:V9938-my_components U3
+L my_components:V9938 U3
 U 1 1 5A3B7475
 P 2400 2950
 AR Path="/5A3B7475" Ref="U3"  Part="1" 
@@ -311,7 +310,7 @@ Text Label 1400 3500 0    60   ~ 0
 Text Label 1400 3600 0    60   ~ 0
 ~VDP_WR
 $Comp
-L Omega-Mainboard-rescue:74LS32-my_components U39
+L my_components:74LS32 U39
 U 4 2 5A4E2C23
 P 1300 6300
 F 0 "U39" H 1300 6300 60  0000 C CNN
@@ -322,7 +321,7 @@ F 3 "" H 1300 6300 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Omega-Mainboard-rescue:74LS32-my_components U39
+L my_components:74LS32 U39
 U 1 2 5A4E3114
 P 1300 5900
 F 0 "U39" H 1300 5900 60  0000 C CNN
@@ -424,7 +423,7 @@ F 3 "" H 3800 5800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Omega-Mainboard-rescue:RR9-my_components RR3
+L my_components:RR9 RR3
 U 1 1 5BF4F14D
 P 3350 6200
 F 0 "RR3" V 3350 5900 50  0000 L CNN
@@ -547,7 +546,7 @@ F 3 "" H 10700 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Omega-Mainboard-rescue:RR5-my_components RR9
+L my_components:RR5 RR9
 U 1 1 5BFF1717
 P 4350 5400
 F 0 "RR9" V 4350 5200 50  0000 L CNN
@@ -672,7 +671,7 @@ $EndComp
 Text Label 1800 3800 2    60   ~ 0
 ~VDP_WAIT
 $Comp
-L Omega-Mainboard-rescue:CXA1645-my_components U47
+L my_components:CXA1645 U47
 U 1 1 5C114C2D
 P 8200 5000
 F 0 "U47" H 7800 5950 60  0000 C CNN
@@ -1491,7 +1490,7 @@ $EndComp
 Wire Wire Line
 	5900 6850 5900 6800
 $Comp
-L Omega-Mainboard-rescue:74LS32-my_components U39
+L my_components:74LS32 U39
 U 2 1 5C142396
 P 5450 7400
 F 0 "U39" H 5450 7400 60  0000 C CNN
@@ -1561,7 +1560,7 @@ Wire Notes Line
 Wire Notes Line
 	550  7750 550  6450
 $Comp
-L Omega-Mainboard-rescue:74LS04-my_components U43
+L my_components:74LS04 U43
 U 2 1 5C19C0EC
 P 3100 6800
 F 0 "U43" H 3050 6650 60  0000 C CNN
@@ -1572,7 +1571,7 @@ F 3 "" H 3100 6800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Omega-Mainboard-rescue:74LS04-my_components U43
+L my_components:74LS04 U43
 U 3 1 5C19C19D
 P 5600 6100
 F 0 "U43" H 5550 5950 60  0000 C CNN
@@ -1583,7 +1582,7 @@ F 3 "" H 5600 6100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Omega-Mainboard-rescue:74LS04-my_components U43
+L my_components:74LS04 U43
 U 4 1 5C19C24E
 P 3200 7450
 F 0 "U43" H 3150 7300 60  0000 C CNN
@@ -1594,7 +1593,7 @@ F 3 "" H 3200 7450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Omega-Mainboard-rescue:74LS04-my_components U43
+L my_components:74LS04 U43
 U 5 1 5C19C30D
 P 4100 7450
 F 0 "U43" H 4050 7300 60  0000 C CNN
@@ -1605,7 +1604,7 @@ F 3 "" H 4100 7450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Omega-Mainboard-rescue:74LS04-my_components U43
+L my_components:74LS04 U43
 U 6 1 5C19C3B8
 P 4100 7050
 F 0 "U43" H 4050 6900 60  0000 C CNN
@@ -1616,7 +1615,7 @@ F 3 "" H 4100 7050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Omega-Mainboard-rescue:74LS04-my_components U43
+L my_components:74LS04 U43
 U 1 1 5C19BF26
 P 2300 6800
 F 0 "U43" H 2250 6650 60  0000 C CNN
@@ -1860,7 +1859,7 @@ U 1 1 5DFAB23A
 P 10700 3800
 F 0 "J5" H 10800 4050 50  0000 C CNN
 F 1 "RGB" H 10800 3550 50  0000 C CNN
-F 2 "artemisa:DIN8" H 10700 3800 50  0001 C CNN
+F 2 "My_Components:Conn_DIN_8pin" H 10700 3800 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 10700 3800 50  0001 C CNN
 	1    10700 3800
 	1    0    0    -1  
@@ -2308,7 +2307,7 @@ Wire Wire Line
 Wire Wire Line
 	1800 4500 950  4500
 $Comp
-L Omega-Mainboard-rescue:RR9-my_components RR2
+L my_components:RR9 RR2
 U 1 1 5BF4E0A6
 P 650 4150
 F 0 "RR2" H 550 4700 50  0000 L CNN
@@ -2448,7 +2447,7 @@ U 1 1 60AA78BB
 P 6100 5750
 F 0 "JP4" H 6200 5600 50  0000 L CNN
 F 1 "V9938/V9958" H 6100 5900 50  0000 C BNN
-F 2 "artemisa:Conn_Pin_Header_3x1_2.54mm" H 6100 5750 50  0001 C CNN
+F 2 "My_Components:Conn_Pin_Header_3x1_2.54mm" H 6100 5750 50  0001 C CNN
 F 3 "" H 6100 5750 50  0001 C CNN
 	1    6100 5750
 	0    -1   -1   0   

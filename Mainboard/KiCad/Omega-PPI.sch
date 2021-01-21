@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Omega-Mainboard-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Omega-Mainboard-rescue:74LS30-my_components U40
+L my_components:74LS30 U40
 U 1 1 5A4EFC73
 P 1400 3850
 F 0 "U40" H 1400 3850 60  0000 C CNN
@@ -26,7 +25,7 @@ F 3 "" H 1400 3850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Omega-Mainboard-rescue:74LS30-my_components U41
+L my_components:74LS30 U41
 U 1 1 5A4F00CA
 P 1400 4750
 F 0 "U41" H 1400 4750 60  0000 C CNN
@@ -67,7 +66,7 @@ A14
 Text Label 700  4400 0    60   ~ 0
 A15
 $Comp
-L Omega-Mainboard-rescue:74LS32-my_components U38
+L my_components:74LS32 U38
 U 1 2 5BEB8736
 P 3600 3950
 F 0 "U38" H 3600 3950 60  0000 C CNN
@@ -82,7 +81,7 @@ Text Label 700  5600 0    60   ~ 0
 Text Label 700  6050 0    60   ~ 0
 ~WR
 $Comp
-L Omega-Mainboard-rescue:74LS273-my_components U23
+L my_components:74LS273 U23
 U 1 1 5BEBB76C
 P 1600 7000
 F 0 "U23" H 1300 7650 60  0000 L CNN
@@ -127,7 +126,7 @@ D6
 Text Label 6600 7200 2    60   ~ 0
 D7
 $Comp
-L Omega-Mainboard-rescue:74LS153-my_components U31
+L my_components:74LS153 U31
 U 1 1 5BEBE08E
 P 5700 5250
 F 0 "U31" H 5400 6150 60  0000 L CNN
@@ -158,6 +157,8 @@ $Comp
 L Omega-Mainboard-rescue:8255-my_components U2
 U 1 1 5BED53BE
 P 1700 1950
+AR Path="/5BED53BE" Ref="U2"  Part="1" 
+AR Path="/5BED4A3D/5BED53BE" Ref="U2"  Part="1" 
 F 0 "U2" H 1300 3350 60  0000 L CNN
 F 1 "82C55" H 1300 550 60  0000 L CNN
 F 2 "My_Components:IC_DIP40_600" H 1700 1950 60  0001 C CNN
@@ -230,7 +231,7 @@ Text Label 700  2200 0    60   ~ 0
 Text Label 700  2300 0    60   ~ 0
 ~WR
 $Comp
-L Omega-Mainboard-rescue:74LS153-my_components U30
+L my_components:74LS153 U30
 U 1 1 5BED7793
 P 5700 1450
 F 0 "U30" H 5400 2350 60  0000 L CNN
@@ -241,7 +242,7 @@ F 3 "" H 5700 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Omega-Mainboard-rescue:74LS00-my_components U45
+L my_components:74LS00 U45
 U 2 1 5BED84C1
 P 5000 3350
 F 0 "U45" H 5000 3350 60  0000 C CNN
@@ -252,7 +253,7 @@ F 3 "" H 5000 3350 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Omega-Mainboard-rescue:74LS00-my_components U45
+L my_components:74LS00 U45
 U 1 1 5BED853E
 P 5000 2750
 F 0 "U45" H 5000 2750 60  0000 C CNN
@@ -453,7 +454,7 @@ KANA_LED
 Text HLabel 9500 2900 2    60   Input ~ 0
 KANA_LED
 $Comp
-L Omega-Mainboard-rescue:74LS540-my_components U22
+L my_components:74LS540 U22
 U 1 1 5BF298F6
 P 5700 7000
 F 0 "U22" H 5400 7650 60  0000 L CNN
@@ -1035,7 +1036,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 6600 2900 7400
 $Comp
-L Omega-Mainboard-rescue:74LS32-my_components U38
+L my_components:74LS32 U38
 U 3 2 5BEB973E
 P 1400 6000
 F 0 "U38" H 1400 6000 60  0000 C CNN
@@ -1046,7 +1047,7 @@ F 3 "" H 1400 6000 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Omega-Mainboard-rescue:74LS32-my_components U38
+L my_components:74LS32 U38
 U 2 2 5A4E3627
 P 2300 3900
 F 0 "U38" H 2300 3900 60  0000 C CNN
@@ -1057,7 +1058,7 @@ F 3 "" H 2300 3900 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Omega-Mainboard-rescue:74LS32-my_components U38
+L my_components:74LS32 U38
 U 4 2 5BEB9791
 P 1400 5650
 F 0 "U38" H 1400 5650 60  0000 C CNN
@@ -1099,7 +1100,7 @@ COLUMN4
 Text Notes 10350 4800 2    60   ~ 0
 Keyboard Pull-ups
 $Comp
-L Omega-Mainboard-rescue:RR9-my_components RR7
+L my_components:RR9 RR7
 U 1 1 5DB840FB
 P 10300 5650
 F 0 "RR7" H 10428 5686 50  0000 L CNN
@@ -1244,7 +1245,7 @@ SLT_B
 Text Label 7300 3300 2    60   ~ 0
 SLT_A
 $Comp
-L Omega-Mainboard-rescue:ATF16V8B-my_components U13
+L my_components:ATF16V8B U13
 U 1 1 5C006E3B
 P 7800 3050
 F 0 "U13" H 7500 3750 60  0000 C CNN

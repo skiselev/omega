@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Omega-Mainboard-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Omega-Mainboard-rescue:Z84C00-my_components U1
+L my_components:Z84C00 U1
 U 1 1 5A3B4790
 P 5500 2000
 F 0 "U1" H 5100 3350 60  0000 L CNN
@@ -29,7 +28,7 @@ Text Label 4500 2400 0    60   ~ 0
 ~RESET
 NoConn ~ 4900 2700
 $Comp
-L Omega-Mainboard-rescue:74LS74-my_components U34
+L my_components:74LS74 U34
 U 1 1 5BEC65BD
 P 1800 1500
 F 0 "U34" H 1500 1850 60  0000 L CNN
@@ -40,7 +39,7 @@ F 3 "" H 1800 1500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Omega-Mainboard-rescue:74LS74-my_components U34
+L my_components:74LS74 U34
 U 2 1 5BEC6693
 P 3700 1500
 F 0 "U34" H 3400 1850 60  0000 L CNN
@@ -89,7 +88,7 @@ Text Label 4500 1200 0    60   ~ 0
 Text Label 4500 1300 0    60   ~ 0
 ~WR
 $Comp
-L Omega-Mainboard-rescue:RR9-my_components RR5
+L my_components:RR9 RR5
 U 1 1 5BECD787
 P 8800 3050
 F 0 "RR5" H 8700 3600 50  0000 L CNN
@@ -221,7 +220,7 @@ D6
 Text HLabel 10600 1400 2    60   BiDi ~ 0
 D7
 $Comp
-L Omega-Mainboard-rescue:RP5C01-my_components U5
+L my_components:RP5C01 U5
 U 1 1 5A4D551B
 P 9300 5200
 F 0 "U5" H 8900 6250 60  0000 L CNN
@@ -308,7 +307,7 @@ Text Label 6900 1200 0    60   ~ 0
 Text Label 6900 1400 0    60   ~ 0
 A6
 $Comp
-L Omega-Mainboard-rescue:ATF16V8B-my_components U12
+L my_components:ATF16V8B U12
 U 1 1 5BF764B1
 P 7800 1550
 F 0 "U12" H 7500 2250 60  0000 C CNN
@@ -357,7 +356,7 @@ D2
 Text Label 10300 5100 2    60   ~ 0
 D3
 $Comp
-L Omega-Mainboard-rescue:74LS175-my_components U27
+L my_components:74LS175 U27
 U 1 1 5BF7A32E
 P 7200 5800
 F 0 "U27" H 6900 6450 60  0000 L CNN
@@ -515,7 +514,7 @@ A0
 Text Label 8800 1300 2    60   ~ 0
 ~RTC_AD_WR
 $Comp
-L Omega-Mainboard-rescue:RR9-my_components RR1
+L my_components:RR9 RR1
 U 1 1 5BF3C9E5
 P 7600 3050
 F 0 "RR1" H 7500 3600 50  0000 L CNN
@@ -627,7 +626,7 @@ F 3 "" H 4500 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Omega-Mainboard-rescue:74LS273-my_components U24
+L my_components:74LS273 U24
 U 1 1 5BFFD3D6
 P 1800 6200
 F 0 "U24" H 1500 6850 60  0000 L CNN
@@ -656,7 +655,7 @@ D7
 Text Label 700  6700 0    60   ~ 0
 ~RESET
 $Comp
-L Omega-Mainboard-rescue:74LS74-my_components U35
+L my_components:74LS74 U35
 U 1 1 5BFFF140
 P 1800 4900
 F 0 "U35" H 1500 5250 60  0000 L CNN
@@ -700,7 +699,7 @@ $EndComp
 Text Label 1900 7400 0    60   ~ 0
 PRT_BUSY
 $Comp
-L Omega-Mainboard-rescue:74LS125-my_components U33
+L my_components:74LS125 U33
 U 1 1 5C0029D9
 P 1600 7400
 F 0 "U33" H 1550 7250 60  0000 C CNN
@@ -715,7 +714,7 @@ Text Label 700  7000 0    60   ~ 0
 Text Label 700  7400 0    60   ~ 0
 D1
 $Comp
-L Omega-Mainboard-rescue:74LS32-my_components U37
+L my_components:74LS32 U37
 U 3 2 5C0035A9
 P 1700 3650
 F 0 "U37" H 1700 3650 60  0000 C CNN
@@ -1193,7 +1192,7 @@ Text Label 8800 1800 2    60   ~ 0
 Wire Wire Line
 	1300 3700 1300 4100
 $Comp
-L Omega-Mainboard-rescue:74LS32-my_components U37
+L my_components:74LS32 U37
 U 2 2 5C003633
 P 1700 4150
 F 0 "U37" H 1700 4150 60  0000 C CNN
@@ -1204,7 +1203,7 @@ F 3 "" H 1700 4150 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Omega-Mainboard-rescue:74LS125-my_components U33
+L my_components:74LS125 U33
 U 3 1 5C0368DF
 P 5600 7000
 F 0 "U33" H 5550 6850 60  0000 C CNN
@@ -1321,7 +1320,7 @@ Text HLabel 9500 2800 2    60   Output ~ 0
 Wire Wire Line
 	9100 2800 9500 2800
 $Comp
-L Omega-Mainboard-rescue:74LS00-my_components U45
+L my_components:74LS00 U45
 U 3 1 5C04F04D
 P 3100 2250
 F 0 "U45" H 3100 2250 60  0000 C CNN
@@ -1332,7 +1331,7 @@ F 3 "" H 3100 2250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Omega-Mainboard-rescue:74LS00-my_components U45
+L my_components:74LS00 U45
 U 4 2 5C04F134
 P 2200 2250
 F 0 "U45" H 2200 2250 60  0000 C CNN
@@ -1352,7 +1351,7 @@ Wire Wire Line
 	2700 2300 2800 2300
 Connection ~ 2700 2250
 $Comp
-L Omega-Mainboard-rescue:74LS07-my_components U42
+L my_components:74LS07 U42
 U 4 1 5C14362A
 P 3100 2900
 F 0 "U42" H 3050 2750 60  0000 C CNN
@@ -1363,7 +1362,7 @@ F 3 "" H 3100 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Omega-Mainboard-rescue:74LS125-my_components U33
+L my_components:74LS125 U33
 U 2 1 5C1540B4
 P 4800 7000
 F 0 "U33" H 4750 6850 60  0000 C CNN
@@ -1374,7 +1373,7 @@ F 3 "" H 4800 7000 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Omega-Mainboard-rescue:74LS125-my_components U33
+L my_components:74LS125 U33
 U 4 1 5C1543B6
 P 6400 7000
 F 0 "U33" H 6350 6850 60  0000 C CNN
