@@ -295,8 +295,8 @@ Capacitor          | C91       | 27 pF, MLCC, 5 mm Pitch                     | 1
 Capacitor          | C92, C93  | 22 pF, MLCC, 5 mm Pitch                     | 2        | Mouser [810-FG28C0G1H220JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G1H220JNT0)
 Capacitor          | C94       | 4.7 pF, MLCC, 5 mm Pitch                    | 1        | Mouser [810-FG28C0G1H4R7CNT0](https://www.mouser.com/ProductDetail/810-FG28C0G1H4R7CNT0)
 Resistor Array     | RR1 - RR4 | 10 kohm, bussed, 10 pin SIP                 | 4        | Mouser [266-10K-RC](https://www.mouser.com/ProductDetail/266-10K-RC)
-Resistor Array     | RR5 - RR7  | 4.7 kohm, bussed, 10 pin SIP               | 3        | Mouser [266-4.7K-RC](https://www.mouser.com/ProductDetail/266-4.7K-RC)
-Resistor Array     | RR8       | 4.7 kohm, bussed, 6 pin SIP                 | 1        | Mouser [264-4.7K-RC](https://www.mouser.com/ProductDetail/264-4.7K-RC)
+Resistor Array     | RR5 - RR7 | 4.7 kohm, bussed, 10 pin SIP                | 3        | Mouser [266-4.7K-RC](https://www.mouser.com/ProductDetail/266-4.7K-RC)
+Resistor Array     | RR8, RR10 | 4.7 kohm, bussed, 6 pin SIP                 | 1 (2)    | Mouser [264-4.7K-RC](https://www.mouser.com/ProductDetail/264-4.7K-RC). Note RR10 is optional - Memory pager size workaround.
 Resistor Array     | RR9       | 470 ohm, bussed, 6 pin SIP                  | 1        | Mouser [264-470-RC](https://www.mouser.com/ProductDetail/264-470-RC)
 Resistor           | R1        | 1 Mohm, axial                               | 1        | Mouser [291-1M-RC](https://www.mouser.com/ProductDetail/291-1M-RC). Note R1 is optional - PAL support.
 Resistor           | R2, R3    | 470 kohm, axial                             | 2        | Mouser [291-470K-RC](https://www.mouser.com/ProductDetail/291-470K-RC)
@@ -339,6 +339,7 @@ Connector          | J14       | 1x13 pin header                             | 1
 Connector          | SLOT1, SLOT2 | 50 pin card edge connector               | 2        | Mouser [571-5530843-5](https://www.mouser.com/ProductDetail/571-5530843-5)
 Jumper             | JP1, JP2  | 2 pin header                                | 2        | Mouser [649-78229-102HLF](https://www.mouser.com/ProductDetail/649-78229-102HLF)
 Jumper             | JP3 - JP6 | Wire link                                   | 4        | Wire link
+Jumper             | JP7, JP8  | 2x3 pin header                              | 0 (2)    | Note JP7 and JP8 are optional - Memory pager size workaround.
 Battery Holder     | BT1       | CR2032 Battery holder                       | 1        | Mouser [122-2420-GR](https://www.mouser.com/ProductDetail/122-2420-GR)
 Battery            | BT1       | CR2032 Battery                              | 1        | Mouser [614-CR2032-200](https://www.mouser.com/ProductDetail/614-CR2032-200), [658-CR2032](https://www.mouser.com/ProductDetail/658-CR2032). Note: Not included in Mouser Project due to shipping restrictions.
 IC Socket          | U1, U2, U4 | 40 pin DIP                                 | 3        | Mouser [517-4840-6000-CP](https://www.mouser.com/ProductDetail/517-4840-6000-CP)
@@ -454,6 +455,16 @@ Omega uses three ATF16V8/GAL16V8 SPLDs (U12 - U14) for address decode and variou
 The source code (PLD) files are also provided in the directory mentioned above. If needed, they can be modified, for example to change the slot mapping. Use [GALasm](https://github.com/daveho/GALasm) to compile PLD files to JED fuse maps.
 
 ## Changes
+* Version 1.4
+  * Updates for a memory pager workaround:
+    * Use 2-pin jumpers instead of 3-pin
+    * Jumpers are connected by traces on the back side. To implement the workaround - cut the traces and install jumpers as needed
+  * Note: This version uses the original CUI/TE DIN 8 connector footprint
+* Version 1.3eu
+  * Modifications implemented by Jordi Solis:
+    * Workaround for memory pager issues - limit number of bits used by memory pager
+    * Cutout on the back of the board to allow using right angle slot connectors
+    * Use more common in the EU DIN 8 connector footprint
 * Version 1.2
   * Fix the known issues of version 1.1
 * Version 1.1
@@ -472,6 +483,11 @@ The source code (PLD) files are also provided in the directory mentioned above. 
   * Initial version
 
 ## Known Issues
+* Version 1.2
+  * Memory pager issues:
+    * Some software that writes and reads back memory pager to determine the installed memory size does not work correctly. This is because Omega memory pager implements all 8 bits regardless of the installed memory size, so all 8 bit are read back.
+    * Some software intentionally writes page numbers bigger than number of memory pages present in the system and expects the page number to "roll over". This doesn't happen on Omega becase it completely decodes all 8 bit of the page number
+  * When using right angle slot connector, cartridge interferes with the back side of the board
 * Version 1.1
   * Top silkscreen: R30 should be 1k (lower case 'k')
   * Top silkscreen: L2 and L3 should be 5.6uH
