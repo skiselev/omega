@@ -315,7 +315,7 @@ Resistor           | R35       | 180 ohm, axial                              | 1
 Resistor           | R36       | 120 ohm, axial                              | 1        | Mouser [291-120-RC](https://www.mouser.com/ProductDetail/291-120-RC). Note R36 is optional - RGB output support.
 Resistor           | R37 - R42 | 100 ohm, axial                              | 6        | Mouser [291-100-RC](https://www.mouser.com/ProductDetail/291-100-RC). Note R42 is optional - cassette recorder support.
 Resistor           | R43 - R48 | 75 ohm, axial                               | 6        | Mouser [291-75-RC](https://www.mouser.com/ProductDetail/291-75-RC). Note R46 - R48 are optional - RGB output support.
-Relay              | RY1       | 5V SPDT relay                               | 1        | Mouser [653-G5V-1-T90-DC5](https://www.mouser.com/ProductDetail/653-G5V-1-T90-DC5)
+Relay              | RY1       | 5V SPDT relay                               | 1        | Mouser [653-G5V-1-DC5](https://www.mouser.com/ProductDetail/653-G5V-1-DC5) or Mouser [653-G5V-1-T90-DC5](https://www.mouser.com/ProductDetail/653-G5V-1-T90-DC5)
 Inductor           | L1        | 68 uH, axial                                | 1        | Mouser [542-78F680-RC](https://www.mouser.com/ProductDetail/542-78F680-RC)
 Inductor           | L2, L3    | 5.6 uH, axial                               | 2        | Mouser [542-78F5R6J-RC](https://www.mouser.com/ProductDetail/542-78F5R6J-RC)
 Diode              | D1        | 1N4148                                      | 1        | Mouser [512-1N4148](https://www.mouser.com/ProductDetail/512-1N4148). Note D1 is optional - cassette recorder support.
