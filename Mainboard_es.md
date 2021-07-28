@@ -316,7 +316,7 @@ Resistencia        | R35       | 180 ohm, axial                              | 1
 Resistencia        | R36       | 120 ohm, axial                              | 1        | Mouser [291-180-RC](https://www.mouser.com/ProductDetail/291-120-RC). Nota R36 es opcional - soporte salida RGB.
 Resistencia        | R37 - R42 | 100 ohm, axial                              | 6        | Mouser [291-100-RC](https://www.mouser.com/ProductDetail/291-100-RC). Nota R42 es opcional - soporte grabador cassette.
 Resistencia        | R43 - R48 | 75 ohm, axial                               | 6        | Mouser [291-75-RC](https://www.mouser.com/ProductDetail/291-75-RC). Note R46 - R48 are optional - soporte salida RGB.
-Rele               | RY1       | 5V SPDT rele                                | 1        | Mouser [653-G5V-1-T90-DC5](https://www.mouser.com/ProductDetail/653-G5V-1-T90-DC5)
+Rele               | RY1       | 5V SPDT rele                                | 1        | Mouser [653-G5V-1-DC5](https://www.mouser.com/ProductDetail/653-G5V-1-DC5) o Mouser [653-G5V-1-T90-DC5](https://www.mouser.com/ProductDetail/653-G5V-1-T90-DC5)
 Inductor           | L1        | 68 uH, axial                                | 1        | Mouser [542-78F680-RC](https://www.mouser.com/ProductDetail/542-78F680-RC)
 Inductor           | L2, L3    | 5.7 uH, axial                               | 2        | Mouser [542-78F5R6J-RC](https://www.mouser.com/ProductDetail/542-78F5R6J-RC)
 Diodo              | D1        | 1N4148                                      | 1        | Mouser [512-1N4148](https://www.mouser.com/ProductDetail/512-1N4148). Nota D1 es opcional - soporte grabador cassette.
