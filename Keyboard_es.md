@@ -41,7 +41,7 @@ Integrated Circuit | U2        | 74LS07 Octal Bus Transceiver      | 1        | 
 LED                | D1        | 3 mm, green LED indicator         | 1        | Mouser [593-VAOL-3HDE4](https://www.mouser.com/ProductDetail/593-VAOL-3HDE4)
 LED                | D2        | 3 mm, yellow LED indicator        | 1        | Mouser [593-VAOL-3HCE4](https://www.mouser.com/ProductDetail/593-VAOL-3HCE4)
 LED                | D3        | 3 mm, red LED indicator           | 1        | Mouser [593-VAOL-3HAE4](https://www.mouser.com/ProductDetail/593-VAOL-3HAE4)
-Diode              | D4-6      | 1N4148                            | 3        | Mouser [512-1N4148](https://www.mouser.com/ProductDetail/512-1N4148)
+Diode              | D4-6      | 1N4148                            | 3        | Mouser [512-1N4148TR](https://www.mouser.com/ProductDetail/512-1N4148TR)
 Keyboard Switch    | SW1-SW64, SW66-SW73 |  MX Cherry - Linear     | 72       | Mouser [540-MX1A-11NW](https://www.mouser.com/ProductDetail/540-MX1A-11NW)
 Keyboard Switch    | SW65      |  MX Cherry - High Force Linear    | 1        | Mouser [540-MX1A-21NW](https://www.mouser.com/ProductDetail/540-MX1A-21NW)
 Switch Leveling Kit | SW13, SW49, SW64, SW65, SW73 | Leveling kit for MX 1x2, 1x2.25, 1x2.75 | 5 | Mouser [540-G99-0742](https://www.mouser.com/ProductDetail/540-G99-0742)
