@@ -319,7 +319,7 @@ Resistencia        | R43 - R48 | 75 ohm, axial                               | 6
 Rele               | RY1       | 5V SPDT rele                                | 1        | Mouser [653-G5V-1-DC5](https://www.mouser.com/ProductDetail/653-G5V-1-DC5) o Mouser [653-G5V-1-T90-DC5](https://www.mouser.com/ProductDetail/653-G5V-1-T90-DC5)
 Inductor           | L1        | 68 uH, axial                                | 1        | Mouser [542-78F680-RC](https://www.mouser.com/ProductDetail/542-78F680-RC)
 Inductor           | L2, L3    | 5.7 uH, axial                               | 2        | Mouser [542-78F5R6J-RC](https://www.mouser.com/ProductDetail/542-78F5R6J-RC)
-Diodo              | D1        | 1N4148                                      | 1        | Mouser [512-1N4148](https://www.mouser.com/ProductDetail/512-1N4148). Nota D1 es opcional - soporte grabador cassette.
+Diodo              | D1        | 1N4148                                      | 1        | Mouser [512-1N4148TR](https://www.mouser.com/ProductDetail/512-1N4148TR). Nota D1 es opcional - soporte grabador cassette.
 Transistor         | Q1, Q2    | PN2907A                                     | 2        | Mouser [512-PN2907ATF](https://www.mouser.com/ProductDetail/512-PN2907ATF). Nota Q1 es opcional - soporte grabador cassette.
 Cristal            | Y1        | 21.477270 MHz                               | 1        | Mouser [695-HC49US-214-U](https://www.mouser.com/ProductDetail/695-HC49US-214-U)
 Cristal            | Y2        | 32768 Hz                                    | 1        | Mouser [815-AB38T-32.768KHZ](https://www.mouser.com/ProductDetail/815-AB38T-32.768KHZ)
