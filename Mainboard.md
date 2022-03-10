@@ -323,7 +323,7 @@ Transistor         | Q1, Q2    | PN2907A                                     | 2
 Crystal            | Y1        | 21.477270 MHz                               | 1        | Mouser [695-HC49US-214-U](https://www.mouser.com/ProductDetail/695-HC49US-214-U)
 Crystal            | Y2        | 32768 Hz                                    | 1        | Mouser [815-AB38T-32.768KHZ](https://www.mouser.com/ProductDetail/815-AB38T-32.768KHZ)
 Crystal            | Y3        | 4.433618 MHz                                | 1        | Mouser [520-HCU443-20X](https://www.mouser.com/ProductDetail/520-HCU443-20X). Note Y3 is optional - PAL support.
-Polyfuse           | F1        | 750 mA, radial, 5 mm pitch                  | 1        | Mouser [576-06R075BU](https://www.mouser.com/ProductDetail/576-06R075BU)
+Polyfuse           | F1        | 750 mA, radial, 5 mm pitch                  | 1        | Mouser [650-RUSBF075-2](https://www.mouser.com/ProductDetail/650-RUSBF075-2)
 Connector          | J1        | DC Power Jack, 2mm                          | 1        | Mouser [806-KLDX-0202-A](https://www.mouser.com/ProductDetail/806-KLDX-0202-A)
 Connector          | J2        | RCA Phono connector, Yellow                 | 1        | Mouser [490-RCJ-014](https://www.mouser.com/ProductDetail/490-RCJ-014)
 Connector          | J2        | RCA Phono connector, White                  | 1        | Mouser [490-RCJ-013](https://www.mouser.com/ProductDetail/490-RCJ-013)
