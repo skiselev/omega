@@ -9,8 +9,6 @@ Este proyecto es una implementación open source de un ordenador compatible MSX2
 ![Sistema Omega - Teclado sobrepuesto sobre Placa Base](Mainboard/images/Omega-Mainboard-1.1-Stacked.jpg)
 
 ## Estado
-* El diseño del teclado está finalizado. La versión 1.1 de la PCB del teclado está disponible.
-* El diseño de la placa base está finalizado. La PCB de la placa base en su versión 1.2 está disponible.
 * El sistema completo ha sido probado y funciona correctamente.
 
 ## Documentación de las Placas.
