@@ -357,15 +357,22 @@ IC Socket          | U48, U49  | 8 pin DIP                                   | 2
 
 #### NTSC Video Standard Support
 The Omega Main Board can be configured to support either NTSC (60 Hz) or PAL (50 Hz) video standard. To support NTSC standard the board should be configured as follows:
-* Do not install the following components (they are required for PAL support only):
-  * Crystal Oscillator: Y3
-  * Capacitors: C43, C90, C93
-  * Resistors: R1, R30; Integrated Circuit: U43
-  * Note: C43 and U43 also used for V9938 VDP CSYNC level converer. They must be installed if V9938 VDP is used
 * Install a wire links JP5 and JP6 in 1-2 position for NTSC standard support
+* **Do not install** the following components, they are required for PAL support only:
+  * Crystal Oscillator: Y3
+  * Capacitors: C90, C93
+  * Resistors: R1, R30
+* If using V9958 VDP also **do not install** the following components:
+  * Capacitor: C43
+  * Integrated Circuit: U43
+* If using V9958 VDP **do install** the following components, they are used for V9938 VDP CSYNC level converer:
+  * Capacitor: C43
+  * Integrated Circuit: U43
+  * Install a wire link instead of C93 to avoid floating inputs on U43
 
 #### PAL Video Standard Support
 To support PAL standard the board should be configured as follows:
+* Install a wire links JP5 and JP6 in 2-3 position for PAL standard support
 * Install the following components:
   * Crystal Oscillator: Y3
   * Capacitors: C43, C90, C93
@@ -374,10 +381,9 @@ To support PAL standard the board should be configured as follows:
 * Replace the following components:
   * R9 use 16 kohm resistor (instead of 20 kohm)
   * C91 use 18 pF capacitor (instead of 27 pF)
-* Install a wire links JP5 and JP6 in 2-3 position for PAL standard support
 
 #### V9958 VDP Support
-The Omega Main Baord can be configured to support either V9958 VDP (recommended) or V9938 VDP. To support V9958 VDP the board should be configured as follows:
+The Omega Main Board can be configured to support either V9958 VDP (recommended) or V9938 VDP. To support V9958 VDP the board should be configured as follows:
 * Do not install the following components:
   * Transistor: Q2
   * Capacitor: C43
@@ -392,7 +398,8 @@ To support V9938 VDP the board should be configured as follows:
   * Capacitor: C43
   * Integrated Circuit: U43
 * Install a wire links JP3 and JP4 in 1-2 position for V9938 VDP.
-* *Warning: Incorrect setting of JP3 will damage VDP*
+* If using NTSC video standard install a wire link instead of C93 to avoid floating inputs on U43
+* **Warning: Incorrect setting of JP3 will damage VDP**
   
 ### Input / Output Ports
 
