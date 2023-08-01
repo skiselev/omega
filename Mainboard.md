@@ -365,7 +365,7 @@ The Omega Main Board can be configured to support either NTSC (60 Hz) or PAL (50
 * If using V9958 VDP also **do not install** the following components:
   * Capacitor: C43
   * Integrated Circuit: U43
-* If using V9958 VDP **do install** the following components, they are used for V9938 VDP CSYNC level converer:
+* If using V9938 VDP **do install** the following components, they are used for V9938 VDP CSYNC level converter:
   * Capacitor: C43
   * Integrated Circuit: U43
   * Install a wire link instead of C93 to avoid floating inputs on U43
