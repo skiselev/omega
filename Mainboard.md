@@ -45,9 +45,9 @@ The main board implements standard MSX2* functionality, as described in the [Spe
 
 ### Schematic and PCB Layout
 
-[Schematic - Version 1.2](Mainboard/KiCad/Omega-Mainboard-Schematic-1.2.pdf)
+[Schematic - Version 1.5](Mainboard/KiCad/Omega-Mainboard-Schematic-1.5.pdf)
 
-[PCB Layout - Version 1.2](Mainboard/KiCad/Omega-Mainboard-Board-1.2.pdf)
+[PCB Layout - Version 1.5](Mainboard/KiCad/Omega-Mainboard-Board-1.5.pdf)
 
 ### Connectors
 
@@ -464,6 +464,8 @@ Omega uses three ATF16V8/GAL16V8 SPLDs (U12 - U14) for address decode and variou
 The source code (PLD) files are also provided in the directory mentioned above. If needed, they can be modified, for example to change the slot mapping. Use [GALasm](https://github.com/daveho/GALasm) to compile PLD files to JED fuse maps.
 
 ## Changes
+* Version 1.5
+  * Fix [issue #54](https://github.com/skiselev/omega/issues/56) where Joystick A Trigger 2 was swapped with Joystick B Trigger 1
 * Version 1.4
   * Updates for a memory pager workaround:
     * Use 2-pin jumpers instead of 3-pin
@@ -492,6 +494,10 @@ The source code (PLD) files are also provided in the directory mentioned above. 
   * Initial version
 
 ## Known Issues
+* Version 1.4
+  * Joystick A Trigger 2 is swapped with Joystick B Trigger 1. Workaround:
+    * Disconnect (e.g., cut the traces) U4 pin 12 and U42 pin 13, and U4 pin 11 and U42 pin 11
+    * Connect (e.g., solder wires) U4 pin 12 and U42 pin 11, and U4 pin 11 and U42 pin 13
 * Version 1.2
   * Memory pager issues:
     * Some software that writes and reads back memory pager to determine the installed memory size does not work correctly. This is because Omega memory pager implements all 8 bits regardless of the installed memory size, so all 8 bit are read back.
