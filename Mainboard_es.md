@@ -45,9 +45,9 @@ La Placa Base tiene implementada la funcionalidad del estándar MSX2*, tal como 
 
 ### Esquema y diseño de la PCB
 
-[Esquematico - Version 1.2](Mainboard/KiCad/Omega-Mainboard-Schematic-1.2.pdf)
+[Esquematico - Version 1.5](Mainboard/KiCad/Omega-Mainboard-Schematic-1.5.pdf)
 
-[Diseño de la PCB - Version 1.2](Mainboard/KiCad/Omega-Mainboard-Board-1.2.pdf)
+[Diseño de la PCB - Version 1.5](Mainboard/KiCad/Omega-Mainboard-Board-1.5.pdf)
 
 ### Conectores
 
