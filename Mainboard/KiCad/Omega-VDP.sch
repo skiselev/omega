@@ -84,7 +84,7 @@ D7
 Text Label 3400 1000 2    60   ~ 0
 ~VDP_INT
 $Comp
-L Omega-Mainboard-rescue:D41464-my_components U8
+L my_components:D41464-Hidden_Power U8
 U 1 1 5A4D64C8
 P 5600 1400
 F 0 "U8" H 5200 2150 60  0000 L CNN
@@ -95,7 +95,7 @@ F 3 "" H 5600 1400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Omega-Mainboard-rescue:D41464-my_components U10
+L my_components:D41464-Hidden_Power U10
 U 1 1 5A4D6547
 P 7900 1400
 F 0 "U10" H 7500 2150 60  0000 L CNN
@@ -106,7 +106,7 @@ F 3 "" H 7900 1400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Omega-Mainboard-rescue:D41464-my_components U9
+L my_components:D41464-Hidden_Power U9
 U 1 1 5A4D65C8
 P 6000 3000
 F 0 "U9" H 5600 3750 60  0000 L CNN
@@ -117,7 +117,7 @@ F 3 "" H 6000 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Omega-Mainboard-rescue:D41464-my_components U11
+L my_components:D41464-Hidden_Power U11
 U 1 1 5A4D6627
 P 8300 3000
 F 0 "U11" H 7900 3750 60  0000 L CNN

@@ -13,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L my_components:Z84C00 U1
-U 1 1 5A3B4790
-P 5500 2000
-F 0 "U1" H 5100 3350 60  0000 L CNN
-F 1 "Z84C00" H 5100 650 60  0000 L CNN
-F 2 "My_Components:IC_DIP40_600" H 5500 2000 60  0001 C CNN
-F 3 "" H 5500 2000 60  0000 C CNN
-	1    5500 2000
-	1    0    0    -1  
-$EndComp
 Text Label 4500 2400 0    60   ~ 0
 ~RESET
 NoConn ~ 4900 2700
@@ -552,14 +541,14 @@ D6
 Text Label 6900 3500 0    60   ~ 0
 D7
 $Comp
-L Omega-Mainboard-rescue:ADM693-my_components U46
+L my_components:MAX691-Hidden_Power U46
 U 1 1 5BF4A892
-P 5500 4400
-F 0 "U46" H 5100 5250 60  0000 L CNN
+P 5500 4500
+F 0 "U46" H 5100 5450 60  0000 L CNN
 F 1 "ADM691A" H 5100 3550 60  0000 L CNN
-F 2 "My_Components:IC_DIP16_300" H 5500 4600 60  0001 C CNN
-F 3 "" H 5500 4600 60  0000 C CNN
-	1    5500 4400
+F 2 "My_Components:IC_DIP16_300" H 5500 4700 60  0001 C CNN
+F 3 "" H 5500 4700 60  0000 C CNN
+	1    5500 4500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1649,5 +1638,16 @@ F 2 "My_Components:Crystal_32K_Horiz" H 8100 4050 50  0001 C CNN
 F 3 "" H 8100 4050 50  0001 C CNN
 	1    8100 4050
 	0    -1   1    0   
+$EndComp
+$Comp
+L my_components:Z84C00-Old-Hidden_Power U1
+U 1 1 5A3B4790
+P 5500 2000
+F 0 "U1" H 5100 3350 60  0000 L CNN
+F 1 "Z84C00" H 5100 650 60  0000 L CNN
+F 2 "My_Components:IC_DIP40_600" H 5500 2000 60  0001 C CNN
+F 3 "" H 5500 2000 60  0000 C CNN
+	1    5500 2000
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

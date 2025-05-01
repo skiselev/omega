@@ -153,19 +153,6 @@ Text Label 4800 6000 0    60   ~ 0
 A15
 Text Label 2650 3900 0    60   ~ 0
 ~FFFF
-$Comp
-L Omega-Mainboard-rescue:8255-my_components U2
-U 1 1 5BED53BE
-P 1700 1950
-AR Path="/5BED53BE" Ref="U2"  Part="1" 
-AR Path="/5BED4A3D/5BED53BE" Ref="U2"  Part="1" 
-F 0 "U2" H 1300 3350 60  0000 L CNN
-F 1 "82C55" H 1300 550 60  0000 L CNN
-F 2 "My_Components:IC_DIP40_600" H 1700 1950 60  0001 C CNN
-F 3 "" H 1700 1950 60  0000 C CNN
-	1    1700 1950
-	1    0    0    -1  
-$EndComp
 Text Label 1750 6000 0    60   ~ 0
 ~SUB_WR
 Text Label 1750 5650 0    60   ~ 0
@@ -1253,6 +1240,19 @@ F 1 "ATF16V8B" H 7500 3650 60  0000 C CNN
 F 2 "My_Components:IC_DIP20_300" H 7800 2950 60  0001 C CNN
 F 3 "" H 7800 2950 60  0000 C CNN
 	1    7800 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L my_components:8255-Hidden_Power U2
+U 1 1 5BED53BE
+P 1700 1950
+AR Path="/5BED53BE" Ref="U2"  Part="1" 
+AR Path="/5BED4A3D/5BED53BE" Ref="U2"  Part="1" 
+F 0 "U2" H 1300 3350 60  0000 L CNN
+F 1 "82C55" H 1300 550 60  0000 L CNN
+F 2 "My_Components:IC_DIP40_600" H 1700 1950 60  0001 C CNN
+F 3 "" H 1700 1950 60  0000 C CNN
+	1    1700 1950
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
